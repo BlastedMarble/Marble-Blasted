@@ -1004,7 +1004,7 @@ datablock StaticShapeData(Propeller_BM_Base) {
 	className = "LevelParts";
 	superCategory = "Level Parts";
 	category = "Propeller Base";
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/bm_propeller_base.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/bm_propeller_base.dts";
 };
 
 datablock StaticShapeData(Lamp_BM) {

@@ -1148,7 +1148,7 @@ datablock StaticShapeData(PropLarge5 : Propeller) {
 };
 
 datablock StaticShapeData(PropLarge1_BM : Propeller) {
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/Propeller_large_1.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/Propeller_large_1.dts";
 	forceStrength[0] = 0;     // Force to apply
 	forceRadius[0] = 0;       // Max radius
 	forceArc[0] = 0;         // Cos angle
@@ -1157,7 +1157,7 @@ datablock StaticShapeData(PropLarge1_BM : Propeller) {
 };
 
 datablock StaticShapeData(PropLarge2_BM : Propeller) {
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/Propeller_large_2.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/Propeller_large_2.dts";
 	forceStrength[0] = 0;
 	forceRadius[0] = 0;
 	forceArc[0] = 0;
@@ -1166,7 +1166,7 @@ datablock StaticShapeData(PropLarge2_BM : Propeller) {
 };
 
 datablock StaticShapeData(PropLarge3_BM : Propeller) {
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/Propeller_large_3.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/Propeller_large_3.dts";
 	forceStrength[0] = 0;
 	forceRadius[0] = 0;
 	forceArc[0] = 0;
@@ -1175,7 +1175,7 @@ datablock StaticShapeData(PropLarge3_BM : Propeller) {
 };
 
 datablock StaticShapeData(PropLarge4_BM : Propeller) {
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/Propeller_large_4.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/Propeller_large_4.dts";
 	forceStrength[0] = 0;
 	forceRadius[0] = 0;
 	forceArc[0] = 0;
@@ -1184,7 +1184,7 @@ datablock StaticShapeData(PropLarge4_BM : Propeller) {
 };
 
 datablock StaticShapeData(PropLarge5_BM : Propeller) {
-	shapeFile = "~/data/shapes_pq/Gameplay/Hazards/Blasted/Propeller_large_5.dts";
+	shapeFile = "~/data/shapes_bm/hazards/Propellers/Propeller_large_5.dts";
 	forceStrength[0] = 0;
 	forceRadius[0] = 0;
 	forceArc[0] = 0;
