@@ -95,6 +95,7 @@ function onServerCreated() {
 	exec("./bumpers.cs");
 	exec("./signs.cs");
 	exec("./fireworks.cs");
+	exec("./lights.cs");
 	exec("./particles.cs");
 	exec("./interior.cs");
 	exec("./glass.cs");

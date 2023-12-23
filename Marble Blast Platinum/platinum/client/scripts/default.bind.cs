@@ -369,12 +369,6 @@ function input_usePowerup(%val) {
 }
 
 function input_useBlast(%val) {
-	if (isCannonActive()) {
-		// get out of cannon.
-		commandToServer('Blast');
-		return;
-	}
-
 	$useBlast = %val;
 
 	if ($Client::FireballActive) {

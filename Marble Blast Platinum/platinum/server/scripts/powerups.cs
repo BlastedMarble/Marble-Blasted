@@ -520,14 +520,14 @@ datablock ItemData(HelicopterItem_PQ : HelicopterItem) {
 datablock ShapeBaseImageData(HelicopterImage_PQ : ActualHelicopterImage) {
 	superCategory = "PowerUps";
 	category = "PlatinumQuest";
-	
+
 	shapeFile = "~/data/shapes_pq/Gameplay/Powerups/gyrocopter.dts";
 };
 
 datablock ItemData(HelicopterItem_BM : HelicopterItem) {
 	superCategory = "PowerUps";
 	category = "Blasted";
-	
+
 	shapeFile = "~/data/shapes_bm/Powerups/Gyrocopter_bm.dts";
 	image = HelicopterImage_BM;
 };

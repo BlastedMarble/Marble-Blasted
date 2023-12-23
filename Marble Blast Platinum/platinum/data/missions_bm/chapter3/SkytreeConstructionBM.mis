@@ -538,7 +538,7 @@ new SimGroup(MissionGroup) {
    };
    new StaticShape() {
       position = "-97 -61 49";
-      rotation = "1 0 0 0";
+      rotation = "0 0 1 45.0001";
       scale = "1 1 1";
       dataBlock = "SkytreeConstructionTowerBottom";
    };
@@ -596,33 +596,29 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "SkytreeConstructionTowerRing";
    };
-   new InteriorInstance() {
-      position = "-113.25 -78.5 -65.25";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "-97.3536 -61.3535 49";
+      rotation = "0 0 1 45.0001";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/SkytreeConstructionTowerSpiral1.dif";
-      showTerrainInside = "0";
+      dataBlock = "SkytreeConstructionTowerBeam";
    };
-   new InteriorInstance() {
-      position = "-114 -77 -65.25";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "-96.6465 -60.6464 49";
+      rotation = "0 0 1 225";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/SkytreeConstructionTowerSpiral2.dif";
-      showTerrainInside = "0";
+      dataBlock = "SkytreeConstructionTowerBeam";
    };
-   new InteriorInstance() {
-      position = "-114 -78.25 -65.25";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "-97.3536 -60.6464 49";
+      rotation = "0 0 1 135";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/SkytreeConstructionTowerSpiral3.dif";
-      showTerrainInside = "0";
+      dataBlock = "SkytreeConstructionTowerBeam";
    };
-   new InteriorInstance() {
-      position = "-114.75 -78.25 -65.25";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "-96.6464 -61.3536 49";
+      rotation = "0 0 -1 44.9995";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/SkytreeConstructionTowerSpiral4.dif";
-      showTerrainInside = "0";
+      dataBlock = "SkytreeConstructionTowerBeam";
    };
 };
 //--- OBJECT WRITE END ---

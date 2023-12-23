@@ -1,0 +1,12 @@
+{
+	"name": "Non-Reflective",
+	"marbles": [
+		{"name": "Checkered",   "shape": "nonreflectivemarble.dts", "skin": "ncheckered",   "normalize": true},
+		{"name": "Circles",  "shape": "nonreflectivemarble.dts", "skin": "ncircles",  "normalize": true},
+		{"name": "Mouth",   "shape": "nonreflectivemarble.dts", "skin": "nmouth",   "normalize": true},
+		{"name": "Squares", "shape": "nonreflectivemarble.dts", "skin": "nsquares", "normalize": true},
+		{"name": "Stripes", "shape": "nonreflectivemarble.dts", "skin": "nstripes", "normalize": true},
+		{"name": "Target",    "shape": "nonreflectivemarble.dts", "skin": "ntarget",    "normalize": true},
+		{"name": "Triangles", "shape": "nonreflectivemarble.dts", "skin": "ntriangles", "normalize": true}
+	]
+}

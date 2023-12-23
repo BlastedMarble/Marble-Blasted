@@ -439,16 +439,12 @@ new SimGroup(MissionGroup) {
          noParticles = "0";
          noRespawn = "0";
    };
-   new Item() {
-      position = "0 22 -14";
+   new Trigger(Bounds) {
+      position = "-60 -70 -27";
       rotation = "1 0 0 0";
-      scale = "3 3 3";
-      dataBlock = "GemItemPurple_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noParticles = "0";
-         noRespawn = "0";
+      scale = "111.5 122 125";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new Item() {
       position = "-28 -45 -1";
@@ -614,13 +610,6 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
-   };
-   new Trigger(Bounds) {
-      position = "-60 -70 -27";
-      rotation = "1 0 0 0";
-      scale = "111.5 122 125";
-      dataBlock = "InBoundsTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
 };
 //--- OBJECT WRITE END ---

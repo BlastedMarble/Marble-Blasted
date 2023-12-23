@@ -1777,6 +1777,7 @@ function Creator::init(%this) {
 	%Environment_Item[1] = "Sun";
 	%Environment_Item[2] = "AudioEmitter";
 	%Environment_Item[3] = "ParticleEmitter";
+	%Environment_Item[4] = "fxLight";
 
 //   %Mission_Item[0] = "MissionArea";
 //   %Mission_Item[1] = "Marker";

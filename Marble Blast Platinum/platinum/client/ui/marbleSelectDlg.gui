@@ -39,6 +39,8 @@ new GuiControl(MarbleSelectDlg) {
 		listIndex["platinum/data/shapes_pq/Marbles/Fruit/pack.json"] = 5;
 		listIndex["platinum/data/shapes_pq/Marbles/Abstract/pack.json"] = 6;
 		listIndex["platinum/data/shapes_pq/Marbles/Solid Colors/pack.json"] = 7;
+		listIndex["platinum/data/shapes_bm/balls/pack.json"] = 9;
+		listIndex["platinum/data/shapes_bm/balls/Nonreflective/pack.json"] = 10;
 		defaultControl = "MS_Close";
 		commandCancel = "RootGui.popDialog(MarbleSelectDlg); PlayMissionGui.showBody();";
 		commandLeft = "MarbleSelectDlg.prev();";
@@ -317,6 +319,10 @@ function MarbleSelectDlg::generateOfficialMarbleList(%this) {
 		%this.loadMarblePack(%file, true);
 	}
 	%spec = $usermods @ "/data/shapes_pq/marbles/*.json";
+	for (%file = findFirstFile(%spec); %file !$= ""; %file = findNextFile(%spec)) {
+		%this.loadMarblePack(%file, true);
+	}
+	%spec = $usermods @ "/data/shapes_bm/balls/*.json";
 	for (%file = findFirstFile(%spec); %file !$= ""; %file = findNextFile(%spec)) {
 		%this.loadMarblePack(%file, true);
 	}

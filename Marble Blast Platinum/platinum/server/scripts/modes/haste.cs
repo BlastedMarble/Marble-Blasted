@@ -38,7 +38,7 @@ function Mode_haste::canFinish(%this, %object) {
 function Mode_haste::getFinishMessage(%this, %object) {
 	//Make sure they're going fast enough
 	if (VectorLen(%object.client.player.getVelocity()) < MissionInfo.SpeedToQualify) {
-		return "You may not finish without reaching the qualifying speed!";
+		return "Reach the required speed to finsh the level.";
 	}
 	//Unknown, let the other modes decide
 	return "";

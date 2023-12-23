@@ -1014,6 +1014,13 @@ datablock StaticShapeData(Lamp_BM) {
 	shapeFile = "~/data/shapes_bm/scenery/bm_lamp.dts";
 };
 
+datablock StaticShapeData(LightPanel_BM) {
+	className = "LevelParts";
+	superCategory = "Level Parts";
+	category = "Blasted";
+	shapeFile = "~/data/shapes_bm/scenery/bm_lightpanel.dts";
+};
+
 datablock StaticShapeData(SkytreeConstructionTower) {
 	className = "LevelParts";
 	superCategory = "Level Parts";
@@ -1047,6 +1054,13 @@ datablock StaticShapeData(SkytreeConstructionTowerTop) {
 	superCategory = "Level Parts";
 	category = "Blasted";
 	shapeFile = "~/data/shapes_bm/scenery/SkytreeConstructionTowerTop.dts";
+};
+
+datablock StaticShapeData(SkytreeConstructionTowerBeam) {
+	className = "LevelParts";
+	superCategory = "Level Parts";
+	category = "Blasted";
+	shapeFile = "~/data/shapes_bm/scenery/SkytreeConstructionTowerBeam.dts";
 };
 
 datablock StaticShapeData(SanctuaryTowersWheel) {
@@ -1123,3 +1137,17 @@ datablock StaticShapeData(Barrier) {
 	category = "Construction";
 	shapeFile = "~/data/shapes_pq/Scenery/Construction/DetourBars.dts";
 };
+
+//------------------------------------------------------------------
+//Spin Block
+datablock StaticShapeData(SpinBlock) {
+	className = "LevelParts";
+	superCategory = "Level Parts";
+	category = "Blasted";
+	shapeFile = "~/data/shapes_bm/Scenery/SpinBlock.dts";
+};
+
+function SpinBlock::onAdd(%this,%obj)
+{
+	%obj.playThread(0,"animation");
+}

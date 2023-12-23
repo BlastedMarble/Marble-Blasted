@@ -1,0 +1,12 @@
+{
+	"name": "Reflective",
+	"marbles": [
+		{"name": "Checkered",   "shape": "ball-superball.dts", "skin": "checkered",   "normalize": true},
+		{"name": "Circles",  "shape": "ball-superball.dts", "skin": "circles",  "normalize": true},
+		{"name": "Mouth",   "shape": "ball-superball.dts", "skin": "mouth",   "normalize": true},
+		{"name": "Squares", "shape": "ball-superball.dts", "skin": "squares", "normalize": true},
+		{"name": "Stripes", "shape": "ball-superball.dts", "skin": "stripes", "normalize": true},
+		{"name": "Target",    "shape": "ball-superball.dts", "skin": "target",    "normalize": true},
+		{"name": "Triangles", "shape": "ball-superball.dts", "skin": "triangles", "normalize": true}
+	]
+}

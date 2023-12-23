@@ -570,6 +570,13 @@ function ObjectBuilderGui::buildParticleEmitter(%this) {
 	%this.process();
 }
 
+function ObjectBuilderGui::buildfxLight(%this)
+{
+   %this.className = "fxLight";
+   %this.addField("dataBlock", "TypeDataBlock", "fxLight Data", "fxLightData");
+   %this.process();
+}
+
 //------------------------------------------------------------------------------
 // Mission
 //------------------------------------------------------------------------------

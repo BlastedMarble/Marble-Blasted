@@ -1178,58 +1178,118 @@ new SimGroup(MissionGroup) {
          value0 = "0";
    };
    new StaticShape() {
-      position = "-1.5 11.5 0.5";
-      rotation = "1 0 0 0";
+      position = "3 -3 0.75";
+      rotation = "-0.678598 0.281083 0.6786 211.4";
       scale = "1 1 1";
-      dataBlock = "Lamp_BM";
+      dataBlock = "LightPanel_BM";
    };
    new StaticShape() {
-      position = "-3.5 -3.5 0.5";
-      rotation = "1 0 0 0";
+      position = "-4 -3 0.75";
+      rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "Lamp_BM";
+      dataBlock = "LightPanel_BM";
    };
    new StaticShape() {
-      position = "5.5 13.5 0.5";
-      rotation = "1 0 0 0";
+      position = "-3 -4 0.75";
+      rotation = "-0.57735 0.57735 0.577352 240";
       scale = "1 1 1";
-      dataBlock = "Lamp_BM";
-   };
-   new StaticShape() {
-      position = "1.5 -3.5 0.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Lamp_BM";
-   };
-   new StaticShape() {
-      position = "27.5 17.5 3.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Lamp_BM";
-   };
-   new StaticShape() {
-      position = "20.5 17.5 3.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Lamp_BM";
-   };
-   new StaticShape() {
-      position = "20.5 10.5 3.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Lamp_BM";
-   };
-   new StaticShape() {
-      position = "27.5 10.5 3.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Lamp_BM";
+      dataBlock = "LightPanel_BM";
    };
    new TSStatic() {
       position = "-84.125 -46 25";
       rotation = "0.57735 0.577352 0.57735 240";
       scale = "1 1 1";
       shapeName = "~/data/interiors_bm/chapter3/NoJumpLightPanel.dts";
+   };
+   new StaticShape() {
+      position = "-4 3 0.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-2.25 11.5 0.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "6.25 13.5 0.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "6 8 0.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-2 7 0.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "19.75 17.5 3.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "19.75 10.5 3.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "28.25 10.5 3.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "28.25 17.5 3.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "32.25 -2.5 7.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "31.25 -9 7.5";
+      rotation = "0 0 1 45.0001";
+      scale = "0.8 0.8 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "23.75 -9.5 7.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "23.75 -2.5 7.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "48.25 -3.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "41.75 -3.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
    };
 };
 //--- OBJECT WRITE END ---
