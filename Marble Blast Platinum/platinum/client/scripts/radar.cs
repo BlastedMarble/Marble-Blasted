@@ -527,15 +527,15 @@ $RadarColor["base"]      = "255 51 255 255";
 $RadarColor["blue"]      = "51 51 255 255";
 $RadarColor["red"]       = "255 51 51 255";
 $RadarColor["yellow"]    = "230 196 51 255";
-$RadarColor["purple"]    = "189 108 204 255";
+$RadarColor["purple"]    = "173 71 191 255";
 $RadarColor["orange"]    = "255 153 51 255";
 $RadarColor["green"]     = "51 255 51 255";
 $RadarColor["turquoise"] = "51 255 255 255";
 $RadarColor["black"]     = "0 0 0 255";
 $RadarColor["platinum"]  = "234 233 232 255";
-$RadarColor["huntpurple"]    = "128 51 255 255";
-$RadarColor["huntgold"] = "255 225 51 255";
-$RadarColor["huntplatinum"]  = "128 128 128 255";
+$RadarColor["huntpurple"]    = "173 71 191 255";
+$RadarColor["huntgold"] = "224 181 0 255";
+$RadarColor["huntplatinum"]  = "229 228 226 255";
 
 function RadarSetDotColor(%dot, %skin, %angle) {
 	%dot.setBitmap("platinum/client/ui/mp/radar/Pointer.png");

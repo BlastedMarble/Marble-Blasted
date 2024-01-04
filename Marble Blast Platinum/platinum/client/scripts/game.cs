@@ -726,11 +726,11 @@ function reformatGameEndText() {
 		%awesomeTitle = "<color:FF3333>Awesome";
 		%recordTitle = "<color:0060f0>World Record";
 	case "Blasted":
-		%parTitle = "D Rank";
-		%goldTitle = "<color:967444>C Rank";
-		%platinumTitle = "<color:CCCCCC>B Rank";
-		%ultimateTitle = "<color:FFCC33>A Rank";
-		%awesomeTitle = "<color:D0F6FF>S Rank";
+		%parTitle = "D";
+		%goldTitle = "<color:967444>C";
+		%platinumTitle = "<color:CCCCCC>B";
+		%ultimateTitle = "<color:FFCC33>A";
+		%awesomeTitle = "<color:D0F6FF>S";
 		%recordTitle = "<color:0060f0>World Record";
 	default:
 		//It's custom, we're not really sure here

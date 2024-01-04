@@ -1046,114 +1046,24 @@ new SimGroup(MissionGroup) {
    new SimGroup(MustChange_g) {
 
       new Path() {
-
-         new Marker() {
-            position = "-81 23.5 7";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "0";
-            msToNext = "1000";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "-81 23.5 1";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "1";
-            msToNext = "1000";
-            smoothingType = "Accelerate";
-         };
-      };
-      new Trigger(Door1) {
-         position = "-91.25 23.5 1";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "99999";
-      };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "PathedDefault";
-         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
-         interiorIndex = "0";
-         basePosition = "0 0 0";
-         baseRotation = "1 0 0 0";
-         baseScale = "1 1 1";
-            delayTargetTime = "0";
-            initialTargetPosition = "0";
       };
    };
    new SimGroup(MustChange_g) {
 
       new Path() {
-
-         new Marker() {
-            position = "-81 23.5 8";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "0";
-            msToNext = "1000";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "-81 23.5 0";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "1";
-            msToNext = "1000";
-            smoothingType = "Accelerate";
-         };
-      };
-      new Trigger(Door2) {
-         position = "-71.25 23.5 0.25";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "99999";
-      };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "PathedDefault";
-         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
-         interiorIndex = "1";
-         basePosition = "0 0 0";
-         baseRotation = "1 0 0 0";
-         baseScale = "1 1 1";
-            delayTargetTime = "0";
-            initialTargetPosition = "0";
       };
    };
-   new StaticShape() {
-      position = "-111 23.5 3";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "PushButton_PQ";
-         TriggerOnce = "1";
-         objectMethod = "OnEnterTrigger()";
-         resetTime = "5000";
-         triggerObject = "Door1";
+   new TSStatic() {
+      position = "-81 -33.5 7.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
-   new StaticShape() {
-      position = "-53 23.5 10";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "PushButtonFlat_PQ";
-         TriggerOnce = "1";
-         objectMethod = "OnEnterTrigger()";
-         resetTime = "5000";
-         triggerObject = "Door2";
+   new TSStatic() {
+      position = "-81 23.5 7.85";
+      rotation = "0 0 1 45.0001";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
    new StaticShape() {
       position = "-106 28.5 4";
@@ -1468,17 +1378,262 @@ new SimGroup(MissionGroup) {
       scale = "0.5 0.5 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new TSStatic() {
-      position = "-81 -33.5 7.35";
-      rotation = "0 0 1 90.0002";
-      scale = "0.7 0.7 0.7";
-      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "-81 23.5 7";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-81 23.5 1";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "-111 23.5 3.25";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
+         interiorIndex = "0";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "0";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "-81 23.5 8";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-81 23.5 0";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "-53 23.5 10.25";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
+         interiorIndex = "1";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "0";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "-53 23.5 10.125";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-53 23.5 10";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "-53 23.5 10.25";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
+         interiorIndex = "2";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "0";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "-111 23.5 3.125";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-111 23.5 3";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "-111 23.5 3.25";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-0.5000000 -0.5000000 0.2500000 0.0000000 1.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter3/PursuitBM.dif";
+         interiorIndex = "3";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "0";
+      };
+   };
+   new InteriorInstance() {
+      position = "-111 23.5 3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/ButtonOutline.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-53 23.5 10";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/ButtonOutline.dif";
+      showTerrainInside = "0";
+   };
+   new Trigger(buttonswitch) {
+      position = "-53.5 24 10";
+      rotation = "1 0 0 0";
+      scale = "1 1 0.5";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "ButtonSwitchSfx";
+   };
+   new Trigger(buttonswitch2) {
+      position = "-111.5 24 3";
+      rotation = "1 0 0 0";
+      scale = "1 1 0.5";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "ButtonSwitchSfx";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter3/PursuitPropellerPoles.dif";
+      showTerrainInside = "0";
    };
    new TSStatic() {
-      position = "-81 23.5 7.85";
-      rotation = "0 0 1 45.0001";
-      scale = "0.7 0.7 0.7";
-      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
+      position = "4 -52 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "-4 -52 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "6 -54 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "-2 -54 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "-6 -53 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "8 -53 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "1 -53 4.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---

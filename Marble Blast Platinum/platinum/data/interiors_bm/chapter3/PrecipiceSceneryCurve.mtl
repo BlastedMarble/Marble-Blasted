@@ -1,0 +1,5 @@
+newmtl bm_grid_blank1
+map_Kd bm_grid_blank1.png
+Kd 1 1 1
+d 1
+

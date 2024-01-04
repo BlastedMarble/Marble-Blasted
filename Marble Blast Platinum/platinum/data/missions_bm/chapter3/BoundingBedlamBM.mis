@@ -667,6 +667,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -704,6 +705,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -714,6 +716,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -724,6 +727,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new TSStatic() {
@@ -740,6 +744,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -750,6 +755,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new TSStatic() {
@@ -773,6 +779,7 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          Parent = "UnlockEx";
+         noParticles = "0";
          noRespawn = "0";
          parentModTrans = "9.5 0 1 1 0 0 0";
          parentOffset = "0 0 0";
@@ -895,12 +902,12 @@ new SimGroup(MissionGroup) {
          skin = "base";
          visibleTime = "2000";
    };
-   new Trigger(Bounds) {
-      position = "-30.5 -35.25 -17.25";
-      rotation = "1 0 0 0";
-      scale = "226.5 131.75 187.75";
-      dataBlock = "InBoundsTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   new InteriorInstance() {
+      position = "-24.75 -24 13.75";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
    };
    new TSStatic() {
       position = "-19 7 42";
@@ -921,17 +928,16 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
    new TSStatic() {
-      position = "19 34 31";
+      position = "41 18 34.85";
       rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/pads/endpad_bm.dts";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
-   new Trigger(finish) {
-      position = "20 35 31";
+   new TSStatic() {
+      position = "95 -26 48.85";
       rotation = "0 0 1 90.0002";
-      scale = "2 2 6";
-      dataBlock = "FinishTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
    new InteriorInstance() {
       position = "0 71.75 -2.5";
@@ -947,7 +953,7 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
    };
-   new StaticShape(check1) {
+   new StaticShape(Check1) {
       position = "60 66 15.01";
       rotation = "0 0 1 180";
       scale = "1 1 1";
@@ -965,7 +971,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "Check1";
    };
-   new StaticShape(check2) {
+   new StaticShape(Check2) {
       position = "-19 -24 15.01";
       rotation = "1 0 0 0";
       scale = "1 1 1";
@@ -1055,6 +1061,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "0";
+         noParticles = "0";
          noRespawn = "0";
    };
    new TSStatic() {
@@ -1109,6 +1116,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "0";
+         noParticles = "0";
          noRespawn = "0";
    };
    new TSStatic() {
@@ -1186,6 +1194,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "0";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -1391,6 +1400,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "0";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -1405,6 +1415,98 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
          skin = "4";
          timeBonus = "4000";
+   };
+   new Trigger(activate) {
+      position = "59 25 -0.5";
+      rotation = "1 0 0 0";
+      scale = "2 2 2";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "ActivateSfx";
+   };
+   new Trigger(activate) {
+      position = "59 37 32.25";
+      rotation = "1 0 0 0";
+      scale = "0 6 4";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "ActivateSfx";
+   };
+   new TSStatic() {
+      position = "60 66 18.85";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-19 -24 18.85";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new StaticShape(EndPoint) {
+      position = "19 34 31";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "EndPad_BM";
+   };
+   new StaticShape() {
+      position = "19 34 31";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "EndPadEdge_BM";
+   };
+   new TSStatic() {
+      position = "60 -15 7.8";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.6 0.6 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "60 -15 5.4";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.6 0.6 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "60 -15 10.2";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.6 0.6 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "95 4 32.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x3_bm.dts";
+   };
+   new TSStatic() {
+      position = "95 16 32.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x3_bm.dts";
+   };
+   new TSStatic() {
+      position = "19 34 34.85";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
+   };
+   new InteriorInstance() {
+      position = "60 -29.5 11.75";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new Trigger(Bounds) {
+      position = "-40.25 -47.25 -17.25";
+      rotation = "1 0 0 0";
+      scale = "156.25 134.5 139.25";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
 };
 //--- OBJECT WRITE END ---

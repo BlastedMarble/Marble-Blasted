@@ -850,9 +850,9 @@ new SimGroup(MissionGroup) {
          value1 = "20";
    };
    new Trigger(Repulsion) {
-      position = "11.5 -107.5 80.5";
+      position = "11.5 -115.5 80.5";
       rotation = "1 0 0 0";
-      scale = "10 20 6.5";
+      scale = "10 12 0.5";
       dataBlock = "MarblePhysModTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          marbleAttribute0 = "bounceRestitution";
@@ -910,9 +910,9 @@ new SimGroup(MissionGroup) {
          value1 = "25";
    };
    new Trigger(Repulsion) {
-      position = "-6.5 118.5 94.5";
+      position = "3.5 118.5 94.5";
       rotation = "1 0 0 0";
-      scale = "12 10 8.5";
+      scale = "2 10 0.5";
       dataBlock = "MarblePhysModTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          marbleAttribute0 = "bounceRestitution";
@@ -2080,15 +2080,11 @@ new SimGroup(MissionGroup) {
          skin = "base";
          visibleTime = "500";
    };
-   new Item() {
-      position = "19.5 -57.5 -3.5";
+   new TSStatic() {
+      position = "19.5 -57.5 -3.75";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "EasterEgg_MBG";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
    };
    new TSStatic() {
       position = "-49.5 -116.5 118.5";
@@ -2383,6 +2379,436 @@ new SimGroup(MissionGroup) {
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
+   };
+   new TSStatic() {
+      position = "16.5 -8.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -6.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "14.5 -6.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "12.5 -6.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "10.5 -6.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "20.5 -14.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "20.5 -16.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "20.5 -18.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "20.5 -20.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -22.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -24.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -26.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -28.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -30.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -32.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -50.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -48.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -46.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -44.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -42.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -40.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -38.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -36.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -34.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "18.5 -12.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "18.5 -10.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "17.5 -19.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "19.5 -23.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "18.5 -52.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -56.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
+   };
+   new TSStatic() {
+      position = "19.5 -54.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new Item() {
+      position = "19.5 -57.5 -3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+   };
+   new Trigger(splash) {
+      position = "123.5 6.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 16 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "93.5 6.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "63.5 0.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "53.5 4.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "10 14 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "33.5 4.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "20 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "9.5 4.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "20 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "15.5 -7.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "6 52 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "5.5 -7.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "4 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "177.5 -77.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "10 30 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "177.5 -129.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "10 18 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "55.5 -147.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "132 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger() {
+      position = "11.5 -127.5 7.5";
+      rotation = "1 0 0 0";
+      scale = "10 30 1";
+      dataBlock = "OutOfBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         center = "1";
+   };
+   new Trigger() {
+      position = "21.5 -147.5 7.5";
+      rotation = "1 0 0 0";
+      scale = "22 10 1";
+      dataBlock = "OutOfBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         center = "1";
+   };
+   new Trigger(splash) {
+      position = "21.5 -147.5 8.5";
+      rotation = "1 0 0 0";
+      scale = "22 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "11.5 -127.5 8.5";
+      rotation = "1 0 0 0";
+      scale = "10 30 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "9.5 52.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "10 22 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "9.5 108.5 68.5";
+      rotation = "1 0 0 0";
+      scale = "10 38 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-6.5 118.5 68.5";
+      rotation = "1 0 0 0";
+      scale = "26 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-44.5 118.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-54.5 118.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "10 36 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-58.5 82.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "20 204 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(Repulsion) {
+      position = "11.5 -115.5 84.5";
+      rotation = "1 0 0 0";
+      scale = "4 8 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "17";
+   };
+   new Trigger(Repulsion) {
+      position = "11.5 -107.5 86.5";
+      rotation = "1 0 0 0";
+      scale = "10 8 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "17";
+   };
+   new Trigger(Repulsion) {
+      position = "-2.5 118.5 98";
+      rotation = "1 0 0 0";
+      scale = "4 10 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "15";
+   };
+   new Trigger(Repulsion) {
+      position = "-6.5 118.5 102";
+      rotation = "1 0 0 0";
+      scale = "4 10 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "15";
    };
 };
 //--- OBJECT WRITE END ---

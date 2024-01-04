@@ -326,7 +326,7 @@ new SimGroup(MissionGroup) {
          timeBonus = "3000";
    };
    new TSStatic() {
-      position = "7 73 1.85";
+      position = "7 73 1.75";
       rotation = "1 0 0 33.65";
       scale = "0.4 0.4 1";
       shapeName = "~/data/shapes_bm/signs/bm_uturn.dts";

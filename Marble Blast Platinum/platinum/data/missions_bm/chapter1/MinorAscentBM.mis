@@ -80,12 +80,11 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
    };
-   new InteriorInstance() {
-      position = "0 0 0";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/MinorAscent_BM.dif";
-      showTerrainInside = "0";
+   new TSStatic() {
+      position = "58.65 2 16.5";
+      rotation = "0 0 1 90.0002";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
    new InteriorInstance() {
       position = "-42 -80.5875 -10.6117";
@@ -224,7 +223,7 @@ new SimGroup(MissionGroup) {
          timeBonus = "8000";
    };
    new TSStatic() {
-      position = "-22 2 13";
+      position = "-22 2 12.95";
       rotation = "0 0 -1 90.0002";
       scale = "0.25 0.25 1";
       shapeName = "~/data/shapes_bm/signs/bm_uturn.dts";
@@ -311,33 +310,29 @@ new SimGroup(MissionGroup) {
          disableOOB = "0";
          gravity = "0";
    };
-   new InteriorInstance() {
-      position = "30 -20.5 16";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
-      showTerrainInside = "0";
+   new TSStatic() {
+      position = "55.05 2 16.5";
+      rotation = "0 0 1 90.0002";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new InteriorInstance() {
-      position = "52 24.5 16";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
-      showTerrainInside = "0";
+   new TSStatic() {
+      position = "-18 -4 8.25";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new InteriorInstance() {
-      position = "18.5 13 16";
-      rotation = "0 0 1 89.9996";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
-      showTerrainInside = "0";
+   new TSStatic() {
+      position = "56.85 2 16.5";
+      rotation = "0 0 1 90.0002";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new InteriorInstance() {
-      position = "63.5 -9 16";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
-      showTerrainInside = "0";
+   new TSStatic() {
+      position = "-18 -4 11";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
    new TSStatic() {
       position = "64 4 17.5";
@@ -406,35 +401,96 @@ new SimGroup(MissionGroup) {
       scale = "0.4 0.4 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new TSStatic() {
-      position = "-18 -4 11";
-      rotation = "-1 0 0 90.0002";
-      scale = "0.4 0.4 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentBM.dif";
+      showTerrainInside = "0";
    };
-   new TSStatic() {
-      position = "-18 -4 8.25";
-      rotation = "-1 0 0 90.0002";
-      scale = "0.4 0.4 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch.dif";
+      showTerrainInside = "0";
    };
-   new TSStatic() {
-      position = "56.85 2 16.5";
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "39 43 0";
       rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch.dif";
+      showTerrainInside = "0";
    };
-   new TSStatic() {
-      position = "55.05 2 16.5";
+   new InteriorInstance() {
+      position = "39 43 0";
       rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch2.dif";
+      showTerrainInside = "0";
    };
-   new TSStatic() {
-      position = "58.65 2 16.5";
+   new InteriorInstance() {
+      position = "82 4 0";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "82 4 0";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "43 -39 0";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "43 -39 0";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentTunnelArch2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "18.5 13 16";
       rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "30 -20.5 16";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "63.5 -9 16";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "52 24.5 16";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
+      showTerrainInside = "0";
    };
 };
 //--- OBJECT WRITE END ---

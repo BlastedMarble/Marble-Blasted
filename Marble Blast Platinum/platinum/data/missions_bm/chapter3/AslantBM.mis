@@ -66,13 +66,13 @@ new SimGroup(MissionGroup) {
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "41 18.25 37.5";
+         position = "67 18.25 37.5";
          rotation = "1 0 0 0";
          scale = "1 1 2";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "44.25 14 37.5";
+         position = "70.25 14 37.5";
          rotation = "0 0 1 90.0002";
          scale = "2 1 2";
          dataBlock = "Glass_BM";
@@ -508,6 +508,51 @@ new SimGroup(MissionGroup) {
             usePosition = "1";
             useRotation = "1";
             useScale = "1";
+      };
+      new StaticShape(path1a) {
+         position = "47.6726 -8.20589 18.9538";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathNode";
+            FinalRotOffset = "0 0 0";
+            RotationMultiplier = "1";
+            Smooth = "1";
+            SmoothEnd = "0";
+            SmoothStart = "0";
+            Spline = "0";
+            bezier = "0";
+            branchNodes = " ";
+            delay = "0";
+            nextNode = "Path1B";
+            placed = "1";
+            reverseRotation = "0";
+            speed = "0";
+            timeToNext = "1000";
+            usePosition = "0";
+            useRotation = "1";
+            useScale = "0";
+      };
+      new StaticShape(path1b) {
+         position = "42.7583 -10.4671 20.4874";
+         rotation = "0 -1 0 90.0002";
+         scale = "1 1 1";
+         dataBlock = "PathNode";
+            FinalRotOffset = "0 0 0";
+            RotationMultiplier = "1";
+            Smooth = "1";
+            SmoothEnd = "0";
+            SmoothStart = "0";
+            Spline = "0";
+            bezier = "0";
+            branchNodes = " ";
+            delay = "0";
+            placed = "1";
+            reverseRotation = "0";
+            speed = "0";
+            timeToNext = "1000";
+            usePosition = "0";
+            useRotation = "1";
+            useScale = "0";
       };
    };
    new Trigger() {
@@ -959,23 +1004,17 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new StaticShape() {
-      position = "4.3 36 21";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resetTime = "Default";
-         skin = "base";
-         timer = "273972";
+   new TSStatic() {
+      position = "58 15 28.55";
+      rotation = "-0.57735 0.577352 0.57735 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
    };
-   new StaticShape() {
-      position = "1.9 32.1 21";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resetTime = "Default";
-         skin = "base";
-         timer = "273971";
+   new TSStatic() {
+      position = "58 15 26.95";
+      rotation = "-0.57735 0.577352 0.57735 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
    };
    new StaticShape() {
       position = "-4.9 35.1 19.05";
@@ -1098,8 +1137,8 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
+         skin = "3";
+         timeBonus = "3000";
    };
    new Item() {
       position = "-4.6 28.7 19.35";
@@ -1132,8 +1171,9 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
-         skin = "3";
-         timeBonus = "3000";
+         noRespawn = "0";
+         skin = "2";
+         timeBonus = "2000";
    };
    new StaticShape() {
       position = "-31.8 21.9 32";
@@ -1147,18 +1187,17 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new TSStatic() {
-      position = "39.75 14 35.5";
-      rotation = "0 0 1 90.0002";
+   new StaticShape() {
+      position = "1 17.5 27.25";
+      rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/pads/endpad_bm.dts";
+      dataBlock = "LightPanel_BM";
    };
-   new Trigger(finish) {
-      position = "39 15 35.5";
-      rotation = "1 0 0 0";
-      scale = "2 2 12";
-      dataBlock = "FinishTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   new StaticShape() {
+      position = "1 12.5 27.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
    };
    new Trigger(Bounds) {
       position = "-99.5 -71.5 -4.75";
@@ -1290,6 +1329,699 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "42 4 12.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "42 20.5 14.25";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 13.75 14.5";
+      rotation = "0.577352 -0.57735 -0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "41.75 13.5 13.75";
+      rotation = "-1 0 0 26.575";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 20.5 14.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "48 1 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 5 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 25 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 31 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "48 35 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "48 41 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50 47 12.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "42 27 12.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "42 35 12.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "44 45 12.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "50.25 49.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "43.75 51.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "65 40 17.75";
+      rotation = "0.57735 0.57735 0.577352 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "70 36 17.75";
+      rotation = "0.707106 -2.48112e-006 0.707107 180";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "26.25 41.5 21";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "26 33.75 21";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "21 34 21.25";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "13 32 21.25";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "17 40 21.25";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "11 38 21.25";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "6.5 38.25 21";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "6.5 31.75 21";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-10.5 34.25 17.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-15 34 17.75";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-21 34 17.75";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-13 26 17.75";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-19 26 17.75";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-28 27 17.75";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-28.25 22.5 17.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-21.75 20.5 17.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-30.25 -14.5 18";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-23.75 -14.5 18";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-24 -20 18.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-32 -21 18.25";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-26 -25 18.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-34.25 -31.5 18";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-25.75 -31.5 18";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-43.75 -38.5 20";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-52.25 -38.5 20";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-44 -45 20.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-46 -51 20.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-53 -47 20.25";
+      rotation = "-0.357406 -0.862856 0.357408 98.4215";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-51 -56 20.25";
+      rotation = "-0.57735 0.57735 0.577352 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-56 -48 20.25";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-61.5 -47.75 20";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-61.5 -54.25 20";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-70.5 -54.25 23";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-71 -48 23.25";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-81 -54 23.25";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-82 -53 23.25";
+      rotation = "0.707107 -1.28462e-006 0.707107 180";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-58.5 17.75 26";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-76 -45 23.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-76 -41 23.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-84.25 -40.5 23";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-72.5 -10 22.25";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-79.5 -10 22.25";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-74.25 8.5 26";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-66.75 9 26";
+      rotation = "0 0 1 45.0001";
+      scale = "0.8 0.8 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-74 15 26.25";
+      rotation = "0.707107 -1.28462e-006 0.707107 180";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-73 16 26.25";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-66 15 26.25";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-70 20 26.25";
+      rotation = "0.707107 -1.28462e-006 0.707107 180";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "-58.5 24.25 26";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new TSStatic() {
+      position = "-84 -49.125 25";
+      rotation = "0 1 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-48.875 -56 22";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-66.875 24 28";
+      rotation = "0.577351 0.577349 0.577351 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-65.375 24 28";
+      rotation = "0.577351 0.577349 0.577351 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-22 23.125 32";
+      rotation = "0.707106 -2.57889e-006 0.707108 180";
+      scale = "0.4 0.4 0.4";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new StaticShape() {
+      position = "-17 19 27.5";
+      rotation = "-0.357406 0.862856 -0.357408 98.4215";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "54.5 11.75 35.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "54.5 18.25 35.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "59 18 35.75";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "65 18 35.75";
+      rotation = "0.577351 0.577351 -0.577349 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "69 17 35.75";
+      rotation = "0.678599 0.281085 -0.678598 211.4";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "70 11 35.75";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "69 10 35.75";
+      rotation = "-0.57735 0.57735 0.577352 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "59 12 35.75";
+      rotation = "-0.57735 0.57735 0.577352 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "63 10 35.75";
+      rotation = "-0.57735 0.57735 0.577352 240";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "26.5 54 14.25";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new StaticShape() {
+      position = "29.5 54 14.25";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "LightPanel_BM";
+   };
+   new TSStatic() {
+      position = "-27 -15 15.75";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-27 -15 14.25";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "-27 -15 12.75";
+      rotation = "-1 0 0 90.0002";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new InteriorInstance(Door) {
+      position = "48.25 38 16.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter3/AslantDoor.dif";
+      showTerrainInside = "0";
+   };
+   new Trigger(DoorUnlock) {
+      position = "38.375 -24.875 17";
+      rotation = "1 0 0 0";
+      scale = "1.25 0.25 1.25";
+      dataBlock = "PathTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         Path1 = "Path1A";
+         TriggerOnce = "1";
+         initialPosition = "0";
+         object1 = "Door";
+   };
+   new Trigger(activate) {
+      position = "38.375 -24.875 17";
+      rotation = "1 0 0 0";
+      scale = "1.25 0.25 1.25";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "ActivateSfx";
+   };
+   new TSStatic() {
+      position = "58 15 31.75";
+      rotation = "-0.57735 0.577352 0.57735 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new TSStatic() {
+      position = "58 15 30.15";
+      rotation = "-0.57735 0.577352 0.57735 120";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
+   };
+   new StaticShape(EndPoint) {
+      position = "66 14 35.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "EndPad_BM";
+   };
+   new StaticShape() {
+      position = "66 14 35.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "EndPadEdge_BM";
+   };
+   new StaticShape() {
+      position = "-14 1.75 24.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "-14 -2.25 24.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge2_BM";
+   };
+   new StaticShape() {
+      position = "14 9.75 18.25";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge2_BM";
+   };
+   new StaticShape() {
+      position = "14 13.75 18.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "36 47.75 38.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "36 43.75 38.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge2_BM";
+   };
+   new StaticShape() {
+      position = "-56 35.75 44.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "-56 31.75 44.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-94 -26.25 38";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-94 -22.25 38";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape(Check1) {
+      position = "23 37 21.01";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new StaticShape(Check2) {
+      position = "-80 -44 23.01";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP1) {
+      position = "18 46 19.5";
+      rotation = "1 0 0 0";
+      scale = "16 12 8";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check1";
+   };
+   new Trigger(CheckP2) {
+      position = "-84 -40 23";
+      rotation = "1 0 0 0";
+      scale = "14 14 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check2";
+   };
+   new TSStatic() {
+      position = "23 37 24.85";
+      rotation = "1 0 0 0";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-80 -44 26.85";
+      rotation = "1 0 0 0";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "66 14 39.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
 };
 //--- OBJECT WRITE END ---

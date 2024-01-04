@@ -2242,7 +2242,7 @@ new SimGroup(MissionGroup) {
          VelocityMultiplier = "0.5";
    };
    new StaticShape() {
-      position = "-85.25 150.75 130";
+      position = "-85.25 151.75 130";
       rotation = "1 0 0 0";
       scale = "5 3 1";
       dataBlock = "WaterPlane";
@@ -2407,6 +2407,33 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch6.dif";
       showTerrainInside = "0";
+   };
+   new Trigger(splash) {
+      position = "300 -86.75 1";
+      rotation = "1 0 0 0";
+      scale = "18 16 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-99 160 130";
+      rotation = "1 0 0 0";
+      scale = "26 16 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "-33 100 131";
+      rotation = "1 0 0 0";
+      scale = "16 18 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
 };
 //--- OBJECT WRITE END ---

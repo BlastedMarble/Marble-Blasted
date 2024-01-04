@@ -669,8 +669,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new Item() {
-      position = "20.4552 50.3639 37";
-      rotation = "0 0 1 165.96";
+      position = "18.8839 51.4955 37";
+      rotation = "0 0 1 85.56";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem_BM";
       collideable = "0";
@@ -849,6 +849,84 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 -1 22.5001";
       scale = "0.5 0.5 0.5";
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
+   };
+   new TSStatic() {
+      position = "46 21 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "44 22 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "30 22 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "38 22 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "22 18 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
+   };
+   new TSStatic() {
+      position = "43 18 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "25 22 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "23 20 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "29 18 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "31 20 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "36 19 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "34 21 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "40 20 40.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---

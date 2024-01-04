@@ -828,6 +828,24 @@ new SimGroup(MissionGroup) {
       scale = "0.5 0.5 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
+   new Trigger(splash) {
+      position = "20 44 4.5";
+      rotation = "1 0 0 0";
+      scale = "8 8 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "20 -11 14.5";
+      rotation = "-1 0 0 90.0002";
+      scale = "8 22 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
+   };
 };
 //--- OBJECT WRITE END ---
 

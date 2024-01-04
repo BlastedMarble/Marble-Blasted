@@ -614,7 +614,7 @@ function PlayGui::updateBarPositions(%this) {
 		%timer = %this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num]);
 		PG_FirstTimerContainer.setVisible(true);
 		PG_FirstTimerContainer.setPosition(%x SPC %y + 60);
-		PG_FirstTimerMeterText.setText("<just:center><font:24><color:000000>" @ roundToTenths(%timer));
+		PG_FirstTimerMeterText.setText("<just:center><font:24><color:f1f2f2>" @ roundToTenths(%timer));
 		PG_FirstTimerMeterImage.setBitmap(specialBarFor(%this.powerupTimersId[%num]));
 		PG_FirstTimerFill.setExtent(50 + (83 * (mAbs(%this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num])) / %this.powerupTimersDuration[%num])) SPC 62);
 	} else {
@@ -626,7 +626,7 @@ function PlayGui::updateBarPositions(%this) {
 		%timer = %this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num]);
 		PG_SecondTimerContainer.setVisible(true);
 		PG_SecondTimerContainer.setPosition(%x SPC %y + 120);
-		PG_SecondTimerMeterText.setText("<just:center><font:24><color:000000>" @ roundToTenths(%timer));
+		PG_SecondTimerMeterText.setText("<just:center><font:24><color:f1f2f2>" @ roundToTenths(%timer));
 		PG_SecondTimerMeterImage.setBitmap(specialBarFor(%this.powerupTimersId[%num]));
 		PG_SecondTimerFill.setExtent(50 + (83 * (mAbs(%this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num])) / %this.powerupTimersDuration[%num])) SPC 62);
 	} else {
@@ -637,7 +637,7 @@ function PlayGui::updateBarPositions(%this) {
 		%timer = %this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num]);
 		PG_ThirdTimerContainer.setVisible(true);
 		PG_ThirdTimerContainer.setPosition(%x SPC %y + 180);
-		PG_ThirdTimerMeterText.setText("<just:center><font:24><color:000000>" @ roundToTenths(%timer));
+		PG_ThirdTimerMeterText.setText("<just:center><font:24><color:f1f2f2>" @ roundToTenths(%timer));
 		PG_ThirdTimerMeterImage.setBitmap(specialBarFor(%this.powerupTimersId[%num]));
 		PG_ThirdTimerFill.setExtent(50 + (83 * (mAbs(%this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num])) / %this.powerupTimersDuration[%num])) SPC 62);
 	} else {
@@ -648,7 +648,7 @@ function PlayGui::updateBarPositions(%this) {
 		%timer = %this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num]);
 		PG_FourthTimerContainer.setVisible(true);
 		PG_FourthTimerContainer.setPosition(%x SPC %y + 240);
-		PG_FourthTimerMeterText.setText("<just:center><font:24><color:000000>" @ roundToTenths(%timer));
+		PG_FourthTimerMeterText.setText("<just:center><font:24><color:f1f2f2>" @ roundToTenths(%timer));
 		PG_FourthTimerMeterImage.setBitmap(specialBarFor(%this.powerupTimersId[%num]));
 		PG_FourthTimerFill.setExtent(50 + (83 * (mAbs(%this.powerupTimersDuration[%num] - mAbs(PlayGui.totalTime - %this.powerupTimersTimeActivated[%num])) / %this.powerupTimersDuration[%num])) SPC 62);
 	} else {

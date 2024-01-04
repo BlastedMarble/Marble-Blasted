@@ -226,6 +226,24 @@ datablock AudioProfile(OutOfBoundsVoiceSfx) {
 	preload = true;
 };
 
+datablock AudioProfile(ButtonSwitchSfx) {
+	filename    = "~/data/sound/buttonswitch.wav";
+	description = AudioDefault3d;
+	preload = true;
+};
+
+datablock AudioProfile(ActivateSfx) {
+	filename    = "~/data/sound/activate.wav";
+	description = AudioDefault3d;
+	preload = true;
+};
+
+datablock AudioProfile(SplashSfx) {
+	filename    = "~/data/sound/splash.wav";
+	description = AudioDefault3d;
+	preload = true;
+};
+
 // datablock AudioProfile(DestroyedVoiceSfx) {
 // 	filename    = "~/data/sound/destroyedVoice.wav";
 // 	description = AudioDefault3d;
