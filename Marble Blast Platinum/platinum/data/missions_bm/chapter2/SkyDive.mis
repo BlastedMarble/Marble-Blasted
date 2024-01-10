@@ -13,6 +13,7 @@ new SimGroup(MissionGroup) {
          level = "10";
          music = "Tim Trance.ogg";
          name = "Sky Dive";
+         goldTime = "45000";
          platinumTime = "40000";
          type = "Custom";
          ultimateTime = "35000";
@@ -967,14 +968,11 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter2/SkyDiveCurve1.dif";
       showTerrainInside = "0";
    };
-   new Item() {
-      position = "0 12 91.8361";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "EasterEgg_MBG";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+   new TSStatic() {
+      position = "0 25.5 -11.5";
+      rotation = "0 0 1 180";
+      scale = "0.6 0.6 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
    new Trigger(tele1) {
       position = "-1 39 0.75";
@@ -1228,11 +1226,15 @@ new SimGroup(MissionGroup) {
       scale = "0.6 0.6 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new TSStatic() {
-      position = "0 25.5 -11.5";
-      rotation = "0 0 1 180";
-      scale = "0.6 0.6 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new Item() {
+      position = "0 12 92.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

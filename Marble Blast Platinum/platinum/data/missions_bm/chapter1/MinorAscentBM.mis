@@ -492,5 +492,15 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
       showTerrainInside = "0";
    };
+   new Item() {
+      position = "41 -16 24.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+   };
 };
 //--- OBJECT WRITE END ---

@@ -751,10 +751,10 @@ function ExitGameDlg::onWake(%this) {
 	%pbColor = getScoreFormatting($hs[0], %info, "", (%record == getField($hs[0], 1))? 1 : 2); // If record is unset, it would be -1 and never trigger.
 	%pbEggLabel = removeLeadingZerosFromTime(formatTime(getField($hs["egg"], 0)));
 
-	%eggThemeColor = (%game $= "PlatinumQuest") ? "<color:cccc99>" : "<color:4580ff>";
+	%eggThemeColor = (%game $= "PlatinumQuest") ? "<color:cccc99>" : "<color:337e77>";
 
 	%pbTitle = "Personal Best";
-	%pbEggTitle = "" @ %eggThemeColor @ "Egg Best";
+	%pbEggTitle = "" @ %eggThemeColor @ "Cube Time";
 
 	if (getField($hs[0], 2) $= "Matan W." && (%pbType == 0 && getSubStr(%pbLabel, 0, 5) $= "99:59") || (%pbType == 1 && getField($hs[0], 1) == 0)) {
 		ExitGameInfoPersonalBestTitle.setVisible(false);

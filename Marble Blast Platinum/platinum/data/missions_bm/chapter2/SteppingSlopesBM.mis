@@ -12,6 +12,7 @@ new SimGroup(MissionGroup) {
          level = "1";
          music = "Tim Trance.ogg";
          name = "Stepping Slopes";
+         goldTime = "55000";
          platinumTime = "45000";
          type = "Custom";
          ultimateTime = "35000";
@@ -412,6 +413,16 @@ new SimGroup(MissionGroup) {
       rotation = "-1 0 0 90.0002";
       scale = "0.4 0.2 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new Item() {
+      position = "-1 3 13.2";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

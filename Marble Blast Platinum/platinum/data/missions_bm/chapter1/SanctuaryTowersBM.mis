@@ -3,16 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          artist = "James C.";
-         awesomeTime = "70000";
+         awesomeTime = "60000";
          desc = "Ascend the sanctuary towers as you reach the end of this haven filled with bouncy floors and mud areas.";
          game = "Blasted";
          gameMode = "null";
          level = "12";
          music = "Pictures of Life.ogg";
          name = "Sanctuary Towers";
-         platinumTime = "110000";
+         goldTime = "105000";
+         platinumTime = "90000";
          type = "Custom";
-         ultimateTime = "90000";
+         ultimateTime = "75000";
    };
    new SimGroup(SceneryGroup) {
 
@@ -2518,14 +2519,14 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          VelocityMultiplier = "0.5";
    };
-   new Item() {
-      position = "-119.999 5.99267 80.5";
+   new Trigger(splash) {
+      position = "-117 3 77.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "EasterEgg_MBG";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
    new Trigger(EE) {
       position = "-145 13 36.75";
@@ -2853,14 +2854,15 @@ new SimGroup(MissionGroup) {
          TriggerOnce = "0";
          sfx = "SplashSfx";
    };
-   new Trigger(splash) {
-      position = "-117 3 77.5";
+   new Item() {
+      position = "-120 6 80.8";
       rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

@@ -10,6 +10,7 @@ new SimGroup(MissionGroup) {
          level = "6";
          music = "Tim Trance.ogg";
          name = "Complexity Ascent";
+         goldTime = "40000";
          platinumTime = "35000";
          type = "Custom";
          ultimateTime = "30000";
@@ -669,8 +670,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new Item() {
-      position = "18.8839 51.4955 37";
-      rotation = "0 0 1 85.56";
+      position = "18.2283 51.2863 37";
+      rotation = "0 0 1 59.04";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem_BM";
       collideable = "0";
@@ -927,6 +928,16 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
+   };
+   new Item() {
+      position = "54 32 43.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

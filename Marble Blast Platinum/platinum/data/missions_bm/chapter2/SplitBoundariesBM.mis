@@ -14,6 +14,7 @@ new SimGroup(MissionGroup) {
          level = "4";
          music = "Tim Trance.ogg";
          name = "Split Boundaries";
+         goldTime = "25000";
          platinumTime = "20000";
          type = "Custom";
          ultimateTime = "15000";
@@ -414,6 +415,16 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 -1 45.0002";
       scale = "0.5 0.5 0.5";
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
+   };
+   new Item() {
+      position = "20.8 20 6";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

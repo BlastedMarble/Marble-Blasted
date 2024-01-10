@@ -11,6 +11,7 @@ new SimGroup(MissionGroup) {
          level = "3";
          music = "Tim Trance.ogg";
          name = "Perilous Gauntlet";
+         goldTime = "45000";
          platinumTime = "40000";
          type = "Custom";
          ultimateTime = "35000";
@@ -845,6 +846,16 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          TriggerOnce = "0";
          sfx = "SplashSfx";
+   };
+   new Item() {
+      position = "27 24 17.8";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

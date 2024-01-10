@@ -103,7 +103,7 @@ function Marble::_onPowerUpUsed(%this, %id) {
 			%this.mountImage(ShockAbsorberImage, 0);
 			%this.mountSch = %this.schedule(5000, "unmountImage", 0);
 		case 5:
-			%this.mountImage((%this.megaMarble ? MegaHelicopterImage : ActualHelicopterImage), 0);
+			%this.mountImage((%this.megaMarble ? MegaHelicopterImage_BM : ActualHelicopterImage), 0);
 			%this.mountSch = %this.schedule(5000, "unmountImage", 0);
 		case 6: //Mega
 			if (!%this.megaMarble) {

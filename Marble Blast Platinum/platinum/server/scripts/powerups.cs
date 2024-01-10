@@ -493,7 +493,7 @@ datablock ShapeBaseImageData(HelicopterImage) {
 
 datablock ShapeBaseImageData(ActualHelicopterImage) {
 	// Basic Item properties
-	shapeFile = "~/data/shapes/images/helicopter.dts";
+	shapeFile = "~/data/shapes_bm/images/glow_gyro.dts";
 	emap = true;
 	mountPoint = 3;
 	offset = "0 0 0";
@@ -530,6 +530,7 @@ datablock ItemData(HelicopterItem_BM : HelicopterItem) {
 
 	shapeFile = "~/data/shapes_bm/Powerups/Gyrocopter_bm.dts";
 	image = HelicopterImage_BM;
+	megaImage = MegaHelicopterImage_BM;
 };
 
 datablock ItemData(HelicopterItem_BMGate : HelicopterItem) {
@@ -547,6 +548,10 @@ datablock ShapeBaseImageData(HelicopterImage_BM : ActualHelicopterImage) {
 	shapeFile = "~/data/shapes_bm/images/glow_gyro.dts";
 	mountPoint = 0;
     offset = "0 0 0";
+};
+
+datablock ShapeBaseImageData(MegaHelicopterImage_BM : ActualHelicopterImage) {
+	shapeFile = "~/data/shapes_BM/images/glow_megagyro.dts";
 };
 
 // datablock ShapeBaseImageData(HelicopterImage_MBU : ActualHelicopterImage) {

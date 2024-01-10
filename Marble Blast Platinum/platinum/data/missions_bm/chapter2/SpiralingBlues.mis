@@ -7,6 +7,7 @@ new SimGroup(MissionGroup) {
          desc = "Follow the curved road to the top.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "60000";
          level = "2";
          music = "Tim Trance.ogg";
          name = "Spiraling Blues";
@@ -550,7 +551,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "12.5 12 12.5";
+      position = "12.5 12 13";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
@@ -606,14 +607,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "16 40.5 22.75";
+      position = "16 40.5 23";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-19.5 32 20.5";
+      position = "-19.5 32 21";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
@@ -757,15 +758,15 @@ new SimGroup(MissionGroup) {
       dataBlock = "EndPadEdge_BM";
    };
    new TSStatic() {
-      position = "18.5 41.25 10.35";
+      position = "18.5 41.25 9.25";
       rotation = "1 0 0 0";
-      scale = "0.7 0.7 0.7";
+      scale = "0.5 0.5 0.5";
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
    };
    new TSStatic() {
-      position = "14.75 6.5 18.35";
+      position = "14.75 6.5 17.25";
       rotation = "0 0 1 56.2501";
-      scale = "0.7 0.7 0.7";
+      scale = "0.5 0.5 0.5";
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
    };
    new TSStatic() {
@@ -848,6 +849,16 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
+   };
+   new Item() {
+      position = "-18 -4 26.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

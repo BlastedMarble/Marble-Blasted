@@ -11,6 +11,7 @@ new SimGroup(MissionGroup) {
          level = "10";
          music = "Boater.ogg";
          name = "Skyscraper Hazards";
+         goldTime = "75000";
          platinumTime = "65000";
          tornadoStrength0 = "-45";
          tornadoStrength1 = "45";
@@ -2000,6 +2001,16 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
+   };
+   new Item() {
+      position = "-2 17 46.8";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

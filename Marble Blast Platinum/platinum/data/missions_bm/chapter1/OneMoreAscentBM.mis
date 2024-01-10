@@ -4,14 +4,15 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          artist = "James C.";
-         awesomeTime = "30000";
+         awesomeTime = "35000";
          desc = "Seven down, one to go.";
          game = "Blasted";
          gameMode = "null";
          level = "9";
          music = "Subconscious Waves.ogg";
          name = "One More Ascent";
-         platinumTime = "60000";
+         goldTime = "65000";
+         platinumTime = "55000";
          type = "Custom";
          ultimateTime = "45000";
    };
@@ -2406,6 +2407,16 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
+   };
+   new Item() {
+      position = "-65 -42.75 24.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

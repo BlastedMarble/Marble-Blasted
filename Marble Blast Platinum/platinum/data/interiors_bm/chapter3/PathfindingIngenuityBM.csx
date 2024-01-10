@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!--Torque Constructor Scene document http://www.garagegames.com-->
-<ConstructorScene version="4" creator="Torque Constructor" date="2024/01/03 21:43:43">
+<ConstructorScene version="4" creator="Torque Constructor" date="2024/01/05 11:25:56">
     <Sunlight azimuth="180" elevation="35" color="100 100 100" ambient="64 64 64" />
     <LightingOptions lightingSystem="" ineditor_defaultLightmapSize="256" ineditor_maxLightmapSize="256" ineditor_lightingPerformanceHint="0" ineditor_shadowPerformanceHint="1" ineditor_TAPCompatibility="0" ineditor_useSunlight="0" export_defaultLightmapSize="256" export_maxLightmapSize="256" export_lightingPerformanceHint="0" export_shadowPerformanceHint="1" export_TAPCompatibility="0" export_useSunlight="0" />
     <GameTypes>
@@ -207,7 +207,7 @@
                         <Properties next_time="1000" smoothing="2" />
                     </Entity>
                 </Entities>
-                <Brushes nextBrushID="543">
+                <Brushes nextBrushID="544">
                     <Brush id="0" owner="0" type="0" pos="0 12 -14" rot="1 0 0 0" scale="" transform="1 0 0 0 0 1 0 12 0 0 1 -14 0 0 0 1" group="-1" locked="0" nextFaceID="7" nextVertexID="9">
                         <Vertices>
                             <Vertex pos="3 15 15" />
@@ -17006,6 +17006,36 @@
                         </Face>
                         <Face id="39" plane="0 -0 1 -11" album="" material="bm_friction_grass" texgens="1 0 0 -10368 0 -1 0 9216 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="512 512">
                             <Indices indices=" 15 13 11 9 7 5 1 3" />
+                        </Face>
+                    </Brush>
+                    <Brush id="543" owner="0" type="0" pos="-21 66 -6" rot="1 0 0 0" scale="" transform="1 0 0 -21 0 1 0 66 0 0 1 -6 0 0 0 1" group="-1" locked="0" nextFaceID="7" nextVertexID="9">
+                        <Vertices>
+                            <Vertex pos="0 3 15" />
+                            <Vertex pos="0 3 -23" />
+                            <Vertex pos="0 -1 15" />
+                            <Vertex pos="0 -1 -23" />
+                            <Vertex pos="-4 3 15" />
+                            <Vertex pos="-4 3 -23" />
+                            <Vertex pos="-4 -1 15" />
+                            <Vertex pos="-4 -1 -23" />
+                        </Vertices>
+                        <Face id="0" plane="1 -0 0 -0" album="" material="bm_grid_blank4" texgens="0 1 0 3456 0 0 -1 896 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                            <Indices indices=" 3 2 0 1" />
+                        </Face>
+                        <Face id="1" plane="-1 0 0 -4" album="" material="bm_grid_blank4" texgens="0 -1 0 -3200 0 0 -1 896 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                            <Indices indices=" 7 5 4 6" />
+                        </Face>
+                        <Face id="2" plane="0 1 -0 -3" album="" material="bm_grid_blank4" texgens="-1 0 0 0 0 0 -1 896 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                            <Indices indices=" 5 1 0 4" />
+                        </Face>
+                        <Face id="3" plane="0 -1 0 -1" album="" material="bm_grid_blank4" texgens="1 0 0 256 0 0 -1 896 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                            <Indices indices=" 7 6 2 3" />
+                        </Face>
+                        <Face id="4" plane="-0 0 1 -15" album="" material="bm_tile04_D" texgens="1 0 0 -512 0 -1 0 -6400 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="512 512">
+                            <Indices indices=" 6 4 0 2" />
+                        </Face>
+                        <Face id="5" plane="0 0 -1 -23" album="" material="bm_grid_blank4" texgens="-1 0 0 0 0 -1 0 -3200 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                            <Indices indices=" 7 3 1 5" />
                         </Face>
                     </Brush>
                 </Brushes>

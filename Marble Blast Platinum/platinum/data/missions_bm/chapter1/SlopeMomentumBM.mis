@@ -297,5 +297,15 @@ new SimGroup(MissionGroup) {
          skin = "3";
          timeBonus = "3000";
    };
+   new Item() {
+      position = "68 22 32.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+   };
 };
 //--- OBJECT WRITE END ---

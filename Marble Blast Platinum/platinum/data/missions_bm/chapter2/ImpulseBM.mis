@@ -13,9 +13,10 @@ new SimGroup(MissionGroup) {
          level = "11";
          music = "Tim Trance.ogg";
          name = "Impulse";
-         platinumTime = "85000";
+         goldTime = "90000";
+         platinumTime = "75000";
          type = "Custom";
-         ultimateTime = "65000";
+         ultimateTime = "60000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";
