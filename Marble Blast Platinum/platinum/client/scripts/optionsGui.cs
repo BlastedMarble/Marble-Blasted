@@ -394,9 +394,7 @@ MaxFPSArray.addEntry("120"       TAB 120);
 MaxFPSArray.addEntry("200"       TAB 200);
 
 Array(ParticleSystemArray);
-ParticleSystemArray.addEntry("PlatinumQuest"    TAB 0);
-ParticleSystemArray.addEntry("Marble Blast Gold" TAB 1);
-ParticleSystemArray.addEntry("Marble Blast Ultra"   TAB 2);
+ParticleSystemArray.addEntry("Marble Blast Ultra"   TAB 0);
 
 //-----------------------------------------------------------------------------
 // Audio

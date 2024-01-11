@@ -30,17 +30,7 @@ new GuiControl(MarbleSelectDlg) {
 	minExtent = "8 8";
 	visible = "1";
 	helpTag = "0";
-		listIndex["platinum/data/shapes/balls/pack.json"] = 0;
-		listIndex["platinum/data/shapes/balls/pack1/pack.json"] = 1;
-		listIndex["platinum/data/shapes/balls/pack2/pack.json"] = 2;
-		listIndex["platinum/data/shapes/balls/pack3/pack.json"] = 8;
-		listIndex["platinum/data/shapes_pq/Marbles/PQ Classic/pack.json"] = 3;
-		listIndex["platinum/data/shapes_pq/Marbles/Sports/pack.json"] = 4;
-		listIndex["platinum/data/shapes_pq/Marbles/Fruit/pack.json"] = 5;
-		listIndex["platinum/data/shapes_pq/Marbles/Abstract/pack.json"] = 6;
-		listIndex["platinum/data/shapes_pq/Marbles/Solid Colors/pack.json"] = 7;
-		listIndex["platinum/data/shapes_bm/balls/pack.json"] = 9;
-		listIndex["platinum/data/shapes_bm/balls/Nonreflective/pack.json"] = 10;
+		listIndex["platinum/data/shapes/balls/pack1/pack.json"] = 0;
 		defaultControl = "MS_Close";
 		commandCancel = "RootGui.popDialog(MarbleSelectDlg); PlayMissionGui.showBody();";
 		commandLeft = "MarbleSelectDlg.prev();";
@@ -450,8 +440,8 @@ function MarbleSelectDlg::loadPrefs(%this) {
 			$MPPref::marbleIndex = 0;
 			$MPPref::marbleNormalize = true;
 		}
-		if ($MPPref::marbleCategory $= "Official Marbles") {
-			$MPPref::marbleCategory = "MBP Official";
+		if ($MPPref::marbleCategory $= "Marbles") {
+			$MPPref::marbleCategory = "Ultra";
 		}
 
 		%category  = $MPPref::marbleCategory;
@@ -465,8 +455,8 @@ function MarbleSelectDlg::loadPrefs(%this) {
 			$LBPref::marbleIndex = 0;
 			$LBPref::marbleNormalize = true;
 		}
-		if ($LBPref::marbleCategory $= "Official Marbles") {
-			$LBPref::marbleCategory = "MBP Official";
+		if ($LBPref::marbleCategory $= "Marbles") {
+			$LBPref::marbleCategory = "Ultra";
 		}
 
 		%category  = $LBPref::marbleCategory;
@@ -480,8 +470,8 @@ function MarbleSelectDlg::loadPrefs(%this) {
 			$pref::marbleIndex = 0;
 			$pref::marbleNormalize = true;
 		}
-		if ($pref::marbleCategory $= "Official Marbles") {
-			$pref::marbleCategory = "MBP Official";
+		if ($pref::marbleCategory $= "Marbles") {
+			$pref::marbleCategory = "Ultra";
 		}
 
 		%category  = $pref::marbleCategory;
@@ -500,7 +490,7 @@ function MarbleSelectDlg::loadPrefs(%this) {
 
 	%list = %this.getMarbleList(%category);
 	if (!isObject(%list)) {
-		%this.selectCategory("MBP Official");
+		%this.selectCategory("Ultra");
 		ASSERT("Marble not Found!", "The previously selected custom marble was not found. The category it was in no longer exists.");
 		return;
 	}
@@ -512,7 +502,7 @@ function MarbleSelectDlg::loadPrefs(%this) {
 	// Figure out which number it was
 	%list = %this.getMarbleList(%category);
 	if (!isObject(%list)) {
-		%this.selectCategory("MBP Official");
+		%this.selectCategory("Ultra");
 		ASSERT("Marble not Found!", "The previously selected custom marble was not found. The category it was in is inaccessible.");
 		return;
 	}

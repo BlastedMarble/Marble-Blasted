@@ -4800,5 +4800,12 @@ new SimGroup(MissionGroup) {
       rotate = "1";
          noParticles = "0";
    };
+   new Trigger(Bounds) {
+      position = "-139 -199 -2.5";
+      rotation = "1 0 0 0";
+      scale = "278 398 95";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
 };
 //--- OBJECT WRITE END ---
