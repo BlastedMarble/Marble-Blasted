@@ -9,7 +9,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "10";
-         music = "Boater.ogg";
          name = "Skyscraper Hazards";
          goldTime = "75000";
          platinumTime = "65000";

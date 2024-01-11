@@ -9,7 +9,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "5";
-         music = "Tim Trance.ogg";
          name = "Ring Riot";
          goldTime = "45000";
          platinumTime = "40000";

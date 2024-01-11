@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "30000";
          level = "2";
-         music = "Boater.ogg";
          name = "High Time";
          platinumTime = "25000";
          type = "Custom";

@@ -147,6 +147,7 @@
     "platinum/data/interiors_bm/bm_glass": "BMGlassMaterial",
     "platinum/data/interiors_bm/bm_friction_grass": "BMGrassMaterial",
     "platinum/data/interiors_bm/bm_friction_sand": "BMSandMaterial",
+    "platinum/data/interiors_bm/bm_friction_snow": "BMSnowMaterial",
     "platinum/data/interiors_bm/bm_edge_white": "BMEdgeMaterial",
     "platinum/data/interiors_bm/bm_edge_mp1": "BMEdgeMPMaterial",
     "platinum/data/interiors_bm/bm_edge_mp2": "BMEdgeMPMaterial"

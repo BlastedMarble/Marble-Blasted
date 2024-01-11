@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "30000";
          level = "2";
-         music = "Tim Trance.ogg";
          name = "Bridge Warning";
          platinumTime = "25000";
          type = "Custom";

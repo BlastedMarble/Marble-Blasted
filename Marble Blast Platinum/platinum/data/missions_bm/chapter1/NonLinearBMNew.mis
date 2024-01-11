@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "30000";
          level = "6";
-         music = "Tim Trance.ogg";
          name = "Non-Linear";
          platinumTime = "25000";
          type = "Custom";

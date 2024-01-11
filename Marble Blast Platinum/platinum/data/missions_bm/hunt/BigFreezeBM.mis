@@ -13,7 +13,6 @@ new SimGroup(MissionGroup) {
          gameMode = "hunt";
          level = "2";
          maxGemsPerSpawn = "9";
-         music = "Tim Trance.ogg";
          name = "Big Freeze";
 	      goldScore = "40";
          platinumScore = "60";

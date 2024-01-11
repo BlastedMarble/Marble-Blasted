@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "35000";
          level = "8";
-         music = "Boater.ogg";
          name = "Lycoris Recoil";
          platinumTime = "30000";
          type = "Custom";

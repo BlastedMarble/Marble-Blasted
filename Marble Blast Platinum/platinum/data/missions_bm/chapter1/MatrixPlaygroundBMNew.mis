@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "50000";
          level = "7";
-         music = "Tim Trance.ogg";
          name = "Matrix Playground";
          platinumTime = "40000";
          type = "Custom";

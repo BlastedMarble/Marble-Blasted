@@ -11,7 +11,6 @@ new SimGroup(MissionGroup) {
          gameMode = "quota";
          goldTime = "85000";
          level = "9";
-         music = "Tim Trance.ogg";
          name = "Bounding Bedlam";
          platinumTime = "75000";
          type = "Custom";

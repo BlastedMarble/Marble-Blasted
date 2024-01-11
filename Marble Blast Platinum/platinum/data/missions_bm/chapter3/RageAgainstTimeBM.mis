@@ -13,7 +13,6 @@ new SimGroup(MissionGroup) {
          gameMode = "quota";
          goldTime = "30000";
          level = "3";
-         music = "Tim Trance.ogg";
          name = "Rage Against Time";
          platinumTime = "25000";
          type = "Custom";

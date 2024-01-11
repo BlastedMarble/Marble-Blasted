@@ -9,7 +9,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "3";
-         music = "Tim Trance.ogg";
          name = "Perilous Gauntlet";
          goldTime = "45000";
          platinumTime = "40000";

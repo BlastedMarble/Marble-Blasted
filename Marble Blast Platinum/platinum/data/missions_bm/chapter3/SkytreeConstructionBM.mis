@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "60000";
          level = "10";
-         music = "Tim Trance.ogg";
          name = "Skytree Construction";
          platinumTime = "50000";
          type = "Custom";

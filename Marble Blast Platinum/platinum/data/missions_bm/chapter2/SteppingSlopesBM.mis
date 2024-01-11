@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "1";
-         music = "Tim Trance.ogg";
          name = "Stepping Slopes";
          goldTime = "55000";
          platinumTime = "45000";

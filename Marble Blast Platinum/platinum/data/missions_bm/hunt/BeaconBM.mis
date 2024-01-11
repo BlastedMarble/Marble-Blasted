@@ -13,7 +13,6 @@ new SimGroup(MissionGroup) {
          gameMode = "hunt";
          level = "1";
          maxGemsPerSpawn = "9";
-         music = "Tim Trance.ogg";
          name = "Beacon";
 	      goldScore = "65";
          platinumScore = "90";

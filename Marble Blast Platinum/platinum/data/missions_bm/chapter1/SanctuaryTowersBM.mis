@@ -8,7 +8,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "12";
-         music = "Pictures of Life.ogg";
          name = "Sanctuary Towers";
          goldTime = "105000";
          platinumTime = "90000";

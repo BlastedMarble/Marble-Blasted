@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "50000";
          level = "5";
-         music = "Stallion.ogg";
          name = "Gravitationalism";
          platinumTime = "40000";
          type = "Custom";

@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "35000";
          level = "4";
-         music = "Down Side.ogg";
          name = "Slope Momentum";
          platinumTime = "30000";
          type = "Custom";

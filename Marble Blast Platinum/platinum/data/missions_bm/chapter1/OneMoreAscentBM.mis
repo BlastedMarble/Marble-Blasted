@@ -9,7 +9,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "9";
-         music = "Subconscious Waves.ogg";
          name = "One More Ascent";
          goldTime = "65000";
          platinumTime = "55000";

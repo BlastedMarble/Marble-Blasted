@@ -12,7 +12,6 @@ new SimGroup(MissionGroup) {
          gameMode = "quota";
          goldTime = "75000";
          level = "11";
-         music = "Tim Trance.ogg";
          name = "Pathfinding Ingenuity";
          platinumTime = "65000";
          type = "Custom";

@@ -8,7 +8,6 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "6";
-         music = "Tim Trance.ogg";
          name = "Complexity Ascent";
          goldTime = "40000";
          platinumTime = "35000";

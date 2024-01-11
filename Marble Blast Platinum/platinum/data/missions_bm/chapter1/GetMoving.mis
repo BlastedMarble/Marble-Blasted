@@ -10,7 +10,6 @@ new SimGroup(MissionGroup) {
          gameMode = "null";
          goldTime = "25000";
          level = "1";
-         music = "Earth.ogg";
          name = "Get Moving";
          persistStartHelpTextTime = "10000";
          platinumTime = "20000";
