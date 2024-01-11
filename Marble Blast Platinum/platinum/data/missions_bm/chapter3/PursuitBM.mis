@@ -932,7 +932,7 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new InteriorInstance() {
-      position = "-19.25 17.75 -8.5";
+      position = "-19.25 18 -8.25";
       rotation = "0.357408 -0.357406 -0.862856 98.4215";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
