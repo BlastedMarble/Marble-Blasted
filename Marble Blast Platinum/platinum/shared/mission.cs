@@ -339,6 +339,51 @@ function getMissionInfoByField(%field, %value) {
 	return -1;
 }
 
+//Thanks for giving me something to do SummerArmy xoxo. ~Connie
+function checkForMaliciousCode(%file) {
+	//Doesn't exempt comment lines because you really shouldn't have these kinds of comments in mission files either.
+
+	//The reason this exempts Marbleland levels is because, I'm assuming, Marbleland will no longer allow levels with this shit. Currently, there are no known levels on Marbleland with truly Malicious Code. ~Connie
+	if (marblelandIsMission(%file)) {
+		return 0;
+	}
+
+    if (isFile(%file)) {
+        %fo = new FileObject();
+        if (%fo.openForRead(%file)) {
+            %returnval = 0;
+
+            while (!%fo.isEOF()) {
+                %line = %fo.readLine();
+
+				//Entirely skip empty lines. ~Connie
+                if (%line $= "") {
+                    continue;
+                }
+
+				//Forbidden words. ~Connie
+                %keywords = "exec( eval( dump( call( tree( winconsole dbgsetparameters telnetsetparameters deletefile movefile deletevariables";
+
+                for (%i = 0; %i < getWordCount(%keywords); %i++) {
+                    %keyword = getWord(%keywords, %i);
+
+					//Checks if the keyword was found, and if its actually the keyword and not a false positive. ~Connie
+					if ((strstr(strlwr(%line), %keyword)) != -1 && ((getSubStr(%line, strstr(strlwr(%line), %keyword) - 1, 1) $= "") || (getSubStr(%line, strstr(strlwr(%line), %keyword) - 1, 1) $= " ") || (getSubStr(%line, strstr(strlwr(%line), %keyword) - 1, 1) $= "="))) {
+						%returnval = 1;
+                        break;
+                    }
+                }
+            }
+
+            %fo.close();
+        }
+
+        %fo.delete();
+        return %returnval;
+    }
+}
+
+
 // Mission Game: What game category it is in the mission list
 function resolveMissionGame(%mission) {
 	if (%mission.game !$= "") {
