@@ -787,7 +787,7 @@ function PlayGui::refreshRed(%this) {
 
 					if (!$PlayTimerAlarmText) {
 						%seconds = ($PlayTimerAlarmStartTime / 1000);
-						addBubbleLine("You have " @ %seconds SPC (%seconds == 1 ? "second" : "seconds") SPC "left.", false, 5000);
+						addBubbleLine(%seconds SPC (%seconds == 1 ? "second" : "seconds") SPC "remaining.", false, 5000);
 						$PlayTimerAlarmText = true;
 					}
 
@@ -811,7 +811,7 @@ function PlayGui::refreshRed(%this) {
 
 					if (!$PlayTimerAlarmText) {
 						%seconds = ($PlayTimerAlarmStartTime / 1000);
-						addBubbleLine("You have " @ %seconds SPC (%seconds == 1 ? "second" : "seconds") SPC "left.", false, 5000);
+						addBubbleLine(%seconds SPC (%seconds == 1 ? "second" : "seconds") SPC "remaining.", false, 5000);
 						$PlayTimerAlarmText = true;
 					}
 					$PlayTimerColor = (((%this.currentTime / 1000) % 2) ? $TimeColor["danger"] : $TimeColor["normal"]);
