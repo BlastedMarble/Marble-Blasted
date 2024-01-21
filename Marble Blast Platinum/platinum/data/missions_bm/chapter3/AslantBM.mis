@@ -543,44 +543,44 @@ new SimGroup(MissionGroup) {
          showHelpOnPickup = "0";
    };
    new StaticShape() {
-      position = "42 60 16.49";
-      rotation = "-1 0 0 37";
+      position = "42 60 16.5";
+      rotation = "-1 0 0 36.8699";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "46 55.85 13.92";
-      rotation = "-1 0 0 26.5";
+      position = "46 55.8 13.9";
+      rotation = "-1 0 0 26.565";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "25.95 45.2 19.89";
-      rotation = "1 0 0 26.5";
+      position = "26 45.2 19.9";
+      rotation = "1 0 0 26.565";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "44.5 62.15 18.1";
-      rotation = "-1 0 0 37";
+      position = "44.5 62.16 18.12";
+      rotation = "-1 0 0 36.8699";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "39.85 63.35 19";
-      rotation = "-1 0 0 37";
+      position = "39.75 63.28 18.96";
+      rotation = "-1 0 0 36.8699";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "24 48.8 17.39";
-      rotation = "1 0 0 37";
+      position = "24 48.72 17.46";
+      rotation = "1 0 0 36.8699";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "-8.2 32.1 17.945";
-      rotation = "0 1 0 14";
+      position = "-8.2353 32 17.9412";
+      rotation = "0 1 0 14.0358";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";
@@ -588,20 +588,20 @@ new SimGroup(MissionGroup) {
          timer = "273973";
    };
    new StaticShape() {
-      position = "55.65 40.25 13.82";
-      rotation = "0 1 0 26.5";
+      position = "55.7 40.25 13.85";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "59.35 39 15.67";
-      rotation = "0 1 0 26.5";
+      position = "59.3 39 15.65";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "61.35 43.85 16.67";
-      rotation = "0 1 0 26.5";
+      position = "61.3 43.75 16.65";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
@@ -642,8 +642,8 @@ new SimGroup(MissionGroup) {
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "63 29.3 19.245";
-      rotation = "0 -1 0 14";
+      position = "63 29.25 19.25";
+      rotation = "0 -1 0 14.036";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
@@ -672,8 +672,8 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_chevron_night.dts";
    };
    new StaticShape() {
-      position = "-4.9 35.1 19.05";
-      rotation = "0 1 0 26.5";
+      position = "-5 35 19";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";
@@ -681,8 +681,8 @@ new SimGroup(MissionGroup) {
          timer = "273970";
    };
    new StaticShape() {
-      position = "-3 30.6 19.99";
-      rotation = "0 1 0 26.5";
+      position = "-3.00001 30.5 20";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";
@@ -690,8 +690,8 @@ new SimGroup(MissionGroup) {
          timer = "273969";
    };
    new StaticShape() {
-      position = "-5.3 28.7 18.85";
-      rotation = "0 1 0 26.5";
+      position = "-5.3 28.75 18.85";
+      rotation = "0 1 0 26.565";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";
@@ -705,14 +705,14 @@ new SimGroup(MissionGroup) {
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "-78.0005 -38.0331 23.4917";
-      rotation = "-0.403004 -0.111534 0.908377 33.8892";
+      position = "-78 -38 23.5";
+      rotation = "-1 0 0 14.0361";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "-80.4096 -34.595 24.3511";
-      rotation = "-0.0154102 -0.121855 0.992428 165.693";
+      position = "-80.5 -34.5294 24.3677";
+      rotation = "-1 0 0 14.036";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
@@ -732,8 +732,8 @@ new SimGroup(MissionGroup) {
          timer = "273967";
    };
    new StaticShape() {
-      position = "-23.3 14.2 16.09";
-      rotation = "-1 0 0 26.5";
+      position = "-23.25 14.2 16.1";
+      rotation = "-1 0 0 26.565";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";
@@ -741,8 +741,8 @@ new SimGroup(MissionGroup) {
          timer = "273966";
    };
    new StaticShape() {
-      position = "-25.7 11.4 14.69";
-      rotation = "-1 0 0 26.5";
+      position = "-25.75 11.5 14.75";
+      rotation = "-1 0 0 26.565";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          resetTime = "Default";

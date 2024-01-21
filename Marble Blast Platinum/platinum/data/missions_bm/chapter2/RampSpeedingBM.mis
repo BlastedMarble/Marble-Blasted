@@ -8,9 +8,9 @@ new SimGroup(MissionGroup) {
          desc = "Use Super Speeds to boost up ramps.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "35000";
          level = "7";
          name = "Ramp Speeding";
-         goldTime = "35000";
          platinumTime = "30000";
          type = "Custom";
          ultimateTime = "25000";
@@ -280,8 +280,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new TSStatic() {
-      position = "-13 71 21.9";
-      rotation = "-1 0 0 36.875";
+      position = "-13 71.2 22.05";
+      rotation = "-1 0 0 36.8699";
       scale = "0.4 0.4 1";
       shapeName = "~/data/shapes_bm/signs/bm_uturn.dts";
    };
@@ -327,7 +327,7 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "7 73 1.75";
-      rotation = "1 0 0 33.65";
+      rotation = "1 0 0 33.69";
       scale = "0.4 0.4 1";
       shapeName = "~/data/shapes_bm/signs/bm_uturn.dts";
    };

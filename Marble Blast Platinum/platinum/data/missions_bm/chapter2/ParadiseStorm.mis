@@ -502,14 +502,14 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
    };
    new StaticShape() {
-      position = "24.75 20.2655 2.48229";
-      rotation = "-1 0 0 41.2";
+      position = "24.75 20.2655 2.4823";
+      rotation = "-1 0 0 41.1859";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
-      position = "23 24.407 6.10616";
-      rotation = "-1 0 0 41.2";
+      position = "23 24.4071 6.1062";
+      rotation = "-1 0 0 41.1859";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
