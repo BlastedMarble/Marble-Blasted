@@ -385,7 +385,7 @@ function buildMusicList() {
 $Music::Songs["LB"]     = "Comforting Mystery.ogg";
 $Music::Songs["Menu"]   = "Close To Water.ogg";
 $Music::Songs["XP"]   = "ShellXP.ogg";
-$Music::Songs["Game"]   = "Close To Water.ogg";
+$Music::Songs["Game"]   = "";
 
 function getMusicFile(%location) {
 	//Grab the songs for the location

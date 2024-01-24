@@ -356,11 +356,11 @@ function menuMissionEnd() {
 //-----------------------------------------------------------------------------
 
 function menuStartIntroduction() {
-	//Hey! You! Go play Marble Hill! Don't come back until you've beaten it!
+	//Hey! You! Go play Get Moving! Don't come back until you've beaten it!
 	$Game::Introduction = true;
 
 	//Hardcoded for victory
-	menuLoadMission("platinum/data/missions_bm/chapter1/MarbleHill.mis");
+	menuLoadMission("platinum/data/missions_bm/chapter1/GetMoving.mis");
 
 	menuSendCb("StartIntroduction");
 }
