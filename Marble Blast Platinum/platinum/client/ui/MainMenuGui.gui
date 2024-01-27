@@ -113,30 +113,11 @@ new GuiControl(MainMenuGui) {
 			tile = "0";
 			useVariable = "0";
 
-		new GuiBitmapButtonTextCtrl(MenuCommunityButton) {
-			profile = "MenuButtonProfile";
-			horizSizing = "right";
-			vertSizing = "bottom";
-			position = "75 338";
-			extent = "500 84";
-			minExtent = "8 8";
-			visible = "1";
-			command = "MainMenuGui.toggleExtras();";
-			helpTag = "0";
-			text = "       Community";
-			groupNum = "-1";
-			buttonType = "PushButton";
-			repeatPeriod = "1000";
-			repeatDecay = "1";
-			bitmap = "./menu/menu";
-				controlDown = "MenuOptionsButton";
-				controlUp = "MenuPlayButton";
-		};
 		new GuiBitmapButtonTextCtrl(MenuQuitButton) {
 			profile = "MenuButtonProfile";
 			horizSizing = "right";
 			vertSizing = "bottom";
-			position = "75 608";
+			position = "75 518";
 			extent = "500 85";
 			minExtent = "8 8";
 			visible = "1";
@@ -174,7 +155,7 @@ new GuiControl(MainMenuGui) {
 			profile = "MenuButtonProfile";
 			horizSizing = "right";
 			vertSizing = "bottom";
-			position = "75 428";
+			position = "75 338";
 			extent = "500 84";
 			minExtent = "8 8";
 			visible = "1";
@@ -193,7 +174,7 @@ new GuiControl(MainMenuGui) {
 			profile = "MenuButtonProfile";
 			horizSizing = "right";
 			vertSizing = "bottom";
-			position = "75 518";
+			position = "75 428";
 			extent = "500 84";
 			minExtent = "8 8";
 			visible = "1";

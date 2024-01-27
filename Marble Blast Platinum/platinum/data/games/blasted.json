@@ -26,20 +26,6 @@
 			"previewDirectory": "platinum/data/missions_bm/chapter3"
 		},
 		{
-			"name": "Chapter 4",
-			"display": "Chapter 4",
-			"missionDirectory": "platinum/data/missions_bm/chapter4",
-			"bitmapDirectory": "platinum/data/missions_bm/chapter4",
-			"previewDirectory": "platinum/data/missions_bm/chapter4"
-		},
-		{
-			"name": "Chapter 5",
-			"display": "Chapter 5",
-			"missionDirectory": "platinum/data/missions_bm/chapter5",
-			"bitmapDirectory": "platinum/data/missions_bm/chapter5",
-			"previewDirectory": "platinum/data/missions_bm/chapter5"
-		},
-		{
 			"name": "Hunt",
 			"display": "Hunt",
 			"missionDirectory": "platinum/data/missions_bm/hunt",
