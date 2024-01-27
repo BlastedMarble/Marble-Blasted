@@ -256,7 +256,7 @@ function RootMenu_MissionExit() {
 }
 function RootMenu_PostIntroduction() {
 	//Swap the pref from Tut_TrainingWheels to just training wheels
-	$pref::highscores["platinum/data/missions_pq/tutorial/TrainingWheels.mcs", 0] = $pref::highscores[$Server::MissionFile, 0];
+	$pref::highscores["platinum/data/missions_bm/chapter1/GetMoving.mis", 0] = $pref::highscores[$Server::MissionFile, 0];
 
 	//Wait around
 	Canvas.setContent(RootGui);
@@ -264,15 +264,15 @@ function RootMenu_PostIntroduction() {
 	RootGui.showPreviewImage(true);
 
 	//Show the new mission before anything happens
-	menuSetMission("platinum/data/missions_pq/tutorial/TrainingWheels.mcs");
+	menuSetMission("platinum/data/missions_bm/chapter1/GetMoving.mis");
 	Canvas.repaint();
 
 	//Most of this is copied from PlayMissionGui::open(), but slightly changed
 	// because we already have a server running.
 
 	//Build any level lists we need
-	PlayMissionGui.setGame("PlatinumQuest");
-	PlayMissionGui.setMissionType("Tutorial");
+	PlayMissionGui.setGame("Chapters");
+	PlayMissionGui.setMissionType("Chapter 1");
 	PlayMissionGui.buildGameList();
 
 	//Jump right in
