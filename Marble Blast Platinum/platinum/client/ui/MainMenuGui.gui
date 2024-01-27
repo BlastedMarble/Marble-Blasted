@@ -114,21 +114,19 @@ new GuiControl(MainMenuGui) {
 			useVariable = "0";
 
 		new GuiBitmapButtonTextCtrl(MenuCommunityButton) {
-			profile = "MenuButtonProfile";
+			profile = "GuiDefaultProfile";
 			horizSizing = "right";
 			vertSizing = "bottom";
 			position = "75 338";
 			extent = "500 84";
 			minExtent = "8 8";
 			visible = "1";
-			command = "MainMenuGui.toggleExtras();";
 			helpTag = "0";
 			text = "       Community";
 			groupNum = "-1";
-			buttonType = "PushButton";
 			repeatPeriod = "1000";
 			repeatDecay = "1";
-			bitmap = "./menu/menu";
+			bitmap = "./menu/menu_i";
 				controlDown = "MenuOptionsButton";
 				controlUp = "MenuPlayButton";
 		};
