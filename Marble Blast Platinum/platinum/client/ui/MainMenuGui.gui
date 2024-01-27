@@ -82,22 +82,7 @@ new GuiControl(MainMenuGui) {
 		allowColorChars = "0";
 		maxChars = "-1";
 			noInvert = "1";
-			unformattedText = "<color:ffffff><just:right><bold:32>2.0.0";
-	};
-	new GuiMLTextCtrl(VersionSub) {
-		profile = "GuiMLTextProfile";
-		horizSizing = "left";
-		vertSizing = "top";
-		position = "750 573";
-		extent = "70 21";
-		minExtent = "8 8";
-		visible = "1";
-		helpTag = "0";
-		lineSpacing = "2";
-		allowColorChars = "0";
-		maxChars = "-1";
-			noInvert = "1";
-			unformattedText = "<color:ffffff><font:18>Dev";
+			unformattedText = "<color:ffffff><just:right><bold:32>Beta";
 	};
 	new GuiControl(MenuMainButtons) {
 		profile = "GuiDefaultProfile";
