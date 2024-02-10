@@ -124,7 +124,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(Path2A) {
+      new StaticShape(path2a) {
          position = "89.5893 93.2361 144.389";
          rotation = "0 0 1 90.0002";
          scale = "1 1 1";
@@ -147,7 +147,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(Path2B) {
+      new StaticShape(path2b) {
          position = "89.9725 89.3211 146.031";
          rotation = "0 0 -1 89.9996";
          scale = "1 1 1";
@@ -1061,8 +1061,8 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "1";
-         skin = "8";
-         timeBonus = "8000";
+         skin = "7";
+         timeBonus = "7000";
    };
    new Item() {
       position = "164.5 108 124.5";
