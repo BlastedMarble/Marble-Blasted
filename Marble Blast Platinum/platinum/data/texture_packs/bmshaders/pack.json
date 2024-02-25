@@ -52,6 +52,10 @@
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_beam.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
     },
+    "BMMetalBeamMaterial": {
+      "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_beam.normal",
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_beam_metal.spec"
+    },
     "BMBounceMaterial": {
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_friction_bounce.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
@@ -144,6 +148,7 @@
     "platinum/data/interiors_bm/bm_grid_blank_teleport": "BMBlankTileMaterial",
     "platinum/data/interiors_bm/bm_grid_blank_water": "BMBlankTileMaterial",
     "platinum/data/interiors_bm/bm_beam": "BMBeamMaterial",
+    "platinum/data/interiors_bm/bm_beam_metal": "BMMetalBeamMaterial",
     "platinum/data/interiors_bm/bm_glass": "BMGlassMaterial",
     "platinum/data/interiors_bm/bm_friction_grass": "BMGrassMaterial",
     "platinum/data/interiors_bm/bm_friction_sand": "BMSandMaterial",

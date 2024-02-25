@@ -138,6 +138,60 @@ datablock StaticShapeData(Arrow: Sign) {
 
 //-----------------------------------------------------------------------------
 
+datablock StaticShapeData(Sign_BM : Sign) {
+	// Mission editor category
+	superCategory = "Scenery";
+	category = "Signs BM";
+	className = "Sign";
+
+	// Basic Item properties
+	shapeFile = "~/data/shapes_bm/signs/bm_sign.dts";
+	mass = 1;
+	friction = 1;
+	elasticity = 0.3;
+};
+
+datablock StaticShapeData(SignDown_BM : Sign) {
+	// Mission editor category
+	superCategory = "Scenery";
+	category = "Signs BM";
+	className = "Sign";
+
+	// Basic Item properties
+	shapeFile = "~/data/shapes_bm/signs/bm_signdown.dts";
+	mass = 1;
+	friction = 1;
+	elasticity = 0.3;
+};
+
+datablock StaticShapeData(SignNight_BM : Sign) {
+	// Mission editor category
+	superCategory = "Scenery";
+	category = "Signs BM";
+	className = "Sign";
+
+	// Basic Item properties
+	shapeFile = "~/data/shapes_bm/signs/bm_sign_night.dts";
+	mass = 1;
+	friction = 1;
+	elasticity = 0.3;
+};
+
+datablock StaticShapeData(SignDownNight_BM : Sign) {
+	// Mission editor category
+	superCategory = "Scenery";
+	category = "Signs BM";
+	className = "Sign";
+
+	// Basic Item properties
+	shapeFile = "~/data/shapes_bm/signs/bm_signdown_night.dts";
+	mass = 1;
+	friction = 1;
+	elasticity = 0.3;
+};
+
+//-----------------------------------------------------------------------------
+
 datablock StaticShapeData(SignCaution) {
 	// Mission editor category
 	superCategory = "Scenery";

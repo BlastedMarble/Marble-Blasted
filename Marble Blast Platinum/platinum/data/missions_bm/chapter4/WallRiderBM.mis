@@ -713,7 +713,7 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "-16 30.5 7";
-      rotation = "0.577349 -0.577355 0.577347 120";
+      rotation = "-0.577349 0.577355 -0.577347 240";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
@@ -948,6 +948,260 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/gems/GemGate_icon_bm.dts";
+   };
+   new InteriorInstance() {
+      position = "-13 32.75 1.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeSmall.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-17 31.25 1.25";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeSmall.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-53.25 25 -0.75";
+      rotation = "0 0 1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeSmall.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-76.75 25 -0.75";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeSmall.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-97 37.75 0.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeBig.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-55.75 79 0.25";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeBig.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "25.75 37 2.25";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeBig.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "25.75 25 2.25";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterPipeBig.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-6 98 -2";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterWallCurve.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 98 -2";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterWallCurve.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-96 -22 0";
+      rotation = "0 0 -1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterWallCurve.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-34 -22 0";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderQuarterWallCurve.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-147 -108 -22";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderBlenderCurves1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-147 -81 -22";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter4/WallRiderBlenderCurves2.dif";
+      showTerrainInside = "0";
+   };
+   new Item() {
+      position = "-15 32 15.5";
+      rotation = "0 0 1 90.0002";
+      scale = "2 1 2";
+      dataBlock = "TimeTravelItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "3000";
+   };
+   new TSStatic() {
+      position = "-15 33 16.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-15 31 16.5";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-15 31 14.5";
+      rotation = "0.707106 0.707108 2.58617e-006 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-15 33 14.5";
+      rotation = "0.577348 0.57735 0.577353 120";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-15 32 15.5";
+      rotation = "0 0 -1 89.9996";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon3_bm.dts";
+   };
+   new Item() {
+      position = "27.5 31 19";
+      rotation = "-0.57735 0.577352 0.57735 120";
+      scale = "2 1 1";
+      dataBlock = "TimeTravelItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new TSStatic() {
+      position = "27.5 32 19";
+      rotation = "0.577352 -0.57735 -0.577349 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "27.5 30 19";
+      rotation = "-1 1.50784e-006 -2.0954e-006 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "27.5 31 19";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon5_bm.dts";
+   };
+   new Item() {
+      position = "-61 25 11";
+      rotation = "0 0 1 90.0002";
+      scale = "2 1 2";
+      dataBlock = "TimeTravelItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "2000";
+   };
+   new TSStatic() {
+      position = "-61 26 10";
+      rotation = "0.577348 0.57735 0.577353 120";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-61 24 10";
+      rotation = "0.707106 0.707108 2.58617e-006 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-61 24 12";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-61 26 12";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-61 25 11";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+   };
+   new Item() {
+      position = "-69 25 11";
+      rotation = "0 0 1 90.0002";
+      scale = "2 1 2";
+      dataBlock = "TimeTravelItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "2000";
+   };
+   new TSStatic() {
+      position = "-69 25.0236 11";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+   };
+   new TSStatic() {
+      position = "-69 26 12";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-69 24 12";
+      rotation = "0.577352 0.57735 -0.57735 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-69 24 10";
+      rotation = "0.707106 0.707108 2.58617e-006 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "-69 26 10";
+      rotation = "0.577348 0.57735 0.577353 120";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---
