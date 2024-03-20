@@ -241,6 +241,7 @@ function EditorGui::init(%this) {
 	EditorMenuBar.addMenuItemConf("Quick Create", "Bounds Trigger", 14, "", 1);
 	EditorMenuBar.addMenuItemConf("Quick Create", "Help Text Trigger", 22, "", 1);
 	EditorMenuBar.addMenuItemConf("Quick Create", "Out of Bounds Trigger", 23, "", 1);
+	EditorMenuBar.addMenuItemConf("Quick Create", "Teleport & Destination Triggers", 24, "", 1);
 	EditorMenuBar.addMenuItem("Quick Create", "- Others -", 0);
 	EditorMenuBar.addMenuItemConf("Quick Create", "Camera Marker", 16, "M", 1);
 	EditorMenuBar.addMenuItemConf("Quick Create", "PathNode at Selection", 17, "", 1);
@@ -1268,6 +1269,31 @@ function EditorMenuBar::onCreateMenuItemSelect(%this, %itemId, %item) {
 			polyhedron = "0 0 0 1 0 0 0 -1 0 0 0 1";
 			center = "1";
 		};
+	case "Teleport & Destination Triggers":
+		if ($desttrigidentif $= "") { //Works in the same way as Checkpoint placements with 2 objects. ~Connie
+			$desttrigidentif = 1;
+		} else {
+			$desttrigidentif += 1;
+		}
+
+		%obj = new Trigger() {
+			dataBlock = "TeleportTrigger";
+			polyhedron = "0 0 0 1 0 0 0 -1 0 0 0 1";
+			center = "1";
+			destination = "destination" @ $desttrigidentif;
+		};		
+
+		%objdest = new Trigger("destination" @ $desttrigidentif) {
+			dataBlock = "DestinationTrigger";
+			polyhedron = "0 0 0 1 0 0 0 -1 0 0 0 1";
+			center = "1";
+		};			
+
+		%objdest.setTransform("0 0 0 1 0 0 0");
+		$InstantGroup.add(%objdest);
+		EWorldEditor.clearSelection();
+		EWorldEditor.selectObject(%objdest);
+		EWorldEditor.dropSelection();	
 	case "Marble Dummy":
 		%obj = new Marble("MarbleDummy") {
 			dataBlock = "DefaultMarble";
@@ -2968,4 +2994,147 @@ function EWorldEditor::focusOnSelection(%this) {
 	%offset = MatrixMultiply("0 0 0" SPC MatrixRot(%camera.getTransform()), "0 -" @ VectorLen(%size) @ " 0 1 0 0 0");
 	%trans = MatrixMultiply(%trans, %offset);
 	%camera.setTransform(%trans);
+}
+
+function buildDBJson() {
+	if (isObject(DBArray))
+		DBArray.delete();
+	Array(DBArray);
+	for (%i = 0; %i < DataBlockGroup.getCount(); %i++)
+	{
+		%db = DataBlockGroup.getObject(%i);
+		if (%db.shapeFile !$= "")
+		{
+			%so = new ScriptObject() { class = "JSONObject"; };
+			%so.name = %db.getName();
+			%so.type = %db.getClassName();
+			%so.category = %db.superCategory $= "" ? %db.category : (%db.superCategory @ "." @ %db.category);
+			%so.shapefile = %db.shapeFile;
+			%so.skin = %db.skin;
+
+			%fields = Array();
+			%j = 0;
+			while (true)
+			{
+				if (%db.customField[%j, "field"] $= "")
+					break;
+
+				%sofield = new ScriptObject() { class = "JSONObject"; };
+				%sofield.name = %db.customField[%j, "field"];
+				%sofield.type = %db.customField[%j, "type"];
+				%sofield.display = %db.customField[%j, "name"];
+				%sofield.desc = %db.customField[%j, "desc"];
+				%sofield.defaultValue = %db.customField[%j, "default"];
+
+				if (%sofield.type $= "enum") 
+				{
+					%enumfields = Array();
+					%k = 0;
+					while (true)
+					{
+						if (%db.customEnum[%sofield.name, %k, "value"] $= "")
+							break;
+
+						%enumDesc = new ScriptObject() { class = "JSONObject"; };
+						%enumDesc.name = %db.customEnum[%sofield.name, %k, "value"];
+						%enumDesc.display = %db.customEnum[%sofield.name, %k, "name"];
+						%enumfields.addEntry(%enumDesc);
+						%enumfields.__obj[%k] = true;
+						%k++;
+					}
+					%sofield.typeEnums = %enumfields;
+					%sofield.__obj["typeEnums"] = true;
+				}
+
+				if (%sofield.name $= "skin")
+				{
+					%skins = Array();
+					%k = 0;
+					while (true)
+					{
+						if (%db.skin[%k] $= "")
+							break;
+
+						%skinDesc = new ScriptObject() { class = "JSONObject"; };
+						%skinDesc.name = %db.skin[%k];
+						%skinDesc.display = %db.skin[%k];
+						%skins.addEntry(%skinDesc);
+						%skins.__obj[%k] = true;
+						%k++;
+					}
+					if (%skins.getSize() > 0) {
+						%sofield.typeEnums = %skins;
+						%sofield.__obj["typeEnums"] = true;
+						%sofield.type = "enum";
+					}
+				}
+
+				%fields.addEntry(%sofield);
+				%fields.__obj[%j] = true;
+				%j++;
+			}
+
+			%so.fields = %fields;
+			%so.__obj["fields"] = true;
+			DBArray.__obj[DBArray.getSize()] = true;
+			DBArray.addEntry(%so);
+		}
+	}
+	fwrite("platinum/shapedatablocks.json", jsonPrint(DBArray));
+	if (isObject(TLArray))
+		TLArray.delete();
+	Array(TLArray);
+	for (%i = 0; %i < DataBlockGroup.getCount(); %i++)
+	{
+		%db = DataBlockGroup.getObject(%i);
+		if (%db.getClassName() $= "TriggerData") {
+			%so = new ScriptObject() { class = "JSONObject"; };
+			%so.name = %db.getName();
+
+			%fields = Array();
+			%j = 0;
+			while (true)
+			{
+				if (%db.customField[%j, "field"] $= "")
+					break;
+
+				%sofield = new ScriptObject() { class = "JSONObject"; };
+				%sofield.name = %db.customField[%j, "field"];
+				%sofield.type = %db.customField[%j, "type"];
+				%sofield.display = %db.customField[%j, "name"];
+				%sofield.desc = %db.customField[%j, "desc"];
+				%sofield.defaultValue = %db.customField[%j, "default"];
+
+				if (%sofield.type $= "enum") 
+				{
+					%enumfields = Array();
+					%k = 0;
+					while (true)
+					{
+						if (%db.customEnum[%sofield.name, %k, "value"] $= "")
+							break;
+
+						%enumDesc = new ScriptObject() { class = "JSONObject"; };
+						%enumDesc.name = %db.customEnum[%sofield.name, %k, "value"];
+						%enumDesc.display = %db.customEnum[%sofield.name, %k, "name"];
+						%enumfields.addEntry(%enumDesc);
+						%enumfields.__obj[%k] = true;
+						%k++;
+					}
+					%sofield.typeEnums = %enumfields;
+					%sofield.__obj["typeEnums"] = true;
+				}
+
+				%fields.addEntry(%sofield);
+				%fields.__obj[%j] = true;
+				%j++;
+			}
+
+			%so.fields = %fields;
+			%so.__obj["fields"] = true;
+			TLArray.__obj[TLArray.getSize()] = true;
+			TLArray.addEntry(%so);
+		}
+	}
+	fwrite("platinum/triggerdatablocks.json", jsonPrint(TLArray));
 }
