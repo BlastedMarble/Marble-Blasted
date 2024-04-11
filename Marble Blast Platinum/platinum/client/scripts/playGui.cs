@@ -395,24 +395,24 @@ function PlayGui::updateGems(%this, %updateMax) {
 	%this.GemsFoundOneTracked = %one;
 
 	if (%hun != 0 || $pref::GemCounterAlwaysThreeDigits) { // Move the slash and everything over.
-		GemsFoundHundred.setPosition("30 0");
-		GemsFoundTen.setPosition("54 0");
-		GemsFoundOne.setPosition("78 0"); // 78 + 23 = 101
-		GemsSlash.setPosition("101 0"); // 101 + 19 = 20
-		GemsTotalHundred.setPosition("120 0");
-		GemsTotalTen.setPosition("144 0");
-		GemsTotalOne.setPosition("168 0");
+		GemsFoundHundred.setPosition("73 22");
+		GemsFoundTen.setPosition("99 22");
+		GemsFoundOne.setPosition("125 22"); // 78 + 23 = 101
+		GemsSlash.setPosition("150 22"); // 101 + 19 = 20
+		GemsTotalHundred.setPosition("171 22");
+		GemsTotalTen.setPosition("197 22");
+		GemsTotalOne.setPosition("223 22");
 	} else {
-		GemsFoundHundred.setPosition("6 0"); // This shouldn't appear, but it should show here I guess
-		GemsFoundTen.setPosition("30 0");
-		GemsFoundOne.setPosition("54 0");
-		GemsSlash.setPosition("77 0");
-		GemsTotalHundred.setPosition("96 0");
-		GemsTotalTen.setPosition("120 0");
-		GemsTotalOne.setPosition("144 0");
+		GemsFoundHundred.setPosition("47 22"); // This shouldn't appear, but it should show here I guess
+		GemsFoundTen.setPosition("73 22");
+		GemsFoundOne.setPosition("99 22");
+		GemsSlash.setPosition("124 22");
+		GemsTotalHundred.setPosition("145 22");
+		GemsTotalTen.setPosition("171 22");
+		GemsTotalOne.setPosition("197 22");
 	}
 	
-	GemsQuota.setPosition((%max < 10? "157" : (%max < 100? "181" : "205")) + (%hun == 0? -24 : 0) SPC "28");
+	GemsQuota.setPosition((%max < 10? "218" : (%max < 100? "244" : "270")) + (%hun == 0? -26 : 0) SPC "47");
 	// quota is 37 away by default, 120+37=157 144+37=181, -24 if current gems are 2 digit instead of 3 digit
 	if (%maxNeedsToUpdate) {
 		%one = %max % 10;
@@ -426,7 +426,7 @@ function PlayGui::updateGems(%this, %updateMax) {
 			%this.GemsTotalHundredTracked = %hun;
 			%this.GemsTotalTenTracked = %ten;
 			%this.GemsTotalOneTracked = %one;
-			GemsQuota.setPosition("205 28");
+			GemsQuota.setPosition("270 47");
 			GemsTotalTen.setVisible(true);
 			GemsTotalOne.setVisible(true);
 			return;
@@ -474,7 +474,7 @@ function PlayGui::updateBlastBar(%this) {
 	//Empty: 5 5 0   17
 	//Full:  5 5 110 17
 	//Partial: 5 5 (total * 110) 17
-	PG_BlastFill.resize(5, 5, %this.blastValue * 110, 17);
+	PG_BlastFill.resize(11, 9, %this.blastValue * 110, 17);
 	%oldBitmap = PG_BlastFrame.bitmap;
 	if ((($Game::IsMode["challenge"] && $CurrentWeeklyChallenge.tripleBlast) || $MP::PartyTripleBlast))
 		%newBitmap = $usermods @ "/client/ui/game/blastbar_triple";
@@ -1074,16 +1074,16 @@ function PlayGui::updateTimeTravelCountdown(%this) {
 	if (%secondsLeft < 10) {
 		PGCountdownTTFirstDigit.setNumberColor(%one, %color);
 		PGCountdownTTSecondDigit.setNumberColor(%tenths, %color);
-		PGCountdownTTSecondDigit.setPosition("397" + %offsetIfThousandths SPC "0");
+		PGCountdownTTSecondDigit.setPosition("83" + %offsetIfThousandths SPC "22");
 		PGCountdownTTThirdDigit.setNumberColor(%hundredths, %color);
-		PGCountdownTTThirdDigit.setPosition("413" + %offsetIfThousandths SPC "0");
+		PGCountdownTTThirdDigit.setPosition("109" + %offsetIfThousandths SPC "22");
 		PGCountdownTTFourthDigit.setNumberColor(%thousandths, %color);
 		// This shenanigans with three decimal points is ridiculous and I hate it, but I couldn't find a better way to
 		// get the decimal points to layer the way they should otherwise. Our previous solution of repositioning the
 		// decimal point caused it to appear in at the wrong depth which looks very strange in the MBG texture pack. If
 		// there's a way to change the render order of it and keep just one decimal point, that'd be much better!!
 		PGCountdownTTPoint1.setVisible(true);
-		PGCountdownTTPoint1.setPosition("388" + %offsetIfThousandths SPC "0");
+		PGCountdownTTPoint1.setPosition("63" + %offsetIfThousandths SPC "22");
 		PGCountdownTTPoint1.setNumberColor("point", %color);
 		PGCountdownTTPoint2.setVisible(false);
 		PGCountdownTTPoint3.setVisible(false);
@@ -1091,39 +1091,39 @@ function PlayGui::updateTimeTravelCountdown(%this) {
 	} else if (%secondsLeft < 100) {
 		PGCountdownTTFirstDigit.setNumberColor(%ten, %color);
 		PGCountdownTTSecondDigit.setNumberColor(%one, %color);
-		PGCountdownTTSecondDigit.setPosition("391" + %offsetIfThousandths SPC "0");
+		PGCountdownTTSecondDigit.setPosition("69" + %offsetIfThousandths SPC "22");
 		PGCountdownTTThirdDigit.setNumberColor(%tenths, %color);
-		PGCountdownTTThirdDigit.setPosition("413" + %offsetIfThousandths SPC "0");
+		PGCountdownTTThirdDigit.setPosition("109" + %offsetIfThousandths SPC "22");
 		PGCountdownTTFourthDigit.setNumberColor(%hundredths, %color);
 		PGCountdownTTFifthDigit.setNumberColor(%thousandths, %color);
 		PGCountdownTTPoint1.setVisible(false);
 		PGCountdownTTPoint2.setVisible(true);
-		PGCountdownTTPoint2.setPosition("404" + %offsetIfThousandths SPC "0");
+		PGCountdownTTPoint2.setPosition("89" + %offsetIfThousandths SPC "22");
 		PGCountdownTTPoint2.setNumberColor("point", %color);
 		PGCountdownTTPoint3.setVisible(false);
 		%digits = 5;
 	} else {
 		PGCountdownTTFirstDigit.setNumberColor(%hun, %color);
 		PGCountdownTTSecondDigit.setNumberColor(%ten, %color);
-		PGCountdownTTSecondDigit.setPosition("391" + %offsetIfThousandths SPC "0");
+		PGCountdownTTSecondDigit.setPosition("69" + %offsetIfThousandths SPC "0");
 		PGCountdownTTThirdDigit.setNumberColor(%one, %color);
-		PGCountdownTTThirdDigit.setPosition("407" + %offsetIfThousandths SPC "0");
+		PGCountdownTTThirdDigit.setPosition("95" + %offsetIfThousandths SPC "0");
 		PGCountdownTTFourthDigit.setNumberColor(%tenths, %color);
 		PGCountdownTTFifthDigit.setNumberColor(%hundredths, %color);
 		PGCountdownTTSixthDigit.setNumberColor(%thousandths, %color);
 		PGCountdownTTPoint1.setVisible(false);
 		PGCountdownTTPoint2.setVisible(false);
 		PGCountdownTTPoint3.setVisible(true);
-		PGCountdownTTPoint3.setPosition("420" + %offsetIfThousandths SPC "0");
+		PGCountdownTTPoint3.setPosition("115" + %offsetIfThousandths SPC "0");
 		PGCountdownTTPoint3.setNumberColor("point", %color);
 		%digits = 6;
 	}
 	
-	PGCountdownTTImage.setPosition("348" + %offsetIfThousandths SPC "3");
-	PGCountdownTTFirstDigit.setPosition("375" + %offsetIfThousandths SPC "0");
-	PGCountdownTTFourthDigit.setPosition("429" + %offsetIfThousandths SPC "0");
-	PGCountdownTTFifthDigit.setPosition("445" + %offsetIfThousandths SPC "0");
-	PGCountdownTTSixthDigit.setPosition("461" + %offsetIfThousandths SPC "0");
+	PGCountdownTTImage.setPosition("22" + %offsetIfThousandths SPC "34");
+	PGCountdownTTFirstDigit.setPosition("43" + %offsetIfThousandths SPC "22");
+	PGCountdownTTFourthDigit.setPosition("135" + %offsetIfThousandths SPC "22");
+	PGCountdownTTFifthDigit.setPosition("161" + %offsetIfThousandths SPC "22");
+	PGCountdownTTSixthDigit.setPosition("187" + %offsetIfThousandths SPC "22");
 
 	if (!%preciseMode)
 		%digits -= 2;
