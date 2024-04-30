@@ -174,7 +174,6 @@ function initClient() {
 	exec("./scripts/gravity.cs");
 	exec("./scripts/hats.cs");
 	exec("./scripts/camera.cs");
-	exec("./scripts/fireball.cs");
 	exec("./scripts/unlock.cs");
 	exec("./scripts/replay.cs");
 	exec("./scripts/controllerUI.cs");

@@ -98,17 +98,24 @@ new SimGroup(MissionGroup) {
          gravity = "0";
    };
    new InteriorInstance() {
-      position = "-19 -81 -5.0258";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/GetMovingCurves.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-51.482 -134 -8.49965";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/GetMovingCurve2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter1/GetMovingCurve2b.dif";
       showTerrainInside = "0";
    };
    new Trigger(Look) {

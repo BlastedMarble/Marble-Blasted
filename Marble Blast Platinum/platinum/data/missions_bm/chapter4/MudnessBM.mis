@@ -431,7 +431,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-42.3778 -58.5644 -28.8825";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/MudnessBlenderCurve.dif";

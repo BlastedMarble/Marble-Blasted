@@ -107,7 +107,6 @@ function onServerCreated() {
 	exec("./help.cs");
 	exec("./water.cs");
 	exec("./physMod.cs");
-	exec("./fireball.cs");
 	exec("./replay.cs");
 	helpBubbleInit();
 
@@ -1426,10 +1425,6 @@ function GameConnection::createPlayer(%this, %spawnPoint) {
 	%player.assignNewTrailEmitter(1, "WhiteTrail",      "MarbleWhiteTrailEmitter");
 	%player.assignNewTrailEmitter(2, "Splash4",         "Splash4Emitter");
 	%player.assignNewTrailEmitter(3, "TrailBubble",     "MarbleTrailBubbleEmitter");
-	%player.assignNewTrailEmitter(4, "Fireball3",       "Fireball3Emitter");
-	%player.assignNewTrailEmitter(5, "Fireball4_2",     "Fireball4_2Emitter");
-	%player.assignNewTrailEmitter(6, "Fireball3Mega",   "Fireball3MegaEmitter");
-	%player.assignNewTrailEmitter(7, "Fireball4_2Mega", "Fireball4_2MegaEmitter");
 	%player.assignNewTrailEmitter(8, "Snore",           "MarbleSnoreEmitter");
 	%this.sendPlayerId(); //We need to wait for it so send via packUpdate();
 

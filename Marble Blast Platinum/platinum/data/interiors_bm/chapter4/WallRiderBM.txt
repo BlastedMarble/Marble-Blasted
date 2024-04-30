@@ -1,0 +1,67 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/chapter4/WallRiderBM.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/04/29 12:20:53
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        1999
+
+  Surfaces:      1357
+
+  Null Surfaces: 0
+
+  BSP Nodes:     1925
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_EDGE_WHITE
+
+    BM_TILE09_C
+
+    BM_GRID_BLANK1
+
+    BM_GRID_BLANK2
+
+    BM_TILE04_C
+
+    BM_FRICTION_SAND
+
+    BM_STRIPE_CAUTION1
+
+    BM_TRIM
+
+    BM_FRICTION_BOUNCE_MED
+
+    BM_TILE07_C
+
+    BM_TILE11_C
+
+    BM_STRIPE_CAUTION2
+
+    BM_GRID_BLANK3
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

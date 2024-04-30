@@ -87,21 +87,21 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-22.9297 -101.565 -9.488";
+      position = "0 12 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearCurve3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-22.2813 -66.5 -12";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearNewCurve1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-37.7608 -76 -12.0205";
+      position = "0 0 -3.25";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearNewCurve2.dif";
@@ -164,7 +164,7 @@ new SimGroup(MissionGroup) {
          showHelpOnPickup = "0";
    };
    new InteriorInstance() {
-      position = "-37 -84.5 -7.5165";
+      position = "0 12 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearNewCurve2B.dif";
@@ -379,7 +379,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-283.808 197.5 1.7499";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearCurve5.dif";

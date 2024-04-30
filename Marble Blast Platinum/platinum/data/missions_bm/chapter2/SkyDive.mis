@@ -961,7 +961,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "DuctFan_BM";
    };
    new InteriorInstance() {
-      position = "-37.9905 -28.5001 -13";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/SkyDiveCurve1.dif";
@@ -1159,7 +1159,7 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new InteriorInstance() {
-      position = "-46.5 -28.5355 -10.4324";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/SkyDiveTwist1.dif";

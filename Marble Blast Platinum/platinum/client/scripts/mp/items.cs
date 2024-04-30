@@ -206,7 +206,7 @@ function ItemData::_getPowerUpId(%this) {
 		return 5;
 	case "MegaMarbleItem" or "MegaMarbleItem_MBU":
 		return 6;
-	case "AnvilItem" or "AnvilItem_BM":
+	case "AnvilItem" or "AnvilItem_BM" or "AnvilItem_BMGate":
 		return 8;
 	case "CustomSuperJumpItem_PQ":
 		return 9;

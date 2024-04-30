@@ -198,12 +198,6 @@ datablock AudioProfile(blastSfx) {
 // 	preload = true;
 // };
 
-datablock AudioProfile(fireballSizzleSfx) {
-	filename    = "~/data/sound/fireballSizzle.wav";
-	description = AudioDefault3d;
-	preload = true;
-};
-
 datablock AudioProfile(bubbleSnuffSfx) {
 	filename    = "~/data/sound/bubbleSnuff.wav";
 	description = AudioDefault3d;

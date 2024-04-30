@@ -496,7 +496,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "EndPadEdge_BM";
    };
    new InteriorInstance() {
-      position = "-10.155 -58 -12";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/PathfindingIngenuityMudCurve.dif";
@@ -509,7 +509,7 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
    new InteriorInstance() {
-      position = "-21.375 -45 -59.9975";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/PathfindingIngenuityDualCurves.dif";

@@ -87,57 +87,57 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-9 -33 -8";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "9 33 -8";
+      position = "0 0 0";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-39.825 -39.825 -11";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves45.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-73 9 -16";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "73 -9 -16";
+      position = "40 0 -8";
       rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-85.825 85.825 -11";
-      rotation = "0 0 1 90.0002";
+      position = "-40 0 -8";
+      rotation = "0 0 1 90.0008";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "46 -46 0";
+      rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves45.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "39.825 39.825 -11";
+      position = "0 0 0";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves45.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "85.825 -85.825 -11";
-      rotation = "0 0 -1 89.9996";
+      position = "-46 46 0";
+      rotation = "0 0 1 90.0008";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/RevealingTheGemCurves45.dif";
       showTerrainInside = "0";

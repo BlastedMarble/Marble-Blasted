@@ -86,7 +86,7 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
    new InteriorInstance() {
-      position = "-42 -80.5875 -10.6117";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/MinorAscent_BMCurves.dif";

@@ -1,0 +1,47 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/chapter4/WallRiderBMLeftovers.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/04/29 12:34:20
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        40
+
+  Surfaces:      30
+
+  Null Surfaces: 0
+
+  BSP Nodes:     19
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_EDGE_WHITE
+
+    BM_GRID_BLANK1
+
+    BM_GRID_BLANK2
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

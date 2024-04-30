@@ -646,7 +646,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "EndPadEdge_BM";
    };
    new InteriorInstance() {
-      position = "-24.971 -61.2527 -16.6151";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/RageAgainstTimeCurve.dif";

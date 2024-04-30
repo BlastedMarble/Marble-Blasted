@@ -61,8 +61,8 @@ new GuiControl(MainMenuGui) {
 		profile = "GuiDefaultProfile";
 		horizSizing = "right";
 		vertSizing = "bottom";
-		position = "134 24";
-		extent = "384 216";
+		position = "84 24";
+		extent = "480 200";
 		minExtent = "8 8";
 		visible = "1";
 		helpTag = "0";

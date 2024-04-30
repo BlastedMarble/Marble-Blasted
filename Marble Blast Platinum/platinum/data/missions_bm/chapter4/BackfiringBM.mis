@@ -4,16 +4,17 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          artist = "James C.";
-         awesomeTime = "25000";
+         awesomeTime = "30000";
          desc = "Use the Super Speeds to speed up steep slopes.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "45000";
          level = "1";
          music = "Tim Trance.ogg";
          name = "Backfiring";
-         platinumTime = "37000";
+         platinumTime = "40000";
          type = "Custom";
-         ultimateTime = "31000";
+         ultimateTime = "35000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";
@@ -466,6 +467,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -543,6 +545,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         noParticles = "0";
          noRespawn = "0";
    };
    new Item() {
@@ -663,7 +666,7 @@ new SimGroup(MissionGroup) {
    };
    new InteriorInstance() {
       position = "20 27.75 4.75";
-      rotation = "0.0975499 0.0975495 0.990438 90.5507";
+      rotation = "0.0975499 0.0975495 0.990438 90.5506";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
@@ -784,6 +787,12 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          gravity = "0";
          respawnPoint = "Check3";
+   };
+   new TSStatic() {
+      position = "-39 6 53.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/pads/bm_goal_icon.dts";
    };
 };
 //--- OBJECT WRITE END ---

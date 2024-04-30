@@ -1,0 +1,43 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/chapter4/LedgeTreeBranch.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/04/25 22:13:36
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        408
+
+  Surfaces:      212
+
+  Null Surfaces: 0
+
+  BSP Nodes:     353
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_WOOD
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

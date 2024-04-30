@@ -169,22 +169,13 @@ function updateTrailEmitters() {
 			%show["TrailBubble"] = (%speed > 1 && %follow.bubbleEmitter);
 			%show["Trail"] = false;
 			%show["WhiteTrail"] = false;
-			%show["Fireball3"] = false;
-			%show["Fireball4_2"] = false;
 		} else {
 			if (%follow.fireball) {
-				%show["Fireball3"] = !%mega;
-				%show["Fireball4_2"] = !%mega;
-				%show["Fireball3Mega"] = %mega;
-				%show["Fireball4_2Mega"] = %mega;
 				%show["Trail"] = false;
 				%show["WhiteTrail"] = false;
 			} else {
 				%show["Trail"] = (%speed > $TrailEmitterSpeed && %speed < $TrailEmitterWhiteSpeed);
 				%show["WhiteTrail"] = (%speed > $TrailEmitterWhiteSpeed);
-				%show["Fireball3"] = false;
-				%show["Fireball4_2"] = false;
-				%show["Fireball5"] = false;
 			}
 			//These are always false if not in water
 			%show["Splash4"] = false;
@@ -209,10 +200,6 @@ function updateTrailEmitters() {
 			%show["Snore"] = false;
 			%show["Splash4"] = false;
 			%show["TrailBubble"] = false;
-			%show["Fireball3"] = false;
-			%show["Fireball4_2"] = false;
-			%show["Fireball3Mega"] = false;
-			%show["Fireball4_2Mega"] = false;
 		}
 
 		//Need to call it this because %show == %show[""] and if %obj.type is unset

@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          goldTime = "85000";
-         level = "12";
+         level = "11";
          name = "Paradise Storm";
          platinumTime = "75000";
          type = "Custom";
@@ -716,7 +716,7 @@ new SimGroup(MissionGroup) {
          timeBonus = "2000";
    };
    new InteriorInstance() {
-      position = "-51.5 -81 -25.6242";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter2/ParadiseStormBlenderCurves.dif";

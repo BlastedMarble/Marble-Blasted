@@ -3,11 +3,10 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
-         GemQuota = "5";
          artist = "Your name here";
          desc = "Simply indescribable.";
          game = "Blasted";
-         gameMode = "quota";
+         gameMode = "null";
          level = "6";
          music = "Tim Trance.ogg";
          name = "Violette";
@@ -432,49 +431,49 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-32.3843 -31.6762 -11.0122";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve2.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-31.1579 -35.5 -19";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-55.0565 -61.165 -10.5";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve4.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-37.5035 -61.5 -5.8516";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-20.5 -53 -6";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve6.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-20.293 -29.5 -9.5";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve7.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-43.5 -34 -9.02685";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/VioletteBlenderCurve1.dif";
@@ -1117,7 +1116,7 @@ new SimGroup(MissionGroup) {
    };
    new StaticShape() {
       position = "-34 9.25 6.25";
-      rotation = "-0.0975495 0.990438 -0.0975499 90.5507";
+      rotation = "-0.0975496 0.990438 -0.09755 90.5505";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
    };
@@ -1316,6 +1315,90 @@ new SimGroup(MissionGroup) {
       scale = "4 0 6";
       dataBlock = "FinishTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
+   new Item() {
+      position = "-28 -28 4";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "2";
+         timeBonus = "2000";
+   };
+   new Item() {
+      position = "-14 27.25 4.25";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "5";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "4.5 5 10";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "4";
+         timeBonus = "4000";
+   };
+   new Item() {
+      position = "-26.75 -6 2.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "3";
+         timeBonus = "3000";
+   };
+   new Item() {
+      position = "-2 -28 11.25";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "5";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "23 14.75 15.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "6";
+         timeBonus = "6000";
+   };
+   new Item() {
+      position = "-31.5 57.5 0";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+         skin = "2";
+         timeBonus = "2000";
    };
 };
 //--- OBJECT WRITE END ---

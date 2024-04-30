@@ -1,0 +1,49 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/chapter4/LedgeWheel2.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/04/29 14:23:59
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        2333
+
+  Surfaces:      1219
+
+  Null Surfaces: 0
+
+  BSP Nodes:     963
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_FRICTION_GRASS
+
+    BM_TRIM
+
+    BM_FRICTION_ICE
+
+    BM_EDGE_MP2
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

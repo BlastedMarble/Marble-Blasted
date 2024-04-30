@@ -7,9 +7,9 @@ new SimGroup(MissionGroup) {
          desc = "Ascend the sanctuary towers as you reach the end of this haven filled with bouncy floors and mud areas.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "105000";
          level = "12";
          name = "Sanctuary Towers";
-         goldTime = "105000";
          platinumTime = "90000";
          type = "Custom";
          ultimateTime = "75000";
@@ -2568,7 +2568,7 @@ new SimGroup(MissionGroup) {
       rotate = "1";
    };
    new InteriorInstance() {
-      position = "-141.45 -41.9 -97";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersWoodArch.dif";
@@ -2587,7 +2587,7 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/hazards/fadeMTA_bm.dts";
    };
    new InteriorInstance() {
-      position = "-167.898 27.444 -97";
+      position = "-126 -114 0";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersWoodArch.dif";
@@ -2750,14 +2750,14 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
    };
    new InteriorInstance() {
-      position = "-121.903 155.449 -83";
+      position = "-80 14 14";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersWoodArch.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-95.455 86.105 -83";
+      position = "46 128 14";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersWoodArch.dif";

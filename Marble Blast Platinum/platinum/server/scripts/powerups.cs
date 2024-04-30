@@ -1906,6 +1906,29 @@ function AnvilItem_BM::getData(%this, %obj) {
 	return "";
 }
 
+datablock ItemData(AnvilItem_BMGate : AnvilItem) {
+	// Mission editor category
+	superCategory = "PowerUps";
+	category = "Blasted";
+	
+	powerUpId = 8;
+
+	activeAudio = DoAnvilSfx;
+	pickupAudio = PuAnvilVoiceSfx;
+
+	// Basic Item properties
+	shapeFile = "~/data/shapes_bm/Powerups/AnvilGate_bm.dts";
+	mass = 1;
+	friction = 1;
+	elasticity = 0.3;
+
+	
+};
+
+function AnvilItem_BMGate::getData(%this, %obj) {
+	return "";
+}
+
 //-----------------------------------------------------------------------------
 
 

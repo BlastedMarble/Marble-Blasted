@@ -96,21 +96,21 @@ new SimGroup(MissionGroup) {
          gravity = "0";
    };
    new InteriorInstance() {
-      position = "-35.385 -52.5 -11";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SlopeMomentum_BMCurve1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-90.5 -35.2675 -32.375";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SlopeMomentum_BMCurve2.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-71.8565 -77.8563 -37.1665";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SlopeMomentum_BMCurve3.dif";

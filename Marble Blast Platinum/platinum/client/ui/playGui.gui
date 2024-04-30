@@ -1921,8 +1921,8 @@ new GuiControl(PlayGui) {
 				profile = "GuiDefaultProfile";
 				horizSizing = "left";
 				vertSizing = "top";
-				position = "41 285";
-				extent = "96 64";
+				position = "28 285";
+				extent = "109 64";
 				minExtent = "8 8";
 				visible = "1";
 				helpTag = "0";

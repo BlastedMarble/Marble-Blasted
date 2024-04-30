@@ -1,0 +1,65 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/chapter2/SpiralingBlues.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/04/28 13:05:13
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        3248
+
+  Surfaces:      1823
+
+  Null Surfaces: 0
+
+  BSP Nodes:     2080
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_EDGE_WHITE
+
+    BM_TILE07_D
+
+    BM_GRID_BLANK4
+
+    BM_STRIPE_CAUTION2
+
+    BM_TILE08_D
+
+    BM_FRICTION_BOUNCE_MED
+
+    BM_FRICTION_ICE
+
+    BM_FRICTION_SAND
+
+    BM_FRICTION_GRASS
+
+    SOLID_BM
+
+    BM_GRID_BLANK2
+
+    BM_FRICTION_BOUNCE_LOW
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

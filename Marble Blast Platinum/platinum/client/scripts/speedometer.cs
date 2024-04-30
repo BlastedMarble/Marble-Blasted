@@ -35,8 +35,8 @@ function PlayGui::updateSpeedometer(%this) {
 
 	//Do we need to show the hundred's place?
 	if (%velocity < 100) {
-		PGSPDDigitOne.setPosition("39 0");
-		PGSPDDigitTen.setPosition("13 0");
+		PGSPDDigitOne.setPosition("52 0");
+		PGSPDDigitTen.setPosition("26 0");
 		PGSPDDigitHun.setVisible(false);
 	} else {
 		PGSPDDigitOne.setPosition("52 0");

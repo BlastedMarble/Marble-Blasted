@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          fanStrength = "25";
          game = "Blasted";
          gameMode = "null haste";
-         level = "11";
+         level = "12";
          name = "Impulse";
          goldTime = "90000";
          platinumTime = "75000";
