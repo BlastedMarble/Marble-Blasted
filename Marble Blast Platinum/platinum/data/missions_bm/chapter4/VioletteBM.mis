@@ -39,7 +39,7 @@ new SimGroup(MissionGroup) {
       fogVolume1 = "-1 7.45949e-031 1.3684e-038";
       fogVolume2 = "-1 1.07208e-014 8.756e-014";
       fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-      materialList = "~/data/skies_bm/Mist/sky_day.dml";
+      materialList = "~/data/skies_bm/Cloudy/sky_day.dml";
       windVelocity = "1 0 0";
       windEffectPrecipitation = "0";
       noRenderBans = "1";
@@ -48,8 +48,8 @@ new SimGroup(MissionGroup) {
       fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
    };
    new Sun() {
-      direction = "0.147708 0.598084 -0.787704";
-      color = "0.800000 0.800000 0.800000 1.000000";
+      direction = "0 0 -1";
+      color = "0.500000 0.500000 0.500000 1.000000";
       ambient = "0.300000 0.300000 0.400000 1.000000";
    };
    new SimGroup(PathNodeGroup) {

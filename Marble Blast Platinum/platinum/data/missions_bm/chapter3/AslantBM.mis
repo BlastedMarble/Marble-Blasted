@@ -136,7 +136,7 @@ new SimGroup(MissionGroup) {
    };
    new Sun() {
       direction = "0.6 0 -0.8";
-      color = "0.150000 0.150000 0.150000 1.000000";
+      color = "0.200000 0.200000 0.200000 1.000000";
       ambient = "0.050000 0.050000 0.100000 1.000000";
    };
    new SimGroup(PathNodeGroup) {

@@ -36,6 +36,9 @@
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
     },
+    "BMSpecMaterial": {
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
+    },
     "BMBlankTileMaterial": {
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_grid_blank.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
@@ -133,6 +136,7 @@
     "platinum/data/interiors_bm/bm_tile11_B": "BMTileMaterial",
     "platinum/data/interiors_bm/bm_tile11_C": "BMTileMaterial",
     "platinum/data/interiors_bm/bm_tile11_D": "BMTileMaterial",
+    "platinum/data/interiors_bm/bm_trim": "BMTileMaterial",
     "platinum/data/interiors_bm/bm_friction_bounce_high": "BMBounceMaterial",
     "platinum/data/interiors_bm/bm_friction_bounce_low": "BMBounceMaterial",
     "platinum/data/interiors_bm/bm_friction_bounce_med": "BMBounceMaterial",
@@ -154,6 +158,12 @@
     "platinum/data/interiors_bm/bm_friction_sand": "BMSandMaterial",
     "platinum/data/interiors_bm/bm_friction_snow": "BMSnowMaterial",
     "platinum/data/interiors_bm/bm_edge_white": "BMEdgeMaterial",
+    "platinum/data/interiors_bm/bm_stripe_caution1": "BMSpecMaterial",
+    "platinum/data/interiors_bm/bm_stripe_caution2": "BMSpecMaterial",
+    "platinum/data/interiors_bm/bm_stripe_caution3": "BMSpecMaterial",
+    "platinum/data/interiors_bm/bm_icon_propulsion": "BMSpecMaterial",
+    "platinum/data/interiors_bm/bm_icon_repulsion": "BMSpecMaterial",
+    "platinum/data/interiors_bm/metal_bm": "BMSpecMaterial",
     "platinum/data/interiors_bm/bm_edge_mp1": "BMEdgeMPMaterial",
     "platinum/data/interiors_bm/bm_edge_mp2": "BMEdgeMPMaterial"
   }
