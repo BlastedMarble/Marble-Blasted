@@ -30,9 +30,6 @@
 // core function for loading leaderboards
 function initLeaderboards() {
 
-	// Unload all marbleland packages or else bruh shit happens
-	marblelandUnloadMissions();
-
 	// delete old leaderboard stuff before making a new one
 	doCloseLeaderboards();
 
@@ -140,8 +137,6 @@ function closeLeaderboards() {
 	// Schedule this on the next frame to prevent memory corruption from the gui being deleted (#631)
 	onNextFrame(doCloseLeaderboards);
 
-	// Reload Marbleland cause bruh
-	marblelandReloadMissions();
 }
 
 function doCloseLeaderboards() {

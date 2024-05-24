@@ -51,11 +51,6 @@ function getMissionList(%type) {
 			superClass = "MissionList";
 		};
 		%list.addNamespace("ServerMissionList");
-	case "marbleland":
-		%list = new ScriptObject() {
-			class = "MarblelandMissionList";
-			superClass = "MissionList";
-		};
 	default:
 		%list = new ScriptObject() {
 			class = "OfflineMissionList";

@@ -860,7 +860,7 @@ function colorify(%message, %access, %shadow) {
 			if ($LB::Color[%color] !$= "")
 				%color = $LB::Color[%color];
 
-			%replacement = (%access < 1 ? "" : ("<color:" @ %color @ ">") : "");
+			%replacement = (%access < 1 ? "" : ("<color:" @ %color @ ">"));
 			%message = getSubStr(%message, 0, %start) @ %replacement @ getSubStr(%message, %stop + 1, strLen(%message));
 			continue;
 		}
