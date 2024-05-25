@@ -238,8 +238,8 @@ function initClient() {
 	reloadTexturePacks();
 
 	// Initialize Discord integration
-	initDiscord("378414884959944705");
-	setLargeDiscordImage("logo_new");
+	initDiscord("1244030423454060574");
+	setLargeDiscordImage("BM_icon");
 
 	//Covers stuff defined as marble/data/interiors/stuff.dif
 	addDirectoryOverride("marble/data/interiors/", "platinum/data/interiors_mbg/");
