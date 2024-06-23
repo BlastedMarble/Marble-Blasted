@@ -3,3 +3,8 @@ map_Kd bm_edge_white.png
 Kd 1 1 1
 d 1
 
+newmtl bm_edge_white_doublevert
+map_Kd bm_edge_white_doublevert.png
+Kd 1 1 1
+d 1
+

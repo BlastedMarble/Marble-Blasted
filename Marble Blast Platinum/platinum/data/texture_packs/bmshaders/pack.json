@@ -47,6 +47,18 @@
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_edge.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
     },
+    "BMEdgeHalfMaterial": {
+      "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_edge_half.normal",
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
+    },
+    "BMEdgeDoubleHorizMaterial": {
+      "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_edge_doublehoriz.normal",
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
+    },
+    "BMEdgeDoubleVertMaterial": {
+      "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_edge_doublevert.normal",
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
+    },
     "BMEdgeMPMaterial": {
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_edge_mp.normal",
       "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/tile_bm.spec"
@@ -158,6 +170,9 @@
     "platinum/data/interiors_bm/bm_friction_sand": "BMSandMaterial",
     "platinum/data/interiors_bm/bm_friction_snow": "BMSnowMaterial",
     "platinum/data/interiors_bm/bm_edge_white": "BMEdgeMaterial",
+    "platinum/data/interiors_bm/bm_edge_white_half": "BMEdgeHalfMaterial",
+    "platinum/data/interiors_bm/bm_edge_white_doublehoriz": "BMEdgeDoubleHorizMaterial",
+    "platinum/data/interiors_bm/bm_edge_white_doublevert": "BMEdgeDoubleVertMaterial",
     "platinum/data/interiors_bm/bm_stripe_caution1": "BMSpecMaterial",
     "platinum/data/interiors_bm/bm_stripe_caution2": "BMSpecMaterial",
     "platinum/data/interiors_bm/bm_stripe_caution3": "BMSpecMaterial",

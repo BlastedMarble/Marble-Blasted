@@ -50,14 +50,14 @@ new SimGroup(MissionGroup) {
       fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
    };
    new Sun() {
-         direction = "-0.48795 0 -0.872872";
+      direction = "-0.48795 0 -0.872872";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
    new SimGroup(PathNodeGroup) {
 
       new StaticShape(Path2B) {
-         position = "3.28977 16.5356 22.6901";
+         position = "3.28976 16.5356 22.6901";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathNode";
@@ -80,7 +80,7 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Path2A) {
-         position = "5.90355 14.6625 22.4191";
+         position = "6.54717 15.3107 22.4191";
          rotation = "0 0 1 180";
          scale = "1 1 1";
          dataBlock = "PathNode";
@@ -103,7 +103,7 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(path1b) {
-         position = "16.2563 14.7515 22.121";
+         position = "16.8999 15.3997 22.121";
          rotation = "0 0 1 180";
          scale = "1 1 1";
          dataBlock = "PathNode";
@@ -540,28 +540,28 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-5.5 25.5 11.5";
+      position = "-5.25 25.5 11.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/PrecipiceTrimCurve180.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "11 21 20";
+      position = "7 21 20";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_hurdleCenter.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "5 23 20";
+      position = "1 23 20";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_hurdleCenter.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance(HurdleCCW) {
-      position = "11 21 20";
+      position = "7 21 20";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_hurdle1-5.dif";
@@ -569,7 +569,7 @@ new SimGroup(MissionGroup) {
          Path = "Path1A";
    };
    new InteriorInstance(HurdleCW) {
-      position = "5 23 20";
+      position = "1 23 20";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_hurdle1-5.dif";
@@ -601,8 +601,8 @@ new SimGroup(MissionGroup) {
          timeBonus = "4000";
    };
    new Item() {
-      position = "11.1423 22.9949 20";
-      rotation = "0 0 -1 85.9198";
+      position = "6.32451 22.8825 20";
+      rotation = "0 0 -1 109.739";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem_BM";
       collideable = "0";
@@ -617,8 +617,8 @@ new SimGroup(MissionGroup) {
          timeBonus = "2000";
    };
    new Item() {
-      position = "4.8577 24.9949 20";
-      rotation = "0 0 -1 94.0798";
+      position = "1.67552 24.8825 20";
+      rotation = "0 0 -1 70.2594";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem_BM";
       collideable = "0";
@@ -855,9 +855,9 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
    new TSStatic() {
-      position = "15 20.75 22.75";
-      rotation = "0 0 1 213.75";
-      scale = "0.5 0.5 0.5";
+      position = "19.5 20.75 21.1";
+      rotation = "0 0 1 157.5";
+      scale = "0.2 0.2 0.2";
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
    };
    new Trigger(Bounds) {
@@ -901,6 +901,12 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new StaticShape() {
+      position = "19 20.5 20.45";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
    };
 };
 //--- OBJECT WRITE END ---
