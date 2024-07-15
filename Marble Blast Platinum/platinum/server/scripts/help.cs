@@ -27,10 +27,7 @@
 datablock StaticShapeData(HelpBubble) {
 	className = "LevelParts";
 	category = "Help";
-	shapeFile = "platinum/data/shapes_pq/Gameplay/HelpBubble.dts";
-	skinpass = true;
-	skin[0] = "base";
-	skin[1] = "blue";
+	shapeFile = "platinum/data/shapes_bm/signs/bm_hintscreen.dts";
 
 	customField[0, "field"  ] = "text";
 	customField[0, "type"   ] = "string";
@@ -85,13 +82,6 @@ function HelpBubble::onAdd(%this, %obj) {
 		%obj.persistTime = 2000;
 	if (%obj.displayOnce $= "") // if we should only display the help bubble once.
 		%obj.displayOnce = 0;
-
-	if (%obj.disable)
-		%obj.setSkinName(%obj.skin);
-	else if (%obj.extended)
-		%obj.setSkinName('blue');
-	else
-		%obj.setSkinName('base');
 
 	%obj.playThread(0, "bubble", 1);
 }

@@ -1475,7 +1475,7 @@ new GuiControl(PlayGui) {
 		new GuiMLTextCtrl(PGScorePredictor) {
 			profile = "GuiMLTextProfile";
 			horizSizing = "right";
-			position = "100 50";
+			position = "200 150";
 			extent = "235 14";
 			minExtent = "8 8";
 			visible = "1";

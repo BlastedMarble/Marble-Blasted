@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 new GuiControlProfile(MenuButtonProfile : PQButtonProfile) {
-	fontType = "Segoe UI Black";
+	fontType = "Roboto Black";
 	fontSize = "60";
 	fontColor = "241 242 242 255";
 	fontColorNA = "160 160 160 255";

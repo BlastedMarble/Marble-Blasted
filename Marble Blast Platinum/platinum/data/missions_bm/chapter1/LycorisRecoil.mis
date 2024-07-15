@@ -15,41 +15,107 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "25000";
    };
-   new MissionArea(MissionArea) {
-      area = "-360 -648 720 1296";
-      flightCeiling = "300";
-      flightCeilingRange = "20";
-         locked = "true";
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape(superbounce) {
+         position = "-28 -4 -1.5";
+         rotation = "0 0 1 180";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Use the Super Bounce to grant you the ability to bounce higher from floors.";
+            triggerRadius = "3";
+      };
+      new StaticShape(Ice) {
+         position = "-22 -36 -3.5";
+         rotation = "0 0 1 89.9996";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "The ice has the least traction of all the friction surfaces. So be very careful when navigating it, especially in slopes.";
+            triggerRadius = "3";
+      };
+      new StaticShape(shockAbsorber) {
+         position = "0 -31 -5.5";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Use the Shock Absorber to fall to floors without bouncing.";
+            triggerRadius = "3";
+      };
+      new StaticShape(SandWall) {
+         position = "8 26 -7.5";
+         rotation = "0 0 1 90.0002";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Jump and ram into the sand wall to gain more height from rolling up it. You can do this while using the Shock Absorber on normal walls, too.";
+            triggerRadius = "3";
+      };
    };
-   new Sky(Sky) {
-      position = "0 0 0";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      cloudHeightPer[0] = "0";
-      cloudHeightPer[1] = "0";
-      cloudHeightPer[2] = "0";
-      cloudSpeed1 = "0.0001";
-      cloudSpeed2 = "0.0002";
-      cloudSpeed3 = "0.0003";
-      visibleDistance = "500";
-      useSkyTextures = "1";
-      renderBottomTexture = "1";
-      SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
-      fogDistance = "300";
-      fogColor = "0.600000 0.600000 0.600000 1.000000";
-      fogVolume1 = "-1 7.45949e-031 1.3684e-038";
-      fogVolume2 = "-1 1.07208e-014 8.756e-014";
-      fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-      materialList = "~/data/skies_bm/Day/sky_day.dml";
-      windVelocity = "1 0 0";
-      windEffectPrecipitation = "0";
-      noRenderBans = "1";
-      fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
-      fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
-      fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+   new TSStatic() {
+      position = "18 26 -1.15";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new SimGroup(MissionData) {
+
+      new MissionArea(MissionArea) {
+         area = "-360 -648 720 1296";
+         flightCeiling = "300";
+         flightCeilingRange = "20";
+            locked = "true";
+      };
+      new Sky(Sky) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         cloudHeightPer[0] = "0";
+         cloudHeightPer[1] = "0";
+         cloudHeightPer[2] = "0";
+         cloudSpeed1 = "0.0001";
+         cloudSpeed2 = "0.0002";
+         cloudSpeed3 = "0.0003";
+         visibleDistance = "500";
+         useSkyTextures = "1";
+         renderBottomTexture = "1";
+         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
+         fogDistance = "300";
+         fogColor = "0.600000 0.600000 0.600000 1.000000";
+         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
+         fogVolume2 = "-1 1.07208e-014 8.756e-014";
+         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
+         materialList = "~/data/skies_bm/Day/sky_day.dml";
+         windVelocity = "1 0 0";
+         windEffectPrecipitation = "0";
+         noRenderBans = "1";
+         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
+         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
+         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      };
+   };
+   new TSStatic() {
+      position = "0 0 10.85";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
    new Sun() {
-         direction = "-0.48795 0 -0.872872";
+      direction = "-0.48795 0 -0.872872";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
@@ -597,18 +663,6 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
-   };
-   new TSStatic() {
-      position = "18 26 -1.15";
-      rotation = "0 0 1 90.0002";
-      scale = "0.7 0.7 0.7";
-      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
-   };
-   new TSStatic() {
-      position = "0 0 10.85";
-      rotation = "0 0 1 90.0002";
-      scale = "0.7 0.7 0.7";
-      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
 };
 //--- OBJECT WRITE END ---

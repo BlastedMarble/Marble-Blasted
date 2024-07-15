@@ -40,7 +40,7 @@ new SimGroup(MissionGroup) {
       fogVolume1 = "-1 7.45949e-031 1.3684e-038";
       fogVolume2 = "-1 1.07208e-014 8.756e-014";
       fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-      materialList = "~/data/skies_bm/Altitude/sky_day.dml";
+      materialList = "~/data/skies_bm/Noon/sky_day.dml";
       windVelocity = "1 0 0";
       windEffectPrecipitation = "0";
       noRenderBans = "1";
@@ -49,7 +49,7 @@ new SimGroup(MissionGroup) {
       fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
    };
    new Sun() {
-      direction = "0.376114 0.621561 -0.687168";
+      direction = "0 0 -1";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.400000 0.400000 0.500000 1.000000";
    };
@@ -723,7 +723,7 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
    new InteriorInstance() {
-      position = "0 0 0";
+      position = "-60.5 88 -32.5";
       rotation = "7.38917e-006 -7.3892e-006 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/GravitationalismTwist.dif";
@@ -775,13 +775,13 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "-8 10.5505 9.94959";
-      rotation = "-0.357401 -0.357402 0.862861 98.4214";
+      rotation = "-0.357401 -0.357402 0.862861 98.4215";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/AntiGravityGate_icon_bm.dts";
    };
    new TSStatic() {
       position = "-8 7.75736 8.50006";
-      rotation = "-0.357401 0.357402 -0.862861 98.4214";
+      rotation = "-0.357401 0.357402 -0.862861 98.4215";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
@@ -849,7 +849,7 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "10 8.08033 10.1236";
-      rotation = "-0.191471 0.191478 -0.96264 92.1815";
+      rotation = "-0.191471 0.191478 -0.96264 92.1816";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
@@ -1163,7 +1163,7 @@ new SimGroup(MissionGroup) {
          timeBonus = "4000";
    };
    new Item() {
-      position = "-32 0 15.7281";
+      position = "-32 0 16.8288";
       rotation = "0 -1 0 90";
       scale = "3 3 3";
       dataBlock = "GemItemPurple_BM";
@@ -1267,7 +1267,7 @@ new SimGroup(MissionGroup) {
    };
    new InteriorInstance() {
       position = "15.5 36.75 27.5";
-      rotation = "-0.919004 -0.278778 0.278775 94.834";
+      rotation = "-0.919004 -0.278778 0.278775 94.8341";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
@@ -1281,7 +1281,7 @@ new SimGroup(MissionGroup) {
    };
    new InteriorInstance() {
       position = "-7.5 36.75 27.5";
-      rotation = "-0.919005 0.278769 -0.27878 94.8345";
+      rotation = "-0.919005 0.278769 -0.27878 94.8346";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";

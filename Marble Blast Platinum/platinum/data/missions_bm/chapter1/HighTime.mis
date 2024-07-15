@@ -15,30 +15,6 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "20000";
    };
-   new SimGroup(SceneryGroup) {
-
-      new StaticShape() {
-         position = "-8.875 5 21.5";
-         rotation = "0 0 1 90.0002";
-         scale = "4 1 3";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "-3.125 5 21.5";
-         rotation = "0 0 1 90.0002";
-         scale = "4 1 3";
-         dataBlock = "Glass_BM";
-      };
-   };
-   new StaticShape(check1) {
-      position = "-12 18 14.51";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      dataBlock = "Checkpoint_BM";
-         chkcollide = "1";
-         disableOOB = "0";
-         gravity = "1";
-   };
    new SimGroup(MissionData) {
 
       new MissionArea(MissionArea) {
@@ -75,6 +51,69 @@ new SimGroup(MissionGroup) {
          fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
       };
    };
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape(superjump) {
+         position = "12 10 3.45";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Grab the Super Jump and use it to jump higher than you would from a regular jump.";
+            triggerRadius = "3";
+      };
+      new StaticShape(Elevator) {
+         position = "1.4732e-006 23.75 8.2";
+         rotation = "0 0 1 180";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Roll on to the blue platform to activate the elevator.";
+            triggerRadius = "3";
+      };
+      new StaticShape(TriggeredMovers) {
+         position = "0 -2 20.2";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Triggered movers are usually indicated via side trims with a blue line in the center.";
+            triggerRadius = "3";
+      };
+   };
+   new SimGroup(SceneryGroup) {
+
+      new StaticShape() {
+         position = "-8.875 5 21.5";
+         rotation = "0 0 1 90.0002";
+         scale = "4 1 3";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "-3.125 5 21.5";
+         rotation = "0 0 1 90.0002";
+         scale = "4 1 3";
+         dataBlock = "Glass_BM";
+      };
+   };
+   new StaticShape(check1) {
+      position = "-12 18 14.51";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
    new Trigger(CheckP1) {
       position = "-15 21 14.5";
       rotation = "1 0 0 0";
@@ -85,7 +124,7 @@ new SimGroup(MissionGroup) {
          respawnPoint = "Check1";
    };
    new Sun() {
-         direction = "-0.48795 0 -0.872872";
+      direction = "-0.48795 0 -0.872872";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
@@ -443,6 +482,7 @@ new SimGroup(MissionGroup) {
          basePosition = "0 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
+            delayTargetTime = "0";
             initialTargetPosition = "0";
       };
    };
@@ -517,6 +557,7 @@ new SimGroup(MissionGroup) {
          basePosition = "0 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
+            delayTargetTime = "0";
             initialTargetPosition = "0";
       };
    };

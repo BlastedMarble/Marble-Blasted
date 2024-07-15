@@ -9970,15 +9970,15 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-48 -30 0";
-      rotation = "0 -1 0 90.0002";
+      position = "-48 0 0";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-48 0 0";
-      rotation = "0 -1 0 90.0002";
+      position = "-48 30 0";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
@@ -9991,8 +9991,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-48 30 0";
-      rotation = "0 -1 0 90.0002";
+      position = "-30 48 0";
+      rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
@@ -10005,8 +10005,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "52 0 0";
-      rotation = "0 -1 0 90.0002";
+      position = "52 -30 0";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
@@ -10019,8 +10019,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "52 -30 0";
-      rotation = "0 -1 0 90.0002";
+      position = "30 -52 0";
+      rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
@@ -10033,56 +10033,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-30 48 0";
-      rotation = "0.577352 0.57735 -0.57735 240";
+      position = "0 48 0";
+      rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
       position = "-30 52 0";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "0 48 0";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "0 52 0";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "0 -52 0";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "0 -48 0";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-30 -52 0";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-30 -48 0";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
@@ -10096,8 +10054,50 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "30 -52 0";
-      rotation = "0.577352 0.57735 -0.57735 240";
+      position = "0 52 0";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-30 -52 0";
+      rotation = "0 0 -1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 -48 0";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-48 -30 0";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-30 -48 0";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 -52 0";
+      rotation = "0 0 -1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "52 0 0";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/hunt/DesertionBridgeArch.dif";
       showTerrainInside = "0";

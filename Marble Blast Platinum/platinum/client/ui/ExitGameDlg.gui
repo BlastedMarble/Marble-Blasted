@@ -427,7 +427,7 @@ new GuiControl(ExitGameDlg) {
 				command = "ExitGameDlg.close(); ExitGameDlg.end();";
 				accelerator = "return";
 				helpTag = "0";
-				text = "           Exit";
+				text = "       Exit Level";
 				groupNum = "-1";
 				buttonType = "PushButton";
 				repeatPeriod = "1000";
@@ -444,7 +444,7 @@ new GuiControl(ExitGameDlg) {
 				visible = "1";
 				command = "ExitGameDlg.toggleExtras();";
 				helpTag = "0";
-				text = "           Extras";
+				text = "       Extras";
 				groupNum = "-1";
 				buttonType = "PushButton";
 				repeatPeriod = "1000";
@@ -462,7 +462,7 @@ new GuiControl(ExitGameDlg) {
 				command = "hideControllerUI(); ExitGameDlg.close(); resumeGame();";
 				accelerator = "escape";
 				helpTag = "0";
-				text = "           Resume";
+				text = "       Resume";
 				groupNum = "-1";
 				buttonType = "PushButton";
 				repeatPeriod = "1000";
@@ -479,7 +479,7 @@ new GuiControl(ExitGameDlg) {
 				visible = "1";
 				command = "hideControllerUI(); ExitGameDlg.close(); resumeGame(); restartLevel(true);";
 				helpTag = "0";
-				text = "           Restart";
+				text = "       Restart";
 				groupNum = "-1";
 				buttonType = "PushButton";
 				repeatPeriod = "1000";
@@ -496,7 +496,7 @@ new GuiControl(ExitGameDlg) {
 				visible = "1";
 				command = "OptionsGui.show(\"exit\");";
 				helpTag = "0";
-				text = "           Options";
+				text = "       Settings";
 				groupNum = "-1";
 				buttonType = "PushButton";
 				repeatPeriod = "1000";
