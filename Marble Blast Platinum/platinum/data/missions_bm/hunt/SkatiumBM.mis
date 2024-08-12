@@ -15,8 +15,8 @@ new SimGroup(MissionGroup) {
          maxGemsPerSpawn = "9";
          name = "Skatium";
          platinumScore = "95";
-         radiusFromGem = "35";
-         spawnBlock = "70";
+         radiusFromGem = "40";
+         spawnBlock = "80";
          type = "Custom";
          ultimateScore = "120";
    };

@@ -955,6 +955,10 @@ datablock StaticShapeData(Glass_BM : Window01) {
 	shapeFile = "~/data/shapes_bm/scenery/bm_glass.dts";
 };
 
+datablock StaticShapeData(GlassSlope_BM : Window01) {
+	shapeFile = "~/data/shapes_bm/scenery/bm_glass_slope.dts";
+};
+
 
 //-----------------------------------------------------------------------
 //----------------END OF WINDOWS-----------------------------------------

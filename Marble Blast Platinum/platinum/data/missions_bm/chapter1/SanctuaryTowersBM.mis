@@ -144,7 +144,7 @@ new SimGroup(MissionGroup) {
       rotate = "1";
    };
    new Sun() {
-         direction = "-0.48795 0 -0.872872";
+      direction = "-0.48795 0 -0.872872";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
@@ -1134,7 +1134,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-10.75 -3.5 -12.5";
+      position = "14.25 13.5 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1155,7 +1155,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-10.75 -3.5 11.5";
+      position = "14.25 13.5 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1169,14 +1169,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-10.75 -3.5 35.5";
+      position = "14.25 13.5 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-67.25 -60 -12.5";
+      position = "-42.25 -43 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1197,7 +1197,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-67.25 -60 11.5";
+      position = "-42.25 -43 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1211,7 +1211,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-67.25 -60 35.5";
+      position = "-42.25 -43 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1232,14 +1232,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-67.25 -60 59.5";
+      position = "-42.25 -43 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 59.5";
+      position = "-145.75 -37.5 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1260,7 +1260,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 35.5";
+      position = "-145.75 -37.5 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1274,7 +1274,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 11.5";
+      position = "-145.75 -37.5 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1295,7 +1295,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 -12.5";
+      position = "-145.75 -37.5 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1309,14 +1309,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 83.5";
+      position = "-145.75 -37.5 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 83.5";
+      position = "-169.25 38 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1330,7 +1330,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 -12.5";
+      position = "-169.25 38 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1351,7 +1351,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 11.5";
+      position = "-169.25 38 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1365,7 +1365,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 35.5";
+      position = "-169.25 38 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1386,14 +1386,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 59.5";
+      position = "-169.25 38 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 59.5";
+      position = "-56.75 49 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1414,7 +1414,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 35.5";
+      position = "-56.75 49 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1428,7 +1428,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 11.5";
+      position = "-56.75 49 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1449,7 +1449,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 -12.5";
+      position = "-56.75 49 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1463,14 +1463,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 83.5";
+      position = "-56.75 49 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 59.5";
+      position = "-129.25 100 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1491,7 +1491,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 35.5";
+      position = "-129.25 100 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1505,7 +1505,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 11.5";
+      position = "-129.25 100 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1526,7 +1526,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 -12.5";
+      position = "-129.25 100 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1540,14 +1540,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 83.5";
+      position = "-129.25 100 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 83.5";
+      position = "-24.25 132.75 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1561,7 +1561,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 -12.5";
+      position = "-24.25 132.75 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1582,7 +1582,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 11.5";
+      position = "-24.25 132.75 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1596,7 +1596,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 35.5";
+      position = "-24.25 132.75 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1617,14 +1617,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 59.5";
+      position = "-24.25 132.75 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 59.5";
+      position = "-97 190.5 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1645,7 +1645,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 35.5";
+      position = "-97 190.5 44.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1659,7 +1659,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 11.5";
+      position = "-97 190.5 20.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1680,7 +1680,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 -12.5";
+      position = "-97 190.5 -3.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
@@ -1694,14 +1694,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 83.5";
+      position = "-97 190.5 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnRing.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-10.75 -3.5 57.5";
+      position = "14.25 13.5 68.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1722,7 +1722,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-67.25 -60 81.5";
+      position = "-42.25 -43 92.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1736,7 +1736,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-170.75 -54.5 105.5";
+      position = "-145.75 -37.5 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1750,14 +1750,14 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-194.25 21 105.5";
+      position = "-169.25 38 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-154.25 83 105.5";
+      position = "-129.25 100 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1770,12 +1770,14 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnGrassTop.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "-72 207.5 105.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-89 131 91.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
    new InteriorInstance() {
       position = "-97 190.5 120.5";
@@ -1785,7 +1787,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-49.25 115.75 105.5";
+      position = "-24.25 132.75 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1799,7 +1801,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-81.75 32 105.5";
+      position = "-56.75 49 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
@@ -1813,60 +1815,75 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-122 173.5 105.5";
+      position = "-97 190.5 116.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "0.75 149.75 105.5";
-      rotation = "0 0 1 180";
+   new Item() {
+      position = "-120 6 80.8";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
-   new InteriorInstance() {
-      position = "-31.75 66 105.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-71 131 91.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
-   new InteriorInstance() {
-      position = "-104.25 117 105.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-89 149 91.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
-   new InteriorInstance() {
-      position = "-144.25 55 105.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-71 149 91.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
-   new InteriorInstance() {
-      position = "-120.75 -20.5 105.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-135 3 77.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
-   new InteriorInstance() {
-      position = "-17.25 -26 81.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-135 21 77.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
-   new InteriorInstance() {
-      position = "39.25 30.5 57.5";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/SanctuaryTowersColumnTop.dif";
-      showTerrainInside = "0";
+   new Trigger(splash) {
+      position = "-117 21 77.5";
+      rotation = "1 0 0 0";
+      scale = "12 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "0";
+         sfx = "SplashSfx";
    };
    new Item() {
       position = "-35 -1 4.5";
@@ -2789,79 +2806,6 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          TriggerOnce = "0";
          sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-89 131 91.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-89 149 91.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-71 149 91.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-71 131 91.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-135 3 77.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-135 21 77.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-117 21 77.5";
-      rotation = "1 0 0 0";
-      scale = "12 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "0";
-         sfx = "SplashSfx";
-   };
-   new Item() {
-      position = "-120 6 80.8";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "LumiCube";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

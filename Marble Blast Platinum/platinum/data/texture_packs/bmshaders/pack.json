@@ -202,6 +202,7 @@
     "platinum/data/interiors_bm/bm_physics_propulsion": "BMPhysicsMaterial",
     "platinum/data/interiors_bm/bm_physics_repulsion": "BMPhysicsMaterial",
     "platinum/data/interiors_bm/bm_wood": "BMWoodMaterial",
+    "platinum/data/interiors_bm/bm_beam_wood": "BMWoodMaterial",
     "platinum/data/interiors_bm/metal_bm": "BMSpecMaterial",
     "platinum/data/interiors_bm/solid_bm_black": "BMSpecMaterial",
     "platinum/data/interiors_bm/button_bm": "BMSpecMaterial",

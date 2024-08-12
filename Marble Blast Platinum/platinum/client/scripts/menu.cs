@@ -396,7 +396,7 @@ function menuCheckCredits() {
 
 function menuStartCredits() {
 	//Change your menu music
-	$pref::Music::Songs["Menu"] = "Electroforte.ogg";
+	$pref::Music::Songs["Menu"] = "Close to Water.ogg";
 
 	// Is this the first time we are congratulating?
 	if (!$pref::Congratulated) {

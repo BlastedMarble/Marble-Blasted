@@ -89,6 +89,18 @@ new SimGroup(MissionGroup) {
             text = "Triggered movers are usually indicated via side trims with a blue line in the center.";
             triggerRadius = "3";
       };
+      new StaticShape(jump) {
+         position = "-7 -8 1.75";
+         rotation = "0 0 1 90.0002";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "1000";
+            text = "Press <func:bind jump> to jump.";
+            triggerRadius = "3";
+      };
    };
    new SimGroup(SceneryGroup) {
 
@@ -162,8 +174,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new Trigger() {
-      position = "-0.5 0.5 0.5";
-      rotation = "1 0 0 0";
+      position = "-13.5 -7.5 -4.47035e-008";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "SpawnTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";

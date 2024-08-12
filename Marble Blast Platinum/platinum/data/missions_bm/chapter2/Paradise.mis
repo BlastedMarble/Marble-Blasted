@@ -5,12 +5,12 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          artist = "James C.";
          awesomeTime = "55000";
-         desc = "This could be a paradise... storm?";
+         desc = "This could be paradise...";
          game = "Blasted";
          gameMode = "null";
          goldTime = "85000";
          level = "11";
-         name = "Paradise Storm";
+         name = "Paradise";
          platinumTime = "75000";
          type = "Custom";
          ultimateTime = "65000";

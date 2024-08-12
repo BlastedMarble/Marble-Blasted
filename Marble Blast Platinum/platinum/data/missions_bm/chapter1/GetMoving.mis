@@ -41,18 +41,6 @@ new SimGroup(MissionGroup) {
             text = "Use the <func:bind panUp>, <func:bind panDown>, <func:bind turnLeft>, and <func:bind turnRight> keys or the mouse to turn the camera.";
             triggerRadius = "4";
       };
-      new StaticShape(jump) {
-         position = "20 128 -0.75";
-         rotation = "0 0 -1 90.0002";
-         scale = "1 1 1";
-         dataBlock = "HelpBubble";
-            disable = "0";
-            displayonce = "0";
-            extended = "1";
-            persistTime = "1000";
-            text = "Press <func:bind jump> to jump.";
-            triggerRadius = "4";
-      };
       new StaticShape(LumiCubeHint) {
          position = "-3.75 29 0.25";
          rotation = "0 0 -1 56.2501";
@@ -181,31 +169,27 @@ new SimGroup(MissionGroup) {
       position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/GetMovingCurve2b.dif";
+      interiorFile = "~/data/interiors_bm/chapter1/GetMovingCurve3.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "-19.25 128 -2.5";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
-      showTerrainInside = "0";
+   new ScriptObject() {
+         value = "WorldEditorSettingsDlg";
    };
    new StaticShape(EndPoint) {
-      position = "-12 84 -0.5";
-      rotation = "0 0 1 180";
+      position = "12 128 -2.5";
+      rotation = "0 0 -1 89.9998";
       scale = "1 1 1";
       dataBlock = "EndPad_BM";
    };
    new StaticShape() {
-      position = "-12 84 -0.5";
-      rotation = "0 0 1 180";
+      position = "12 128 -2.5";
+      rotation = "0 0 -1 89.9998";
       scale = "1 1 1";
       dataBlock = "EndPadEdge_BM";
    };
    new TSStatic() {
-      position = "-12 84 3.35";
-      rotation = "1 0 0 0";
+      position = "12 128 1.35";
+      rotation = "0 0 1 90.0002";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
@@ -246,13 +230,13 @@ new SimGroup(MissionGroup) {
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-16 141.75 19";
+      position = "32 141.75 19";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-16 137.75 19";
+      position = "32 137.75 19";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
@@ -280,9 +264,6 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
-   };
-   new ScriptObject() {
-         value = "WorldEditorSettingsDlg";
    };
 };
 //--- OBJECT WRITE END ---

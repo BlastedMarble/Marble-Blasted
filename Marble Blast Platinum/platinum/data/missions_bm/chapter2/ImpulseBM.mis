@@ -5,17 +5,17 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          SpeedToQualify = "10";
          artist = "James C.";
-         awesomeTime = "45000";
+         awesomeTime = "50000";
          desc = "Use repulsion floors to reach the top of this mountain range.";
          fanStrength = "25";
          game = "Blasted";
          gameMode = "null haste";
          level = "12";
          name = "Impulse";
-         goldTime = "90000";
-         platinumTime = "75000";
+         goldTime = "95000";
+         platinumTime = "80000";
          type = "Custom";
-         ultimateTime = "60000";
+         ultimateTime = "65000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";
