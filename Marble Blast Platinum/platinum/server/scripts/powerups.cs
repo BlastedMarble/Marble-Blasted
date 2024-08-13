@@ -772,32 +772,46 @@ function TimeTravelItem::onAdd(%this, %obj) {
 }
 
 function TimeTravelItem::onPickup(%this,%obj,%user,%amount) {
-	%ret = $LB::LoggedIn || $Server::Dedicated;
-	if (%ret && $platform $= "windows")
-	{
-		anticheatDetect(); // This shit aint exist on mac lmaoo
-	}
-	if (!Parent::onPickup(%this, %obj, %user, %amount)) {
-		return false;
-	}
+    %ret = $LB::LoggedIn || $Server::Dedicated;
+    if (%ret && $platform $= "windows") {
+        anticheatDetect(); // This shit aint exist on mac lmaoo
+    }
+    if (!Parent::onPickup(%this, %obj, %user, %amount)) {
+        return false;
+    }
 
-	if (!Mode::callback("shouldAllowTTs", true)) {
-		return false;
-	}
+    if (!Mode::callback("shouldAllowTTs", true)) {
+        return false;
+    }
+  
+  %bonus = (%obj.timeBonus $= "" ? $Game::TimeTravelBonus : %obj.timeBonus);
+  %color = (%bonus == 0 ? %this.grayMessageColor : %this.messageColor);
+  %sign = (Mode::callback("timeMultiplier", 1) > 0 ? "-" : "+");
+  
+  if(%obj.instant) {
+    %newTime = $Time::CurrentTime - %bonus;
+    if(%newTime < 0) {
+      %bonus = $Time::CurrentTime;
+      $Time::TotalBonus += %bonus;
+      $Time::CurrentTime = 0;
+    }
+    else {
+      $Time::CurrentTime = %newTime;
+      $Time::TotalBonus += %bonus;
+    }
+    PlayGui.adjustTimer(-%bonus);
+  }
+  else {
+    if (%bonus > 0)
+      %user.client.incBonusTime(%bonus);
+    
+    commandToAll('UpdateTimeTravelCountdown'); // main_gi v4.2.3
+  }
 
-	%bonus = (%obj.timeBonus $= "" ? $Game::TimeTravelBonus : %obj.timeBonus);
-	%color = (%bonus == 0 ? %this.grayMessageColor : %this.messageColor);
-	%sign = (Mode::callback("timeMultiplier", 1) > 0 ? "-" : "+");
-
-	//Show a message
-	%user.client.displayGemMessage(%sign @(%bonus / 1000) @ "s", %color);
-
-	if (%bonus > 0)
-		%user.client.incBonusTime(%bonus);
-
-	commandToAll('UpdateTimeTravelCountdown'); // main_gi v4.2.3
-	
-	return true;
+    //Show a message
+    %user.client.displayGemMessage(%sign @(%bonus / 1000) @ "s", %color);
+    
+    return true;
 }
 
 function TimeTravelItem_PQ::onAdd(%this, %obj) {

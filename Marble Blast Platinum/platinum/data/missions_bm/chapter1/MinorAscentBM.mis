@@ -276,9 +276,10 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "10000";
          noRespawn = "0";
          skin = "3";
-         timeBonus = "3000";
+         timeBonus = "10000";
    };
    new Item() {
       position = "-8.1 -25.3 8.5";
@@ -288,6 +289,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "3000";
          noRespawn = "0";
          skin = "3";
          timeBonus = "3000";
@@ -300,6 +302,7 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "8000";
          noRespawn = "0";
          skin = "8";
          timeBonus = "8000";

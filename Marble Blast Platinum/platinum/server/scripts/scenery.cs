@@ -1144,14 +1144,14 @@ datablock StaticShapeData(Barrier) {
 
 //------------------------------------------------------------------
 //Spin Block
-datablock StaticShapeData(SpinBlock) {
+datablock StaticShapeData(TestCube) {
 	className = "LevelParts";
 	superCategory = "Level Parts";
 	category = "Blasted";
-	shapeFile = "~/data/shapes_bm/Scenery/SpinBlock.dts";
+	shapeFile = "~/data/shapes_bm/Scenery/TestCube.dts";
 };
 
-function SpinBlock::onAdd(%this,%obj)
+function TestCube::onAdd(%this,%obj)
 {
-	%obj.playThread(0,"animation");
+	%obj.playThread(0, "animation");
 }
