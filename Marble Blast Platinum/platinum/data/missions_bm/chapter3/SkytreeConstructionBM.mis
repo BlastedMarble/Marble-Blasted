@@ -106,13 +106,13 @@ new SimGroup(MissionGroup) {
       position = "-7 -63 5.5";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-3 -66 5.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "-15.5 -67.5 10.5";
@@ -771,7 +771,7 @@ new SimGroup(MissionGroup) {
       position = "-97.8658 -65.8658 11.5";
       rotation = "0.357408 -0.862856 -0.357406 98.4215";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
       position = "-98.75 -66.75 3.5";
@@ -793,7 +793,7 @@ new SimGroup(MissionGroup) {
       position = "-96.1342 -56.1342 11.5";
       rotation = "-0.678596 -0.281084 0.678601 148.601";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
       position = "39.5 -72.5 5.75";
@@ -1051,7 +1051,7 @@ new SimGroup(MissionGroup) {
       position = "-105 -61 27.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-98 -62 26";

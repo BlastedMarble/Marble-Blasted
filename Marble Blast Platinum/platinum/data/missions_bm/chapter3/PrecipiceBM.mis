@@ -41,7 +41,7 @@ new SimGroup(MissionGroup) {
       fogVolume1 = "-1 7.45949e-031 1.3684e-038";
       fogVolume2 = "-1 1.07208e-014 8.756e-014";
       fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-      materialList = "~/data/skies_bm/Day/sky_day.dml";
+      materialList = "~/data/skies_bm/Morning/sky_day.dml";
       windVelocity = "1 0 0";
       windEffectPrecipitation = "0";
       noRenderBans = "1";
@@ -50,8 +50,8 @@ new SimGroup(MissionGroup) {
       fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
    };
    new Sun() {
-      direction = "-0.48795 0 -0.872872";
-      color = "1.000000 1.000000 1.000000 1.000000";
+      direction = "-0.967226 0 -0.253916";
+      color = "0.900000 1.000000 0.900000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
    new SimGroup(PathNodeGroup) {
@@ -499,7 +499,7 @@ new SimGroup(MissionGroup) {
       position = "5 38 39";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new TSStatic() {
       position = "20 7 -12";
@@ -684,19 +684,19 @@ new SimGroup(MissionGroup) {
       position = "-2.00045 38.25 13.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2.00045 29.25 3.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2.00045 19.5 -1.25";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape(check1) {
       position = "16 16 14.01";

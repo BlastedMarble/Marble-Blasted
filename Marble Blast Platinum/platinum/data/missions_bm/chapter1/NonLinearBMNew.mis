@@ -225,197 +225,112 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
    };
-   new Item() {
-      position = "3 31 -1.5";
+   new StaticShape() {
+      position = "-20 92 6";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
+      dataBlock = "Propeller_BM_Base";
    };
-   new Item() {
-      position = "-1 39 -0.5";
+   new StaticShape() {
+      position = "-20 87.75 6";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "18 25.75 10";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "18 30 10";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
+      dataBlock = "Propeller_BM_Base";
    };
-   new Item() {
-      position = "-14 23 -3.75";
+   new Trigger(Bounds) {
+      position = "-36.9297 -19 -18.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
+      scale = "88.7042 241.5 109";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new Item() {
-      position = "-12.25 41 -6";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "16 159.75 20";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-15 51.75 -7.75";
-      rotation = "0 0 -1 22.5001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "17.25 64 0";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
+      dataBlock = "PropLarge1_BM";
    };
    new Item() {
       position = "1 158 1.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-16 110 2.75";
-      rotation = "0 0 1 146.25";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "2.75 68.25 -3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "1000";
-   };
-   new TSStatic() {
-      position = "2.75 68.25 -3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "2.75 68.25 -3";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "2.75 68.25 -3";
-      rotation = "0 1 0 89.9996";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "2.75 68.25 -3";
-      rotation = "0 1 0 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "2.75 68.25 -3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon1_bm.dts";
+         timeBonus = "5000";
    };
    new Item() {
-      position = "-8.74984 134.251 13.75";
-      rotation = "0 0 1 22.5001";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "1000";
-   };
-   new TSStatic() {
-      position = "-7.82597 133.868 13.75";
-      rotation = "0.195091 0.980785 2.47295e-007 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-9.67372 134.633 13.75";
-      rotation = "0.191481 0.962637 0.191482 92.1809";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-7.82597 133.868 13.75";
-      rotation = "-0.191481 -0.962637 0.19148 92.1814";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-9.67372 134.633 13.75";
-      rotation = "0 0 1 22.5001";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-8.74984 134.251 13.75";
-      rotation = "0 0 1 22.5001";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
-   };
-   new Item() {
-      position = "1 165 14";
+      position = "34.5 84 7.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-12.25 40.75 -5.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Trigger(CheckP2B) {
+      position = "-3 157 13";
+      rotation = "1 0 0 0";
+      scale = "8 8 8";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check2B";
+   };
+   new Trigger(CheckP2A) {
+      position = "-3 151 3.5";
+      rotation = "1 0 0 0";
+      scale = "8 8 8";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check2A";
+   };
+   new Item() {
+      position = "0.75 165 13.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem10Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "10000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "10000";
    };
    new InteriorInstance() {
       position = "-14.5 200 6.25";
@@ -430,18 +345,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/NonLinearCurve5.dif";
       showTerrainInside = "0";
-   };
-   new Item() {
-      position = "1 197 17";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
    };
    new StaticShape(EndPoint) {
       position = "1 199 7.5";
@@ -514,61 +417,6 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          gravity = "1";
          respawnPoint = "Check1";
-   };
-   new Trigger(CheckP2A) {
-      position = "-3 151 3.5";
-      rotation = "1 0 0 0";
-      scale = "8 8 8";
-      dataBlock = "CheckpointTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         gravity = "1";
-         respawnPoint = "Check2A";
-   };
-   new Trigger(CheckP2B) {
-      position = "-3 157 13";
-      rotation = "1 0 0 0";
-      scale = "8 8 8";
-      dataBlock = "CheckpointTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         gravity = "1";
-         respawnPoint = "Check2B";
-   };
-   new Trigger(Bounds) {
-      position = "-36.9297 -19 -18.5";
-      rotation = "1 0 0 0";
-      scale = "88.7042 241.5 109";
-      dataBlock = "InBoundsTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-   };
-   new StaticShape() {
-      position = "18 30 10";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Propeller_BM_Base";
-   };
-   new StaticShape() {
-      position = "18 25.75 10";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      dataBlock = "PropLarge1_BM";
-   };
-   new StaticShape() {
-      position = "-20 87.75 6";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      dataBlock = "PropLarge1_BM";
-   };
-   new StaticShape() {
-      position = "-20 92 6";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "Propeller_BM_Base";
-   };
-   new StaticShape() {
-      position = "16 159.75 20";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      dataBlock = "PropLarge1_BM";
    };
 };
 //--- OBJECT WRITE END ---

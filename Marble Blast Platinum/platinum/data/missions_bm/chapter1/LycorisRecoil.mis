@@ -325,12 +325,18 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter1/LycorisRecoilSceneryArch.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "6 28 -17";
-      rotation = "0 0 1 180";
+   new Item() {
+      position = "-28 -45 -1";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter1/LycorisRecoilSceneryArch.dif";
-      showTerrainInside = "0";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new InteriorInstance() {
       position = "6 24 -16";
@@ -511,30 +517,6 @@ new SimGroup(MissionGroup) {
       dataBlock = "InBoundsTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new Item() {
-      position = "-28 -45 -1";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "18 30 -5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
-   };
    new StaticShape(EndPoint) {
       position = "0 0 7";
       rotation = "0 0 -1 90.0002";
@@ -663,6 +645,19 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new Item() {
+      position = "-4 26 -8";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

@@ -5,16 +5,16 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          SpeedToQualify = "50";
          artist = "James C.";
-         awesomeTime = "20000";
+         awesomeTime = "15000";
          desc = "Reach the required speed, using the propulsion floors to accelerate.";
          game = "Blasted";
          gameMode = "haste";
-         goldTime = "35000";
+         goldTime = "30000";
          level = "9";
          name = "In the Zone";
-         platinumTime = "30000";
+         platinumTime = "25000";
          type = "Custom";
-         ultimateTime = "25000";
+         ultimateTime = "20000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";
@@ -58,7 +58,7 @@ new SimGroup(MissionGroup) {
 
       new StaticShape(CameraPath1) {
          position = "-5.45225 -0.210546 3.52957";
-         rotation = "0.525642 0.0578091 -0.848739 14.7663";
+         rotation = "0.525642 0.0578091 -0.848739 14.7662";
          scale = "1 1 1";
          dataBlock = "PathNode";
             FinalRotOffset = "1 0 0 0";
@@ -361,25 +361,25 @@ new SimGroup(MissionGroup) {
       position = "-14 127 -6";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-14 121 -6";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-6 223 -12";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-6 217 -12";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-10.75 136.25 -9";
@@ -417,53 +417,17 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new Item() {
-      position = "-13 129 -7";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-7 225 -13";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-13 225 -14.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
    new StaticShape() {
       position = "-14 267 -16";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-14 281 -16";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "-20 24 7";
@@ -565,6 +529,32 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "0.8 0.8 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new Item() {
+      position = "-12 124 -7";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-7 249 -15";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

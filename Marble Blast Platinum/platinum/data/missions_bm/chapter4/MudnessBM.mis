@@ -671,13 +671,13 @@ new SimGroup(MissionGroup) {
       position = "4 -2 6.75";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "12 -2 6.75";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-4.5 53.3 5.5";

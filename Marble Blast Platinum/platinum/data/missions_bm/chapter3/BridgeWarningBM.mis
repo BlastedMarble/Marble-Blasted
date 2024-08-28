@@ -49,7 +49,7 @@ new SimGroup(MissionGroup) {
       fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
    };
    new Sun() {
-         direction = "-0.48795 0 -0.872872";
+      direction = "-0.48795 0 -0.872872";
       color = "1.000000 1.000000 1.000000 1.000000";
       ambient = "0.500000 0.500000 0.600000 1.000000";
    };
@@ -426,66 +426,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new Item() {
-      position = "24 -3 1";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "108 3.25 1";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "115 -2.5 1";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "127.75 0.249999 1";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "197.75 2.99999 1";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
-   };
    new StaticShape(EndPoint) {
       position = "236 0 1";
       rotation = "0 0 1 90.0002";
@@ -744,6 +684,32 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
+   };
+   new Item() {
+      position = "29 -2.99999 1";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "187.25 3 1.75";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

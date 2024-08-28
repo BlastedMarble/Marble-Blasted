@@ -9,9 +9,9 @@ new SimGroup(MissionGroup) {
          desc = "Climb up this frictional course by using ramps and jumping up stairs.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "55000";
          level = "1";
          name = "Stepping Slopes";
-         goldTime = "55000";
          platinumTime = "45000";
          type = "Custom";
          ultimateTime = "35000";
@@ -95,78 +95,6 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          center = "1";
          gravity = "0";
-   };
-   new Item() {
-      position = "10.375 4.125 5";
-      rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "6.5 -14 10.5";
-      rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "18 -6.5 23";
-      rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "18 -11.5 23";
-      rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "4 -21 26";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "4.125 -23 20";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
    };
    new InteriorInstance() {
       position = "-18 -1.5 30.25";
@@ -422,6 +350,69 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new TSStatic() {
+      position = "13.75 -23.5 25.75";
+      rotation = "0 0 1 45.0001";
+      scale = "0.5 0.5 0.5";
+      shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
+   };
+   new StaticShape() {
+      position = "4 -25 21";
+      rotation = "1 0 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "DuctFanWalled_BM";
+   };
+   new StaticShape() {
+      position = "4 -19 27";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "DuctFanWalled_BM";
+   };
+   new StaticShape() {
+      position = "8 4 7";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "DuctFanWalled_BM";
+   };
+   new Item() {
+      position = "6.5 -14 10.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "18 -6.5 23";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "18 -11.5 23";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

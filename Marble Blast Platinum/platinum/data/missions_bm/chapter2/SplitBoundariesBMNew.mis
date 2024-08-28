@@ -26,21 +26,9 @@ new SimGroup(MissionGroup) {
             displayonce = "0";
             extended = "1";
             persistTime = "1000";
-            text = "Some levels don't require you to get all the gems, just a portion of them. This is called a gem quota. Once you reach that quota, you may finish the level, or continue to go for 100%.";
+            text = "Some levels don\'t require you to get all the gems, just a portion of them. This is called a gem quota. Once you reach that quota, you may finish the level, or continue to go for 100%.";
             triggerRadius = "4";
       };
-   };
-   new Item() {
-      position = "-39 74 -3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
    };
    new SimGroup(MissionData) {
 
@@ -77,18 +65,6 @@ new SimGroup(MissionGroup) {
          fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
          fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
       };
-   };
-   new Item() {
-      position = "1 108.75 8.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
    };
    new Sun() {
       direction = "-0.48795 0 -0.872872";
@@ -747,73 +723,13 @@ new SimGroup(MissionGroup) {
       position = "-38.0005 77 -2";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-38.0005 71 -2";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
-   };
-   new Item() {
-      position = "20 46 -3.621e-008";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "20 58 1";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-14 64 13.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-36 74 5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-32 114 3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-14 180 13";
@@ -826,6 +742,71 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "EndPad_BM";
+   };
+   new Item() {
+      position = "-39 74 -3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "19.9973 57.7548 1";
+      rotation = "0 0 1 45.0001";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-14 64 14";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-32 114 3";
+      rotation = "0 0 1 45.0001";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "1 114.5 11.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

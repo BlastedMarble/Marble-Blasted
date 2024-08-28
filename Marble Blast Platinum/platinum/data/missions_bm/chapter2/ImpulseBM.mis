@@ -10,9 +10,9 @@ new SimGroup(MissionGroup) {
          fanStrength = "25";
          game = "Blasted";
          gameMode = "null haste";
+         goldTime = "95000";
          level = "12";
          name = "Impulse";
-         goldTime = "95000";
          platinumTime = "80000";
          type = "Custom";
          ultimateTime = "65000";
@@ -204,28 +204,6 @@ new SimGroup(MissionGroup) {
       rotate = "1";
    };
    new Item() {
-      position = "182.5 -24.5 60.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "154.5 -8.5 16.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
       position = "162.5 -152.5 45.5";
       rotation = "0 0 1 90.0002";
       scale = "4 1 1";
@@ -240,7 +218,7 @@ new SimGroup(MissionGroup) {
       position = "11.5 -112.5 87.5";
       rotation = "7.88881e-008 -1 7.88883e-008 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "-36.5 93.5 89.75";
@@ -255,19 +233,19 @@ new SimGroup(MissionGroup) {
       position = "11.5 -124.5 81.5";
       rotation = "1.13932e-007 -1 1.13932e-007 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "11.5 -118.5 85.5";
       rotation = "1.08118e-007 -1 1.08118e-007 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "21.5 -108.5 89.5";
       rotation = "1.12497e-007 1 -1.12497e-007 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "14.5 35.5 90.5";
@@ -282,7 +260,7 @@ new SimGroup(MissionGroup) {
       position = "66.5 0.5 7.5";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "72.5 -6.5 6.5";
@@ -306,7 +284,7 @@ new SimGroup(MissionGroup) {
       position = "84.5 0.5 7.5";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "78.5 -0.5 6.5";
@@ -321,7 +299,7 @@ new SimGroup(MissionGroup) {
       position = "102.5 -3.5 7.5";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "98.5 3.5 6.5";
@@ -345,7 +323,7 @@ new SimGroup(MissionGroup) {
       position = "120.5 6.5 7.5";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-48.5 -8.5 12.5";
@@ -362,17 +340,6 @@ new SimGroup(MissionGroup) {
          skin = "base2";
          timer = "772302";
    };
-   new Item() {
-      position = "52.5 -156.5 84.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new StaticShape() {
       position = "18.5 -100.5 90.5";
       rotation = "1 0 0 0";
@@ -386,24 +353,13 @@ new SimGroup(MissionGroup) {
       position = "11.5 -86.5 91.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
-   };
-   new Item() {
-      position = "18.5 -116.5 80.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "17.5 -48.5 91.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "10.5 -60.5 90.5";
@@ -436,7 +392,7 @@ new SimGroup(MissionGroup) {
       position = "5.5 -20.5 91.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "12.5 -24.5 90.5";
@@ -447,17 +403,31 @@ new SimGroup(MissionGroup) {
          skin = "base2";
          timer = "772307";
    };
-   new TSStatic() {
-      position = "14.5 3.5 95.25";
-      rotation = "0 -1 0 90.0002";
+   new Item() {
+      position = "78.5 2.5 11";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "18.5 -38.5 96";
+   new Item() {
+      position = "18.5 -116.5 80.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new StaticShape() {
       position = "12.5 25.5 90.5";
@@ -468,17 +438,13 @@ new SimGroup(MissionGroup) {
          skin = "base2";
          timer = "772308";
    };
-   new Item() {
-      position = "15.5 23.5 95.25";
+   new Trigger() {
+      position = "21.5 -147.5 7.5";
       rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "2000";
+      scale = "22 10 1";
+      dataBlock = "OutOfBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         center = "1";
    };
    new StaticShape() {
       position = "16.5 -6.5 90.5";
@@ -499,40 +465,44 @@ new SimGroup(MissionGroup) {
          timer = "772310";
    };
    new Item() {
-      position = "-48.5 4.5 110";
+      position = "19.5 -57.5 -3";
       rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
       collideable = "0";
       static = "1";
-      rotate = "0";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "4000";
-   };
-   new TSStatic() {
-      position = "-44.5 35.5 106";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-51.5 68.5 110";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      rotate = "1";
    };
    new Item() {
-      position = "-52.5 52.5 110";
+      position = "-48.5 2.5 109";
       rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
-      rotate = "0";
+      rotate = "1";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "3000";
+         timeBonus = "5000";
+   };
+   new Trigger(splash) {
+      position = "5.5 -7.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "4 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "15.5 -7.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "6 52 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
    new StaticShape() {
       position = "-45.5 -4.5 104.5";
@@ -565,13 +535,13 @@ new SimGroup(MissionGroup) {
       position = "-40.5 49.5 105.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-50.5 75.5 105.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-43.5 71.5 104.5";
@@ -613,13 +583,13 @@ new SimGroup(MissionGroup) {
       position = "-50.5 13.5 105.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-60.5 -10.5 105.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-57.5 17.5 104.5";
@@ -772,10 +742,10 @@ new SimGroup(MissionGroup) {
          value1 = "23";
    };
    new TSStatic() {
-      position = "-48.5 4.5 110";
-      rotation = "0 0 1 180";
+      position = "19.5 -54.5 -3.75";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon4_bm.dts";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
    };
    new Trigger(Repulsion) {
       position = "51.5 4.5 6.5";
@@ -977,7 +947,7 @@ new SimGroup(MissionGroup) {
       position = "21.5 -116.5 83.5";
       rotation = "8.03813e-008 1 -8.03816e-008 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "17.5 -1.5 -7.5";
@@ -1063,29 +1033,41 @@ new SimGroup(MissionGroup) {
       scale = "7 2 1";
       dataBlock = "WaterPlane";
    };
-   new Item() {
-      position = "78.5 2.5 12";
-      rotation = "0 0 1 90.0002";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "4000";
+   new Trigger(Repulsion) {
+      position = "-2.5 118.5 98";
+      rotation = "1 0 0 0";
+      scale = "4 10 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "15";
    };
-   new TSStatic() {
-      position = "78.5 1.5 12";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   new Trigger(Repulsion) {
+      position = "11.5 -107.5 86.5";
+      rotation = "1 0 0 0";
+      scale = "10 8 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "17";
    };
-   new TSStatic() {
-      position = "78.5 2.5 12";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon4_bm.dts";
+   new Trigger(Repulsion) {
+      position = "-6.5 118.5 102";
+      rotation = "1 0 0 0";
+      scale = "4 10 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "15";
    };
    new TSStatic() {
       position = "162.5 -149.5 45.5";
@@ -1106,178 +1088,233 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/powerups/SuperSpeedGate_icon_bm.dts";
    };
    new Item() {
-      position = "19.5 -38.5 96";
-      rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      position = "154.5 -8.5 16.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
-      rotate = "0";
+      rotate = "1";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "4000";
-   };
-   new TSStatic() {
-      position = "19.5 -38.5 96";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon4_bm.dts";
+         timeBonus = "5000";
    };
    new Item() {
-      position = "13.5 3.5 95.25";
-      rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      position = "52.5 -156.5 84.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
-      rotate = "0";
+      rotate = "1";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "2000";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "12.5 3.5 95.25";
+   new Trigger(splash) {
+      position = "-6.5 118.5 68.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      scale = "26 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
-   new TSStatic() {
-      position = "14.5 3.5 95.25";
-      rotation = "0 1 0 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "12.5 3.5 95.25";
-      rotation = "0 1 0 89.9996";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "13.5 3.5 95.25";
+   new Trigger(splash) {
+      position = "9.5 108.5 68.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+      scale = "10 38 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
-   new TSStatic() {
-      position = "15.5 23.5 95.25";
+   new Trigger(splash) {
+      position = "9.5 52.5 -3.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+      scale = "10 22 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
-   new TSStatic() {
-      position = "14.5 23.5 95.25";
-      rotation = "0 1 0 89.9996";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "16.5 23.5 95.25";
-      rotation = "0 1 0 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "16.5 23.5 95.25";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "14.5 23.5 95.25";
+   new Trigger(splash) {
+      position = "11.5 -127.5 8.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      scale = "10 30 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
    new Item() {
-      position = "-52.5 68.5 110";
+      position = "19.5 -38.5 95";
       rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
-      rotate = "0";
+      rotate = "1";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "3000";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "-53.5 68.5 110";
+   new Trigger() {
+      position = "11.5 -127.5 7.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      scale = "10 30 1";
+      dataBlock = "OutOfBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         center = "1";
    };
-   new TSStatic() {
-      position = "-52.5 68.5 110";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon3_bm.dts";
-   };
-   new TSStatic() {
-      position = "-52.5 52.5 110";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon3_bm.dts";
-   };
-   new TSStatic() {
-      position = "-51.5 52.5 110";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-53.5 52.5 110";
+   new Trigger(splash) {
+      position = "55.5 -147.5 -3.5";
       rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      scale = "132 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "177.5 -129.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "10 18 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "177.5 -77.5 -3.5";
+      rotation = "1 0 0 0";
+      scale = "10 30 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "21.5 -147.5 8.5";
+      rotation = "1 0 0 0";
+      scale = "22 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "9.5 4.5 -7.5";
+      rotation = "1 0 0 0";
+      scale = "20 12 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "33.5 4.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "20 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "53.5 4.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "10 14 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "63.5 0.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
+   };
+   new Trigger(splash) {
+      position = "93.5 6.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
    new Item() {
-      position = "-43.5 35.5 106";
+      position = "14.5 10.5 96";
       rotation = "1 0 0 0";
-      scale = "2 1 1";
-      dataBlock = "TimeTravelItem_BMGate";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
-      rotate = "0";
+      rotate = "1";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "2000";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "-42.5 35.5 106";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-44.5 35.5 106";
-      rotation = "0 1 0 89.9996";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-42.5 35.5 106";
-      rotation = "0 1 0 180";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "-43.5 35.5 106";
+   new Item() {
+      position = "-52.5 62.5 109";
       rotation = "0 0 1 180";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new TSStatic() {
-      position = "-49.5 4.5 110";
+      position = "18.5 -52.5 -3.75";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
    };
    new TSStatic() {
-      position = "-47.5 4.5 110";
-      rotation = "0 -1 0 90.0002";
+      position = "19.5 -23.5 -3.75";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "17.5 -19.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
+   };
+   new TSStatic() {
+      position = "18.5 -10.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
+   };
+   new TSStatic() {
+      position = "16.5 -56.5 -3.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
+   };
+   new Trigger(splash) {
+      position = "123.5 6.5 -9.5";
+      rotation = "1 0 0 0";
+      scale = "30 16 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
    new Item() {
       position = "14.5 57.5 78.5";
@@ -2096,7 +2133,7 @@ new SimGroup(MissionGroup) {
       position = "21.5 -118.5 83.5";
       rotation = "8.03813e-008 1 -8.03816e-008 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new TSStatic() {
       position = "182.5 -40.5 56.35";
@@ -2188,35 +2225,44 @@ new SimGroup(MissionGroup) {
       scale = "0.5 0.5 1";
       shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
    };
-   new Item() {
-      position = "91.5 -2.5 4.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 0.5";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "10000";
+   new Trigger(Repulsion) {
+      position = "11.5 -115.5 84.5";
+      rotation = "1 0 0 0";
+      scale = "4 8 0.5";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "bounceRestitution";
+         marbleAttribute1 = "jumpImpulse";
+         noEmitters = "1";
+         value0 = "1";
+         value1 = "17";
    };
-   new TSStatic() {
-      position = "91.5 -2.5 4";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   new Trigger(splash) {
+      position = "-54.5 118.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "10 36 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
-   new TSStatic() {
-      position = "91.5 -2.5 4.00001";
-      rotation = "0.577352 -0.57735 -0.57735 120";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   new Trigger(splash) {
+      position = "-58.5 82.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "20 204 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
-   new TSStatic() {
-      position = "91.5 -2.5 4.5";
-      rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 0.5";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon10_bm.dts";
+   new Trigger(splash) {
+      position = "-44.5 118.5 12.5";
+      rotation = "1 0 0 0";
+      scale = "30 10 0";
+      dataBlock = "SoundTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         TriggerOnce = "1";
+         sfx = "SplashSfx";
    };
    new TSStatic() {
       position = "60.75 -4 9.25";
@@ -2300,13 +2346,13 @@ new SimGroup(MissionGroup) {
       position = "9.5 81.5 95.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "19.5 99.5 95.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "17.25 78.5 94.5";
@@ -2344,41 +2390,17 @@ new SimGroup(MissionGroup) {
          skin = "base2";
          timer = "772306";
    };
-   new Item() {
-      position = "10.5 81.5 94.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "18.5 99.5 94.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
    new StaticShape() {
       position = "-19.5 108.5 105.5";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-35.5 118.5 105.5";
       rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new TSStatic() {
       position = "16.5 -8.5 -3.75";
@@ -2529,286 +2551,6 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
-   };
-   new TSStatic() {
-      position = "18.5 -10.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
-   };
-   new TSStatic() {
-      position = "17.5 -19.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
-   };
-   new TSStatic() {
-      position = "19.5 -23.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x2_bm.dts";
-   };
-   new TSStatic() {
-      position = "18.5 -52.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA3x1_bm.dts";
-   };
-   new TSStatic() {
-      position = "16.5 -56.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
-   };
-   new TSStatic() {
-      position = "19.5 -54.5 -3.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/hazards/fadeMTA2x1_bm.dts";
-   };
-   new Item() {
-      position = "19.5 -57.5 -3";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "LumiCube";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-   };
-   new Trigger(splash) {
-      position = "123.5 6.5 -9.5";
-      rotation = "1 0 0 0";
-      scale = "30 16 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "93.5 6.5 -9.5";
-      rotation = "1 0 0 0";
-      scale = "30 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "63.5 0.5 -9.5";
-      rotation = "1 0 0 0";
-      scale = "30 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "53.5 4.5 -9.5";
-      rotation = "1 0 0 0";
-      scale = "10 14 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "33.5 4.5 -9.5";
-      rotation = "1 0 0 0";
-      scale = "20 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "9.5 4.5 -7.5";
-      rotation = "1 0 0 0";
-      scale = "20 12 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "15.5 -7.5 -7.5";
-      rotation = "1 0 0 0";
-      scale = "6 52 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "5.5 -7.5 -7.5";
-      rotation = "1 0 0 0";
-      scale = "4 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "177.5 -77.5 -3.5";
-      rotation = "1 0 0 0";
-      scale = "10 30 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "177.5 -129.5 -3.5";
-      rotation = "1 0 0 0";
-      scale = "10 18 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "55.5 -147.5 -3.5";
-      rotation = "1 0 0 0";
-      scale = "132 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger() {
-      position = "11.5 -127.5 7.5";
-      rotation = "1 0 0 0";
-      scale = "10 30 1";
-      dataBlock = "OutOfBoundsTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         center = "1";
-   };
-   new Trigger() {
-      position = "21.5 -147.5 7.5";
-      rotation = "1 0 0 0";
-      scale = "22 10 1";
-      dataBlock = "OutOfBoundsTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         center = "1";
-   };
-   new Trigger(splash) {
-      position = "21.5 -147.5 8.5";
-      rotation = "1 0 0 0";
-      scale = "22 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "11.5 -127.5 8.5";
-      rotation = "1 0 0 0";
-      scale = "10 30 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "9.5 52.5 -3.5";
-      rotation = "1 0 0 0";
-      scale = "10 22 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "9.5 108.5 68.5";
-      rotation = "1 0 0 0";
-      scale = "10 38 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-6.5 118.5 68.5";
-      rotation = "1 0 0 0";
-      scale = "26 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-44.5 118.5 12.5";
-      rotation = "1 0 0 0";
-      scale = "30 10 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-54.5 118.5 12.5";
-      rotation = "1 0 0 0";
-      scale = "10 36 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(splash) {
-      position = "-58.5 82.5 12.5";
-      rotation = "1 0 0 0";
-      scale = "20 204 0";
-      dataBlock = "SoundTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         TriggerOnce = "1";
-         sfx = "SplashSfx";
-   };
-   new Trigger(Repulsion) {
-      position = "11.5 -115.5 84.5";
-      rotation = "1 0 0 0";
-      scale = "4 8 0.5";
-      dataBlock = "MarblePhysModTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         marbleAttribute0 = "bounceRestitution";
-         marbleAttribute1 = "jumpImpulse";
-         noEmitters = "1";
-         value0 = "1";
-         value1 = "17";
-   };
-   new Trigger(Repulsion) {
-      position = "11.5 -107.5 86.5";
-      rotation = "1 0 0 0";
-      scale = "10 8 0.5";
-      dataBlock = "MarblePhysModTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         marbleAttribute0 = "bounceRestitution";
-         marbleAttribute1 = "jumpImpulse";
-         noEmitters = "1";
-         value0 = "1";
-         value1 = "17";
-   };
-   new Trigger(Repulsion) {
-      position = "-2.5 118.5 98";
-      rotation = "1 0 0 0";
-      scale = "4 10 0.5";
-      dataBlock = "MarblePhysModTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         marbleAttribute0 = "bounceRestitution";
-         marbleAttribute1 = "jumpImpulse";
-         noEmitters = "1";
-         value0 = "1";
-         value1 = "15";
-   };
-   new Trigger(Repulsion) {
-      position = "-6.5 118.5 102";
-      rotation = "1 0 0 0";
-      scale = "4 10 0.5";
-      dataBlock = "MarblePhysModTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         marbleAttribute0 = "bounceRestitution";
-         marbleAttribute1 = "jumpImpulse";
-         noEmitters = "1";
-         value0 = "1";
-         value1 = "15";
    };
 };
 //--- OBJECT WRITE END ---

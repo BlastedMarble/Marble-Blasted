@@ -10,9 +10,9 @@ new SimGroup(MissionGroup) {
          fanStrength = "32";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "45000";
          level = "10";
          name = "Sky Dive";
-         goldTime = "45000";
          platinumTime = "40000";
          type = "Custom";
          ultimateTime = "35000";
@@ -699,25 +699,25 @@ new SimGroup(MissionGroup) {
          gravity = "0";
    };
    new StaticShape() {
-      position = "-1 13 0.75";
+      position = "-1 13 0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
    };
    new StaticShape() {
-      position = "1 13 0.75";
+      position = "1 13 0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
    };
    new StaticShape() {
-      position = "1 11 0.75";
+      position = "1 11 0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
    };
    new StaticShape() {
-      position = "-1 11 0.75";
+      position = "-1 11 0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
@@ -735,43 +735,43 @@ new SimGroup(MissionGroup) {
       position = "2 20.5005 3";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 20.5005 5.00001";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 20.5005 3.00001";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 20.5005 1";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "2 20.5005 1";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 20.5005 3";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 20.5005 1";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "-38 12 6.5";
@@ -877,19 +877,19 @@ new SimGroup(MissionGroup) {
       position = "2 28.5005 57";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 28.5005 57";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 28.5005 57";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
       position = "-30 12 20.5";
@@ -928,37 +928,37 @@ new SimGroup(MissionGroup) {
       position = "2 29.0005 59";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 29.0005 59";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 29.0005 59";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "2 28.5005 61";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 28.5005 61";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 28.5005 61";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
       position = "0 0 0";
@@ -1033,29 +1033,6 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "check2";
    };
-   new Item() {
-      position = "0 22 3";
-      rotation = "-1 0 0 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "-28.75 8.75 23";
-      rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new StaticShape() {
       position = "15 39.75 28.5";
       rotation = "0 0 1 180";
@@ -1073,7 +1050,7 @@ new SimGroup(MissionGroup) {
       position = "-3.00002 12 9.99998";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
       position = "17.25 12 11";
@@ -1093,31 +1070,31 @@ new SimGroup(MissionGroup) {
       position = "-2 20.5 5";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "2 20.5 5";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "2 21 7";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "0 21 7";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-2 21 7";
       rotation = "1 0 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
       position = "1.25 -21 -11.75";
@@ -1234,6 +1211,31 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new Item() {
+      position = "0.499998 21.75 3";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-28.75 8.75 23";
+      rotation = "0 0 1 90.0002";
+      scale = "0.5 0.5 0.5";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

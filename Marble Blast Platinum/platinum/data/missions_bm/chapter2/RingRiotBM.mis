@@ -4,16 +4,16 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "13";
          artist = "James C.";
-         awesomeTime = "30000";
+         awesomeTime = "25000";
          desc = "Time to take your ring stunts to the next level.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "40000";
          level = "5";
          name = "Ring Riot";
-         goldTime = "45000";
-         platinumTime = "40000";
+         platinumTime = "35000";
          type = "Custom";
-         ultimateTime = "35000";
+         ultimateTime = "30000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";
@@ -199,23 +199,21 @@ new SimGroup(MissionGroup) {
       dataBlock = "DestinationTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new InteriorInstance() {
-      position = "26.5 26.7198 34.1997";
-      rotation = "1 0 0 67.5002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter2/RingRiotRing2x2.dif";
-      showTerrainInside = "0";
-   };
    new Item() {
-      position = "33.5 30.7283 29.0952";
-      rotation = "-1 0 0 22.5001";
-      scale = "2 2 2";
-      dataBlock = "SuperBounceItem_BM";
+      position = "13.5 52 8.85";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
       collideable = "0";
       static = "1";
       rotate = "1";
          noRespawn = "0";
-         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "33.5 46 36.35";
+      rotation = "0 0 -1 67.5002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
    new InteriorInstance() {
       position = "26.5 11.5 33.5";
@@ -334,17 +332,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
-   new Item() {
-      position = "39 51 37";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
    new Trigger(Bounds) {
       position = "-67.9622 -32.5 -9";
       rotation = "1 0 0 0";
@@ -447,21 +434,60 @@ new SimGroup(MissionGroup) {
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
-   new TSStatic() {
-      position = "33.5 46 36.35";
-      rotation = "0 0 -1 67.5002";
-      scale = "0.7 0.7 0.7";
-      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
-   };
    new Item() {
-      position = "13.5 52 8.85";
+      position = "33.5 39 33.5";
+      rotation = "1 0 0 0";
+      scale = "3 1 1";
+      dataBlock = "SuperBounceItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "31.5 39 33.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "LumiCube";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "35.5 39 33.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "33.45 39.1 33.65";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/SuperBounceGate_icon_bm.dts";
+   };
+   new Item() {
+      position = "39 51 37";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-10.5 10 6.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

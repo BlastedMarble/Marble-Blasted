@@ -269,6 +269,12 @@ datablock ItemData(SuperBounceItem_BMGate : SuperBounceItem) {
 
 datablock ShapeBaseImageData(SuperBounceImage_BM : SuperBounceImage) {
 	shapeFile = "~/data/shapes_bm/images/glow_bounce.dts";
+	emap = true;
+
+    mountPoint = 0;
+    offset = "0 0 0";
+	stateName[0] = "glow";
+    stateSequence[0] = "glow";
 };
 
 //-----------------------------------------------------------------------------
@@ -426,6 +432,12 @@ datablock ItemData(ShockAbsorberItem_BMGate : ShockAbsorberItem) {
 
 datablock ShapeBaseImageData(ShockAbsorberImage_BM : ShockAbsorberImage) {
 	shapeFile = "~/data/shapes_bm/images/glow_shock.dts";
+	emap = true;
+
+	mountPoint = 0;
+    offset = "0 0 0";
+    stateName[0] = "glow";
+    stateSequence[0] = "glow";
 };
 
 //-----------------------------------------------------------------------------
@@ -497,8 +509,8 @@ datablock ShapeBaseImageData(ActualHelicopterImage) {
 	emap = true;
 	mountPoint = 3;
 	offset = "0 0 0";
-	stateName[0]                     = "Rotate";
-	stateSequence[0]                 = "rotate";
+	stateName[0]                     = "glow";
+	stateSequence[0]                 = "glow";
 //   stateName[0]                     = "Ambient";
 //   stateSequence[0]                 = "ambient";
 	stateSound[0] = HelicopterLoopSfx;
@@ -548,6 +560,8 @@ datablock ShapeBaseImageData(HelicopterImage_BM : ActualHelicopterImage) {
 	shapeFile = "~/data/shapes_bm/images/glow_gyro.dts";
 	mountPoint = 0;
     offset = "0 0 0";
+    stateName[0] = "glow";
+    stateSequence[0] = "glow";
 };
 
 datablock ShapeBaseImageData(MegaHelicopterImage_BM : ActualHelicopterImage) {
@@ -699,26 +713,18 @@ datablock ItemData(TimeTravelItem_PQ : TimeTravelItem) {
 	replacement = "TimePenaltyItem_PQ";
 };
 
-datablock ItemData(TimeTravelItem_BM : TimeTravelItem) {
+datablock ItemData(TimeTravelItem5Sec_BM : TimeTravelItem) {
 	superCategory = "PowerUps";
 	category = "Blasted";
 	
-	shapeFile = "~/data/shapes_bm/Powerups/TimeTravel_bm.dts";
+	shapeFile = "~/data/shapes_bm/Powerups/TimeTravel5Sec_bm.dts";
+};
 
-	skinCount = 11;
-
-	skin[0] = "base";
-	skin[1] = "1";
-	skin[2] = "2";
-	skin[3] = "3";
-	skin[4] = "4";
-	skin[5] = "5";
-	skin[6] = "6";
-	skin[7] = "7";
-	skin[8] = "8";
-	skin[9] = "9";
-	skin[10] = "10";
-
+datablock ItemData(TimeTravelItem10Sec_BM : TimeTravelItem) {
+	superCategory = "PowerUps";
+	category = "Blasted";
+	
+	shapeFile = "~/data/shapes_bm/Powerups/TimeTravel10Sec_bm.dts";
 };
 
 datablock ItemData(TimeTravelItem_BMGate : TimeTravelItem) {
@@ -820,10 +826,24 @@ function TimeTravelItem_PQ::onAdd(%this, %obj) {
 function TimeTravelItem_PQ::onPickup(%this,%obj,%user,%amount) {
 	return TimeTravelItem::onPickup(%this, %obj, %user, %amount);
 }
-function TimeTravelItem_BM::onAdd(%this, %obj) {
+function TimeTravelItem5Sec_BM::onAdd(%this, %obj) 
+{	
+	%obj.playThread(0, "minute");
+	%obj.playThread(1, "hour");
+
 	return TimeTravelItem::onAdd(%this, %obj);
 }
-function TimeTravelItem_BM::onPickup(%this,%obj,%user,%amount) {
+function TimeTravelItem5Sec_BM::onPickup(%this,%obj,%user,%amount) {
+	return TimeTravelItem::onPickup(%this, %obj, %user, %amount);
+}
+function TimeTravelItem10Sec_BM::onAdd(%this, %obj) 
+{	
+	%obj.playThread(0, "minute");
+	%obj.playThread(1, "hour");
+
+	return TimeTravelItem::onAdd(%this, %obj);
+}
+function TimeTravelItem10Sec_BM::onPickup(%this,%obj,%user,%amount) {
 	return TimeTravelItem::onPickup(%this, %obj, %user, %amount);
 }
 function TimeTravelItem_BMGate::onAdd(%this, %obj) {

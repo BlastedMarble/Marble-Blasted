@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!--Torque Constructor Scene document http://www.garagegames.com-->
-<ConstructorScene version="4" creator="Torque Constructor" date="2023/03/10 21:57:36">
+<ConstructorScene version="4" creator="Torque Constructor" date="2024/08/14 22:33:09">
     <Sunlight azimuth="180" elevation="35" color="100 100 100" ambient="64 64 64" />
     <LightingOptions lightingSystem="" ineditor_defaultLightmapSize="256" ineditor_maxLightmapSize="256" ineditor_lightingPerformanceHint="0" ineditor_shadowPerformanceHint="1" ineditor_TAPCompatibility="0" ineditor_useSunlight="0" export_defaultLightmapSize="256" export_maxLightmapSize="256" export_lightingPerformanceHint="0" export_shadowPerformanceHint="1" export_TAPCompatibility="0" export_useSunlight="0" />
     <GameTypes>
@@ -37769,36 +37769,6 @@
                             <Indices indices=" 6 4 0 2" />
                         </Face>
                         <Face id="5" plane="0 0 -1 -1" album="" material="bm_grid_blank4" texgens="-1 0 0 384 0 -1 0 128 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
-                            <Indices indices=" 7 3 1 5" />
-                        </Face>
-                    </Brush>
-                    <Brush id="1339" owner="0" type="0" pos="-1 13 0.625" rot="1 0 0 0" scale="" transform="1 0 0 -1 0 1 0 13 0 0 1 0.625 0 0 0 1" group="-1" locked="0" nextFaceID="7" nextVertexID="9">
-                        <Vertices>
-                            <Vertex pos="3 1 0.125" />
-                            <Vertex pos="3.25 1.25 -0.125" />
-                            <Vertex pos="3 -3 0.125" />
-                            <Vertex pos="3.25 -3.25 -0.125" />
-                            <Vertex pos="-1 1 0.125" />
-                            <Vertex pos="-1.25 1.25 -0.125" />
-                            <Vertex pos="-1 -3 0.125" />
-                            <Vertex pos="-1.25 -3.25 -0.125" />
-                        </Vertices>
-                        <Face id="0" plane="0.707107 -0 0.707107 -2.20971" album="" material="bm_wood" texgens="0 1 0 2304 0 0 -1 96 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="256 256">
-                            <Indices indices=" 3 2 0 1" />
-                        </Face>
-                        <Face id="1" plane="-0.707107 0 0.707107 -0.795495" album="" material="bm_wood" texgens="0 -1 0 -2176 0 0 -1 96 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="256 256">
-                            <Indices indices=" 7 5 4 6" />
-                        </Face>
-                        <Face id="2" plane="0 0.707107 0.707107 -0.795495" album="" material="bm_wood" texgens="-1 0 0 640 0 0 -1 96 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="256 256">
-                            <Indices indices=" 5 1 0 4" />
-                        </Face>
-                        <Face id="3" plane="0 -0.707107 0.707107 -2.20971" album="" material="bm_wood" texgens="1 0 0 -512 0 0 -1 96 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="256 256">
-                            <Indices indices=" 7 6 2 3" />
-                        </Face>
-                        <Face id="4" plane="-0 0 1 -0.125" album="Blasted" material="bm_grid_blank2" texgens="1 0 0 128 0 -1 0 128 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
-                            <Indices indices=" 6 4 0 2" />
-                        </Face>
-                        <Face id="5" plane="0 0 -1 -0.125" album="" material="bm_wood" texgens="-1 0 0 640 0 -1 0 -2176 0 0.125 0.125" texRot="0" texScale="0.125 0.125" texDiv="256 256">
                             <Indices indices=" 7 3 1 5" />
                         </Face>
                     </Brush>

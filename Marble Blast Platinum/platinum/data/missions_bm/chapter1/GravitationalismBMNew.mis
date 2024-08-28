@@ -833,13 +833,13 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "-8 10.5505 9.94959";
-      rotation = "-0.357401 -0.357402 0.862861 98.4216";
+      rotation = "-0.357401 -0.357402 0.862861 98.4217";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/AntiGravityGate_icon_bm.dts";
    };
    new TSStatic() {
       position = "-8 7.75736 8.50006";
-      rotation = "-0.357401 0.357402 -0.862861 98.4216";
+      rotation = "-0.357401 0.357402 -0.862861 98.4217";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
@@ -907,7 +907,7 @@ new SimGroup(MissionGroup) {
    };
    new TSStatic() {
       position = "10 8.08033 10.1236";
-      rotation = "-0.191471 0.191478 -0.96264 92.1817";
+      rotation = "-0.191471 0.191478 -0.96264 92.1818";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
@@ -1173,55 +1173,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "Propeller_BM_Base";
    };
    new Item() {
-      position = "-32 -16 19.5";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "14 36 22.5";
-      rotation = "-0.862856 -0.357408 0.357406 98.4215";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-22 24 0.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-36 45 35.5";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "-32 0 15.6681";
+      position = "-32 0 15.8295";
       rotation = "0 -1 0 90";
       scale = "3 3 3";
       dataBlock = "GemItemPurple_BM";
@@ -1325,7 +1277,7 @@ new SimGroup(MissionGroup) {
    };
    new InteriorInstance() {
       position = "15.5 36.75 27.5";
-      rotation = "-0.919004 -0.278778 0.278775 94.8342";
+      rotation = "-0.919004 -0.278778 0.278775 94.8343";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
@@ -1455,6 +1407,44 @@ new SimGroup(MissionGroup) {
       rotation = "-0.57735 0.577352 -0.57735 240";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new Item() {
+      position = "-32 -17 16.5";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-6 36 22.5";
+      rotation = "-0.862856 0.357408 -0.357406 98.4215";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-36 53 35.5";
+      rotation = "0 -1 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!--Torque Constructor Scene document http://www.garagegames.com-->
-<ConstructorScene version="4" creator="Torque Constructor" date="2024/01/08 12:32:34">
+<ConstructorScene version="4" creator="Torque Constructor" date="2024/08/14 22:30:39">
     <Sunlight azimuth="180" elevation="35" color="100 100 100" ambient="64 64 64" />
     <LightingOptions lightingSystem="" ineditor_defaultLightmapSize="256" ineditor_maxLightmapSize="256" ineditor_lightingPerformanceHint="0" ineditor_shadowPerformanceHint="1" ineditor_TAPCompatibility="0" ineditor_useSunlight="0" export_defaultLightmapSize="256" export_maxLightmapSize="256" export_lightingPerformanceHint="0" export_shadowPerformanceHint="1" export_TAPCompatibility="0" export_useSunlight="0" />
     <GameTypes>
@@ -2052,7 +2052,7 @@
                             <Vertex pos="-2 -2 4" />
                             <Vertex pos="-2 -2 -4" />
                         </Vertices>
-                        <Face id="0" plane="1 -0 0 -2" album="Blasted" material="bm_grid_blank_water" texgens="0 1 0 0 0 0 -1 512 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
+                        <Face id="0" plane="1 -0 0 -2" album="" material="bm_grid_blank4" texgens="0 1 0 0 0 0 -1 512 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">
                             <Indices indices=" 3 2 0 1" />
                         </Face>
                         <Face id="1" plane="-1 0 0 -2" album="Blasted" material="bm_grid_blank4" texgens="0 -1 0 -2.09306e+006 0 0 -1 -393984 0 0.25 0.25" texRot="0" texScale="0.25 0.25" texDiv="256 256">

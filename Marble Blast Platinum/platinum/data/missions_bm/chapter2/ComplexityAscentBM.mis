@@ -3,16 +3,16 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          artist = "James C.";
-         awesomeTime = "25000";
+         awesomeTime = "30000";
          desc = "Roll to the goal while passing the challenges in this ascent.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "45000";
          level = "6";
          name = "Complexity Ascent";
-         goldTime = "40000";
-         platinumTime = "35000";
+         platinumTime = "40000";
          type = "Custom";
-         ultimateTime = "30000";
+         ultimateTime = "35000";
    };
    new SimGroup(SceneryGroup) {
    };
@@ -366,7 +366,7 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-19 -19 7";
+      position = "-16 -17 7";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
@@ -551,42 +551,6 @@ new SimGroup(MissionGroup) {
          skin = "base";
          visibleTime = "500";
    };
-   new Item() {
-      position = "-20.5 -20.5 7";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "-32.5 60.5 27";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "0.5 70.5 31";
-      rotation = "0 0 -1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
    new Trigger(CheckP2) {
       position = "-9 53 37";
       rotation = "1 0 0 0";
@@ -667,34 +631,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
-   };
-   new Item() {
-      position = "18.2283 51.2863 37";
-      rotation = "0 0 1 59.04";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Hurdle1";
-         noRespawn = "0";
-         parentModTrans = "-1.5 0 0 1 0 0 0";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "54 30 41";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
    };
    new StaticShape(check1) {
       position = "-18 38 25.01";
@@ -937,6 +873,32 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new Item() {
+      position = "-20 7 7.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "58 36 41";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

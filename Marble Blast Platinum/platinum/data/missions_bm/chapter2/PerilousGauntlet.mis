@@ -8,9 +8,9 @@ new SimGroup(MissionGroup) {
          fanStrength = "30";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "45000";
          level = "3";
          name = "Perilous Gauntlet";
-         goldTime = "45000";
          platinumTime = "40000";
          type = "Custom";
          ultimateTime = "35000";
@@ -309,25 +309,25 @@ new SimGroup(MissionGroup) {
       position = "28 27 7.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "28 15 7.5";
       rotation = "0 1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "20 21 7.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "20 33 7.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
-      dataBlock = "DuctFan_BM";
+      dataBlock = "DuctFanWalled_BM";
    };
    new TSStatic() {
       position = "26 40 8.75";
@@ -501,54 +501,6 @@ new SimGroup(MissionGroup) {
          noParticles = "0";
          noRespawn = "0";
    };
-   new Item() {
-      position = "0 27 6.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "19.25 24 8.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "6";
-         timeBonus = "6000";
-   };
-   new Item() {
-      position = "28.75 24 8.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "6";
-         timeBonus = "6000";
-   };
-   new Item() {
-      position = "21 27 -7.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
-   };
    new Trigger(Bounds) {
       position = "-19.5 -35.5 -12.25";
       rotation = "1 0 0 0";
@@ -625,7 +577,7 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
    };
-   new StaticShape(check1) {
+   new StaticShape(Check1) {
       position = "24 8 24.51";
       rotation = "1 0 0 0";
       scale = "1 1 1";
@@ -643,7 +595,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "Check1";
    };
-   new StaticShape(check2) {
+   new StaticShape(Check2) {
       position = "36 -16 -7.49";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
@@ -855,6 +807,45 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new Item() {
+      position = "-6.33498e-005 28.5 6.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "27 24 24.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "20.5 16 -7.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

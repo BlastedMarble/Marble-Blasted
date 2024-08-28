@@ -38,7 +38,7 @@ new SimGroup(MissionGroup) {
             displayonce = "0";
             extended = "1";
             persistTime = "1000";
-            text = "To your left is a Time Travel. These stop the timer for a range of 1 to 10 seconds. Collect as many of these as you can to improve your time.";
+            text = "To your left is a Rewind Watch. These shave 5 seconds off the timer. While they are usually colored grey, there are also some hidden black ones that can shave 10 seconds off. Collect as many of these as you can to improve your time.";
             triggerRadius = "3";
       };
       new StaticShape(superspeed) {
@@ -74,7 +74,7 @@ new SimGroup(MissionGroup) {
             displayonce = "0";
             extended = "1";
             persistTime = "1000";
-            text = "Items sometimes come in the form of gates, allowing the player to grab them more easily.";
+            text = "Items sometimes come in the form of gates, allowing the player to grab them more easily. Rewind Watches are an exception to this rule.";
             triggerRadius = "3";
       };
    };
@@ -267,45 +267,6 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          gravity = "0";
          respawnPoint = "Check1";
-   };
-   new Item() {
-      position = "7.8 27.2 7.2";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         instant = "10000";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "10000";
-   };
-   new Item() {
-      position = "-8.1 -25.3 8.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         instant = "3000";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "23 2 24";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         instant = "8000";
-         noRespawn = "0";
-         skin = "8";
-         timeBonus = "8000";
    };
    new TSStatic() {
       position = "-22 2 12.95";
@@ -569,6 +530,45 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter1/MinorAscentCurve1.dif";
       showTerrainInside = "0";
+   };
+   new Item() {
+      position = "7.75 27.25 7.25";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-8 -25.25 8.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "36 -3 16.5";
+      rotation = "0 0 1 225";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

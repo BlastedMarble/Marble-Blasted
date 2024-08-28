@@ -227,20 +227,19 @@ datablock StaticShapeData(SmallDuctFan) {
 };
 
 datablock StaticShapeData(DuctFan_BM : DuctFan) {
-	className = "Fan";
 	superCategory = "Hazards";
 	category = "Blasted";
-	shapeFile = "~/data/shapes_bm/hazards/ductfan.dts";
-	scopeAlways = true;
 
-	forceType[0] = Cone;       // Force type {Spherical, Field, Cone}
-	forceNode[0] = 0;          // Shape node transform
-	forceStrength[0] = $Game::FanStrength;     // Force to apply
-	forceStrengthModifier[0] = 1; //Modifier of forceStrength
-	forceRadius[0] = 10;       // Max radius
-	forceArc[0] = 0.7;         // Cos angle
+	compile = "pls";
+	shapeFile = "~/data/shapes_bm/hazards/DuctFan_bm.dts";
+};
 
-	powerOn = true;         // Default state
+datablock StaticShapeData(DuctFanWalled_BM : DuctFan) {
+	superCategory = "Hazards";
+	category = "Blasted";
+
+	compile = "pls";
+	shapeFile = "~/data/shapes_bm/hazards/DuctFanWalled_bm.dts";
 };
 
 datablock StaticShapeData(DuctFan_PQ : DuctFan) {

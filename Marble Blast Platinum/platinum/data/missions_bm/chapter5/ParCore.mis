@@ -20,147 +20,147 @@ new SimGroup(MissionGroup) {
    new SimGroup(SceneryGroup) {
 
       new StaticShape() {
-         position = "14 4.875 -6.5";
+         position = "14 4.875 -7";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "14 -4.875 -6.5";
+         position = "14 -4.875 -7";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "18.875 9.23872e-007 -6.5";
+         position = "18.875 9.23872e-007 -7";
          rotation = "0 0 1 90.0002";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "9.125 -9.23872e-007 -6.5";
+         position = "9.125 -9.23872e-007 -7";
          rotation = "0 0 1 90.0002";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "14 4.875 -14.5";
+         position = "14 4.875 -15";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "9.125 0 -14.5";
+         position = "9.125 0 -15";
          rotation = "0 0 1 90.0002";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "18.875 0 -14.5";
+         position = "18.875 0 -15";
          rotation = "0 0 1 90.0002";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "14 -4.875 -14.5";
+         position = "14 -4.875 -15";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "21.875 86 -15.5";
-         rotation = "0 0 1 90.0002";
-         scale = "2 1 3";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "12.125 86 -15.5";
+         position = "21.875 86 -15";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 82.125 -15.5";
-         rotation = "1 0 0 0";
-         scale = "3 1 3";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "17 89.875 -15.5";
-         rotation = "1 0 0 0";
-         scale = "3 1 3";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "12.125 86 -7.375";
+         position = "12.125 86 -15";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 82.125 -7.375";
+         position = "17 82.125 -15";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "21.875 86 -7.375";
+         position = "17 89.875 -15";
+         rotation = "1 0 0 0";
+         scale = "3 1 3";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "12.125 86 -6.875";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 89.875 -7.375";
+         position = "17 82.125 -6.875";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "12.125 85.875 0.5";
+         position = "21.875 86 -6.875";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 82.125 0.5";
+         position = "17 89.875 -6.875";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "21.875 85.875 0.5";
+         position = "12.125 85.875 1";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 89.875 0.5";
+         position = "17 82.125 1";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "12.125 86 8.5";
+         position = "21.875 85.875 1";
          rotation = "0 0 1 90.0002";
          scale = "2 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 82.125 8.5";
+         position = "17 89.875 1";
          rotation = "1 0 0 0";
          scale = "3 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "21.875 86 8.5";
+         position = "83.125 -31.125 96";
          rotation = "0 0 1 90.0002";
-         scale = "2 1 3";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "17 89.875 8.5";
+         position = "88 -35.875 96";
          rotation = "1 0 0 0";
-         scale = "3 1 3";
+         scale = "3 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "88 -26.125 96";
+         rotation = "1 0 0 0";
+         scale = "3 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "92.875 -31.125 96";
+         rotation = "0 0 1 90.0002";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
@@ -236,27 +236,27 @@ new SimGroup(MissionGroup) {
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "116.125 90 32";
-         rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "120 93.875 32";
+         position = "88 -35.875 82";
          rotation = "1 0 0 0";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "123.875 90 32";
+         position = "92.875 -31 82";
          rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "120 86.125 32";
+         position = "83.125 -31 82";
+         rotation = "0 0 1 90.0002";
+         scale = "3 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "88 -26.125 82";
          rotation = "1 0 0 0";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
@@ -356,27 +356,27 @@ new SimGroup(MissionGroup) {
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "116.125 197.875 46";
+         position = "92.875 -31 68";
          rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "120 201.875 46";
+         position = "88 -35.875 68";
          rotation = "1 0 0 0";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "123.875 197.875 46";
+         position = "88 -26.125 68";
+         rotation = "1 0 0 0";
+         scale = "3 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "83.125 -31 68";
          rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "120 194.125 46";
-         rotation = "1 0 0 0";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
@@ -524,27 +524,27 @@ new SimGroup(MissionGroup) {
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "-58 190.125 58";
+         position = "88 -35.875 54";
          rotation = "1 0 0 0";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "-54.125 193.875 58";
+         position = "92.875 -30.875 54";
          rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "-58 197.875 58";
+         position = "83.125 -30.875 54";
+         rotation = "0 0 1 90.0002";
+         scale = "3 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "88 -26.125 54";
          rotation = "1 0 0 0";
-         scale = "2 1 4";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "-61.875 193.875 58";
-         rotation = "0 0 1 90.0002";
-         scale = "2 1 4";
+         scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
@@ -613,102 +613,6 @@ new SimGroup(MissionGroup) {
          scale = "3 1 6";
          dataBlock = "Glass_BM";
       };
-      new StaticShape() {
-         position = "83.125 -30.875 54";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "92.875 -30.875 54";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -35.875 54";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -26.125 54";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -26.125 68";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -35.875 68";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "92.875 -31 68";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "83.125 -31 68";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "83.125 -31 82";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "92.875 -31 82";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -35.875 82";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -26.125 82";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -26.125 96";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "88 -35.875 96";
-         rotation = "1 0 0 0";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "92.875 -31.125 96";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
-      new StaticShape() {
-         position = "83.125 -31.125 96";
-         rotation = "0 0 1 90.0002";
-         scale = "3 1 6";
-         dataBlock = "Glass_BM";
-      };
    };
    new Trigger(Propulsion) {
       position = "-72 36 70";
@@ -771,9 +675,9 @@ new SimGroup(MissionGroup) {
          value1 = "225";
    };
    new Sun() {
-      direction = "0.638261 0.459006 -0.61801";
-      color = "0.700000 0.700000 0.700000 1.000000";
-      ambient = "0.400000 0.400000 0.500000 1.000000";
+      direction = "0 0 -1";
+      color = "0.500000 0.500000 0.500000 1.000000";
+      ambient = "0.300000 0.300000 0.400000 1.000000";
    };
    new SimGroup(PathNodeGroup) {
 
@@ -1154,149 +1058,161 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new Trigger() {
-      position = "0.5 0.5 0.5";
-      rotation = "0 0 1 90.0002";
+      position = "13.5 -23.5 2.25";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "SpawnTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          center = "1";
          gravity = "0";
    };
+   new Trigger(EE1) {
+      position = "-62 28 112";
+      rotation = "1 0 0 0";
+      scale = "2 4 1";
+      dataBlock = "TeleportTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         DisplayGemsMessage = "0";
+         cameraYaw = "180";
+         centerDestPoint = "1";
+         delay = "2000";
+         destination = "EEDest1";
+         inverseVelocity = "0";
+         keepAngular = "0";
+         keepCamera = "0";
+         keepVelocity = "0";
+         silent = "0";
+   };
+   new TSStatic() {
+      position = "88 -31 113.75";
+      rotation = "0 0 1 90.0002";
+      scale = "2 1 2";
+      shapeName = "~/data/shapes_bm/pads/bm_goal_icon.dts";
+   };
    new InteriorInstance() {
-      position = "9.5 2 -9";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreShortcutSlope.dif";
+      showTerrainInside = "0";
+   };
+   new Trigger(finish) {
+      position = "88 -26 106";
+      rotation = "0 0 1 90.0002";
+      scale = "10 0 16";
+      dataBlock = "FinishTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
+   new TSStatic() {
+      position = "88 -31 114";
+      rotation = "0 0 1 90.0002";
+      scale = "5 1 8";
+      shapeName = "~/data/shapes_bm/pads/endgate_bm.dts";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreArch1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "6 46.34 5.565";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1Half.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreShortcutWalledPart1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-3 82.5 4";
-      rotation = "1 0 0 0";
+      position = "89 199 45";
+      rotation = "-0.577343 0.577358 -0.577349 120";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape(check5) {
+      position = "-59 -19 94.01";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "0";
+   };
+   new Trigger(CheckP5) {
+      position = "-62 -10 94";
+      rotation = "1 0 0 0";
+      scale = "6 12 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "0";
+         respawnPoint = "Check5";
+   };
+   new InteriorInstance() {
+      position = "-59 -42.25 93";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "17.9285 77.5 9.48";
-      rotation = "1 0 0 0";
+      position = "-78.75 -37.5 97";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfA.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "61 77.5 8.5";
-      rotation = "1 0 0 0";
+      position = "-72.75 -20.5 96.25";
+      rotation = "0 0 1 33.7501";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2A.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "116.5 159 18.5";
-      rotation = "1 0 0 0";
+      position = "-93.75 -24.75 100.5";
+      rotation = "0 0 -1 45.0001";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2B.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "67.93 194.5 43.98";
+   new StaticShape() {
+      position = "-11.75 -29.75 98";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2Half.dif";
-      showTerrainInside = "0";
+      dataBlock = "LandMine_BM";
+         resetTime = "Default";
    };
-   new InteriorInstance() {
-      position = "17.93 190.5 47.98";
+   new StaticShape() {
+      position = "-0.5 -32 98";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2Half.dif";
-      showTerrainInside = "0";
+      dataBlock = "LandMine_BM";
+         resetTime = "Default";
    };
-   new InteriorInstance() {
-      position = "-20.07 190.5 51.98";
+   new StaticShape() {
+      position = "38.75 -33 102";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2Half.dif";
-      showTerrainInside = "0";
+      dataBlock = "LandMine_BM";
+         resetTime = "Default";
    };
-   new InteriorInstance() {
-      position = "-66.5 165.93 59.98";
+   new StaticShape() {
+      position = "45.25 -29 102";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfB.dif";
-      showTerrainInside = "0";
+      dataBlock = "LandMine_BM";
+         resetTime = "Default";
    };
-   new InteriorInstance() {
-      position = "-61.5 141.929 59.98";
+   new StaticShape() {
+      position = "52 -31.75 102";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfC.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-66.5 125.929 59.98";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfB.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-61.5 101.929 59.98";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfC.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-64.5 73.93 59.98";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2HalfB.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-87 30.5 58.499";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve2.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-64 -4.656 84.5656";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1HalfB.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-50.657 -36 88.5659";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1HalfA.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-0.66 -36 92.566";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1HalfA.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "49.3425 -36 96.565";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve1HalfA.dif";
-      showTerrainInside = "0";
+      dataBlock = "LandMine_BM";
+         resetTime = "Default";
    };
    new Trigger(Propulsion) {
-      position = "13 5 0.5";
+      position = "13 5 0";
       rotation = "1 0 0 0";
       scale = "2 10 0.1";
       dataBlock = "MarblePhysModTrigger";
@@ -1308,9 +1224,9 @@ new SimGroup(MissionGroup) {
          value1 = "225";
    };
    new Trigger(Repulsion) {
-      position = "-10 96 17.5";
+      position = "-10 102 16";
       rotation = "1 0 0 0";
-      scale = "6 2 0.1";
+      scale = "6 8 0.1";
       dataBlock = "MarblePhysModTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
          marbleAttribute0 = "bounceRestitution";
@@ -1403,18 +1319,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new Item() {
-      position = "-57 96 66";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new StaticShape() {
       position = "-71 23 90.02";
       rotation = "0 0 1 90.0002";
@@ -1439,18 +1343,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new Item() {
-      position = "98 88 40";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new StaticShape() {
       position = "-69 25 90.02";
       rotation = "0 0 1 90.0002";
@@ -1462,18 +1354,6 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
-   };
-   new Item() {
-      position = "41.5 194.25 54";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
    };
    new StaticShape() {
       position = "-65 25 90.02";
@@ -1489,73 +1369,70 @@ new SimGroup(MissionGroup) {
    };
    new StaticShape() {
       position = "-70.25 -29.75 96.75";
-      rotation = "0.158705 -0.158704 0.974487 91.48";
+      rotation = "0.158705 -0.158704 0.974487 91.4795";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
       position = "-67.2437 -32.75 95.769";
-      rotation = "0.158705 -0.158704 0.974487 91.4799";
+      rotation = "0.158705 -0.158704 0.974487 91.4794";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
       position = "-63.7947 -30.5 94.6193";
-      rotation = "0.158705 -0.158704 0.974487 91.4799";
+      rotation = "0.158705 -0.158704 0.974487 91.4794";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
       position = "-78.395 -29.75 98.8194";
-      rotation = "0.158705 -0.158704 0.974487 91.4799";
+      rotation = "0.158705 -0.158704 0.974487 91.4794";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
    new StaticShape() {
       position = "-85.594 -32.25 101.219";
-      rotation = "0.158705 -0.158704 0.974487 91.4799";
+      rotation = "0.158705 -0.158704 0.974487 91.4794";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
    };
-   new TSStatic() {
-      position = "88 -31 106";
-      rotation = "0 0 1 90.0002";
+   new InteriorInstance() {
+      position = "-75 -25 93";
+      rotation = "0.707106 -2.57907e-006 0.707108 180";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/pads/endpad_bm.dts";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
    };
-   new Trigger(finish) {
-      position = "87 -30 106";
-      rotation = "1 0 0 0";
-      scale = "2 2 20";
-      dataBlock = "FinishTrigger";
+   new InteriorInstance() {
+      position = "-89 -25 97";
+      rotation = "0.707106 -2.57907e-006 0.707108 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new Trigger(EEDest1) {
+      position = "-61.5 29.5 70";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "DestinationTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new Item() {
-      position = "14 -30 2.75";
-      rotation = "1 0 0 0";
+   new StaticShape(check4) {
+      position = "-61 41 70.01";
+      rotation = "0 0 1 135";
       scale = "1 1 1";
-      dataBlock = "GemItemPurple_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "0";
    };
-   new Item() {
-      position = "120 198 54";
-      rotation = "1 0 0 0";
+   new InteriorInstance() {
+      position = "-59 14 104";
+      rotation = "7.31795e-006 1 3.27857e-006 90.0002";
       scale = "1 1 1";
-      dataBlock = "GemItemPurple_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-   };
-   new Item() {
-      position = "-97 -31 102";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "GemItemPurple_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
    };
    new StaticShape() {
       position = "38 194 54.02";
@@ -1576,50 +1453,14 @@ new SimGroup(MissionGroup) {
       dataBlock = "RoundBumper_BM";
    };
    new InteriorInstance() {
-      position = "-125 19 59";
-      rotation = "1 0 0 0";
+      position = "-61 14 104";
+      rotation = "7.31795e-006 1 3.27857e-006 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurve3.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
       showTerrainInside = "0";
    };
-   new Item() {
-      position = "-88 34 94";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "6";
-         timeBonus = "6000";
-   };
-   new Item() {
-      position = "-66.25 -29.5 95.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-81 -31.75 99.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
    new StaticShape(check1) {
-      position = "-7 91 31.51";
+      position = "-7 91 32.01";
       rotation = "0 0 1 135";
       scale = "1 1 1";
       dataBlock = "Checkpoint_BM";
@@ -1628,7 +1469,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
    };
    new Trigger(CheckP1) {
-      position = "-10 99 31.5";
+      position = "-10 99 32";
       rotation = "1 0 0 0";
       scale = "6 15 6";
       dataBlock = "CheckpointTrigger";
@@ -1636,39 +1477,46 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "Check1";
    };
-   new InteriorInstance() {
-      position = "21.25 -3.69549e-006 -0.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
-      showTerrainInside = "0";
+   new Trigger(CheckP4) {
+      position = "-76 60 70";
+      rotation = "1 0 0 0";
+      scale = "28 28 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "0";
+         respawnPoint = "Check4";
    };
    new InteriorInstance() {
-      position = "17 110.25 14";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreSlide.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-12 104.5 16";
-      rotation = "0 0 -1 90.0002";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreQuarterPipe1.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "-15 92 19.5";
-      rotation = "0.707108 -2.57889e-006 0.707106 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
-      showTerrainInside = "0";
+   new Trigger(Propulsion) {
+      position = "14 88 16";
+      rotation = "1 0 0 0";
+      scale = "6 4 0.1";
+      dataBlock = "MarblePhysModTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         marbleAttribute0 = "maxRollVelocity";
+         marbleAttribute1 = "angularAcceleration";
+         noEmitters = "1";
+         value0 = "100";
+         value1 = "225";
    };
    new InteriorInstance() {
-      position = "-0.75 93 33.25";
-      rotation = "0.577352 0.57735 -0.57735 240";
+      position = "12 22 9";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
@@ -1697,10 +1545,10 @@ new SimGroup(MissionGroup) {
          respawnPoint = "Check2";
    };
    new InteriorInstance() {
-      position = "122.25 204.25 52.5";
-      rotation = "1 0 0 0";
+      position = "36 -33 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
@@ -1736,196 +1584,1150 @@ new SimGroup(MissionGroup) {
          respawnPoint = "Check3";
    };
    new InteriorInstance() {
-      position = "-53.1214 38.8787 70.25";
-      rotation = "0 0 1 225.001";
-      scale = "0.5 0.5 0.5";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurveWalled180.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-73 41 70.5";
-      rotation = "0 0 -1 45.0001";
+      position = "0 0 0";
+      rotation = "1 0 0 0";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurveWalled270.dif";
       showTerrainInside = "0";
    };
-   new StaticShape(check4) {
-      position = "-61 41 70.01";
-      rotation = "0 0 1 135";
-      scale = "1 1 1";
-      dataBlock = "Checkpoint_BM";
-         chkcollide = "1";
-         disableOOB = "0";
-         gravity = "0";
-   };
-   new Trigger(CheckP4) {
-      position = "-76 60 70";
+   new InteriorInstance() {
+      position = "0 0 0";
       rotation = "1 0 0 0";
-      scale = "28 28 6";
-      dataBlock = "CheckpointTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         gravity = "0";
-         respawnPoint = "Check4";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreQuarterPipe2.dif";
+      showTerrainInside = "0";
    };
-   new StaticShape(check5) {
-      position = "-59 -19 94.01";
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "80 172 4";
       rotation = "0 0 1 180";
       scale = "1 1 1";
-      dataBlock = "Checkpoint_BM";
-         chkcollide = "1";
-         disableOOB = "0";
-         gravity = "0";
-   };
-   new Trigger(CheckP5) {
-      position = "-62 -10 94";
-      rotation = "1 0 0 0";
-      scale = "6 12 6";
-      dataBlock = "CheckpointTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         gravity = "0";
-         respawnPoint = "Check5";
-   };
-   new InteriorInstance() {
-      position = "-59 -42.25 93";
-      rotation = "0 0 1 180";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreQuarterPipe2.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-78.75 -37.5 97";
+      position = "34 178 14";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreQuarterPipe2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "210 78 14";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurveWalled270.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-72.75 -20.5 96.25";
-      rotation = "0 0 1 33.7501";
+      position = "102 284 34";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-93.75 -24.75 100.5";
-      rotation = "0 0 -1 45.0001";
+      position = "52 280 38";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
       showTerrainInside = "0";
    };
-   new StaticShape() {
-      position = "-11.75 -29.75 98";
-      rotation = "1 0 0 0";
+   new InteriorInstance() {
+      position = "14 280 42";
+      rotation = "0 0 1 180";
       scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resettime = "Default";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
    };
-   new StaticShape() {
-      position = "-0.5 -32 98";
-      rotation = "1 0 0 0";
+   new InteriorInstance() {
+      position = "-144 200 50";
+      rotation = "0 0 1 89.9996";
       scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resettime = "Default";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
    };
-   new StaticShape() {
-      position = "38.75 -33 102";
-      rotation = "1 0 0 0";
+   new InteriorInstance() {
+      position = "28 124 50";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resettime = "Default";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
    };
-   new StaticShape() {
-      position = "45.25 -29 102";
-      rotation = "1 0 0 0";
+   new InteriorInstance() {
+      position = "28 84 50";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resettime = "Default";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
    };
-   new StaticShape() {
-      position = "52 -31.75 102";
+   new InteriorInstance() {
+      position = "-144 160 50";
+      rotation = "0 0 1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-142 108 50";
+      rotation = "0 0 1 89.9996";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-84 -52 54";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "LandMine_BM";
-         resettime = "Default";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreQuarterPipe2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-42 28 4";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 28 8";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "58 28 12";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreLaunchRamp2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreArch2.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 0 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreShortcutWalledPart0.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "62 284 26";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter5/ParCoreCurveWalled270.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "16 -8 -5";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "14 -8 -5";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "12 -8 -5.00001";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "16 8 -5";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "14 8 -5";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "12 8 -5";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "16 22 9";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "14 22 9";
+      rotation = "0.707108 -2.53861e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "17 77 9";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "19 77 9";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "15 77 9";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "17 94 8";
+      rotation = "0.577352 -0.577349 -0.57735 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "19 94 8";
+      rotation = "0.577352 -0.577349 -0.57735 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "15 94 8";
+      rotation = "0.577352 -0.577349 -0.57735 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "10 87 12";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "10 85 12";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "24 87 12";
+      rotation = "2.61401e-006 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "24 85 12";
+      rotation = "2.61401e-006 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "53 85 13";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "53 87 13";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "67 87 13";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "67 85 13";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "87 87 33";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "87 85 33";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "111 89 33";
+      rotation = "0.577356 0.577344 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "111 91 33";
+      rotation = "0.577356 0.577344 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 98 34";
+      rotation = "0.577352 -0.577349 -0.57735 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 98 34";
+      rotation = "0.577352 -0.577349 -0.57735 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 125 27";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 125 27";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 135 27";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 135 27";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 167 25";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 167 25";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 157 25";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 157 25";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 183 49";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 183 49";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "119 190 48";
+      rotation = "0.577352 0.57735 0.577349 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "121 190 48";
+      rotation = "0.577352 0.57735 0.577349 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 199 48";
+      rotation = "-1 3.19597e-006 2.81542e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 197 48";
+      rotation = "-1 3.19597e-006 2.81542e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "79 199 45";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "79 197 45";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "89 197 45";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
    };
    new Trigger(Bounds) {
-      position = "-115.5 -57.75 -19";
+      position = "-115.5 -57.5 -71";
       rotation = "1 0 0 0";
-      scale = "263 279.25 249.5";
+      scale = "277 297 249";
       dataBlock = "InBoundsTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new InteriorInstance() {
-      position = "-59 27 70.25";
-      rotation = "0 0 1 135";
-      scale = "0.5 0.5 0.5";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      position = "49 197 47";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-65 27 70.25";
-      rotation = "0 0 1 225.001";
-      scale = "0.5 0.5 0.5";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      position = "49 199 47";
+      rotation = "-0.577348 0.577355 -0.577348 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
       showTerrainInside = "0";
    };
-   new Item() {
-      position = "-62 26 69.8361";
+   new InteriorInstance() {
+      position = "31 195 47";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "31 193 47";
+      rotation = "0.577352 0.57735 0.57735 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "1 195 53";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "1 193 53";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-9 193 53";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-9 195 53";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-36 193 58";
+      rotation = "2.61401e-006 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-36 195 58";
+      rotation = "2.61401e-006 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-45 195 57";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-45 193 57";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-51 193 57";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-51 195 57";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 184 58";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 184 58";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 147 61";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 147 61";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 137 61";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 137 61";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 107 61";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 107 61";
+      rotation = "0.707108 -7.68907e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-55 85 61";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 85 61";
+      rotation = "7.22985e-006 1 3.45733e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 60 52";
+      rotation = "0.707108 -2.61506e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-55 60 52";
+      rotation = "0.707108 -2.61506e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 33 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 35 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 29 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 31 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 21 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 23 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 25 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-44 27 66";
+      rotation = "-3.2045e-007 0.707107 0.707107 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 33 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 35 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 21 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 23 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 25 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 27 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 29 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-88 31 80";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch2-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 38 104";
+      rotation = "0.707108 -2.56127e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 38 104";
+      rotation = "0.707108 -2.56127e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 14 104";
+      rotation = "7.31795e-006 1 3.27857e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 4 72";
+      rotation = "7.34669e-006 1 3.46606e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 4 72";
+      rotation = "7.34669e-006 1 3.46606e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-61 4 72";
+      rotation = "7.34669e-006 1 3.46606e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 -22 86";
+      rotation = "0.707108 -7.72869e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 -22 86";
+      rotation = "0.707108 -7.72869e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-61 -22 86";
+      rotation = "0.707108 -7.72869e-006 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-61 -37 89";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-59 -37 89";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-57 -37 89";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-50 -29 86";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-50 -31 86";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-50 -33 86";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-71 -29 89";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-71 -31 89";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-65 -31 89";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-65 -29 89";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-65 -33 89";
+      rotation = "0.577355 0.577345 0.577351 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-71 -33 89";
+      rotation = "-0.577343 0.577358 -0.577349 120";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-84 -29 88";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-84 -31 88";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-84 -33 88";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-92 -29 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-92 -31 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-92 -33 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-14 -33 92";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-14 -31 92";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-14 -29 92";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "2 -29 92";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "2 -31 92";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "2 -33 92";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "52 -33 96";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "52 -31 96";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "52 -29 96";
+      rotation = "-3.62951e-007 0.707108 0.707106 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "36 -29 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "36 -31 96";
+      rotation = "-1 -4.09031e-006 -2.04665e-006 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-75 -37 93";
+      rotation = "0 1 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch3-1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape() {
+      position = "88 -25.75 106";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "EasterEgg_MBG";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+      dataBlock = "EndGatePole_BM";
    };
-   new Item() {
-      position = "-90.25 19.75 94";
+   new StaticShape() {
+      position = "88 -25.75 120";
       rotation = "1 0 0 0";
-      scale = "0.5 0.5 0.5";
-      dataBlock = "SuperJumpItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         showHelpOnPickup = "0";
-   };
-   new InteriorInstance() {
-      position = "-61 23 112.25";
-      rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 0.5";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-61 29 112.25";
-      rotation = "0 0 1 90.0002";
-      scale = "0.5 0.5 0.5";
-      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
-      showTerrainInside = "0";
-   };
-   new Trigger(EE1) {
-      position = "-62 28 112";
-      rotation = "1 0 0 0";
-      scale = "2 4 1";
-      dataBlock = "TeleportTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
-         DisplayGemsMessage = "0";
-         cameraYaw = "180";
-         centerDestPoint = "1";
-         delay = "2000";
-         destination = "EEDest1";
-         inverseVelocity = "0";
-         keepAngular = "0";
-         keepCamera = "0";
-         keepVelocity = "0";
-         silent = "0";
-   };
-   new Trigger(EEDest1) {
-      position = "-61.5 29.5 70";
-      rotation = "0 0 1 180";
       scale = "1 1 1";
-      dataBlock = "DestinationTrigger";
-      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 118";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 116";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 114";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 112";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 110";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -25.75 108";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 108";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 110";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 112";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 114";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 116";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 118";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 120";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
+   };
+   new StaticShape() {
+      position = "88 -36.25 106";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "EndGatePole_BM";
    };
 };
 //--- OBJECT WRITE END ---
