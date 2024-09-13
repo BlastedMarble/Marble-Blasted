@@ -77,7 +77,7 @@
     },
     "BMGlassMaterial": {
       "normal": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_grid_blank.normal",
-      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/null.spec",
+      "specular": "platinum/data/texture_packs/bmshaders/interiors_bm/bm_grid_blank.spec",
       "reflectivity": 0.075
     },
     "BMBasherMaterial": {
@@ -186,6 +186,9 @@
     "platinum/data/interiors_bm/bm_beam": "BMBeamMaterial",
     "platinum/data/interiors_bm/bm_beam_metal": "BMMetalBeamMaterial",
     "platinum/data/interiors_bm/bm_glass": "BMGlassMaterial",
+    "platinum/data/interiors_bm/bm_glass2": "BMGlassMaterial",
+    "platinum/data/interiors_bm/bm_glass3": "BMGlassMaterial",
+    "platinum/data/interiors_bm/bm_glass4": "BMGlassMaterial",
     "platinum/data/interiors_bm/bm_friction_grass": "BMGrassMaterial",
     "platinum/data/interiors_bm/bm_friction_sand": "BMSandMaterial",
     "platinum/data/interiors_bm/bm_friction_snow": "BMSnowMaterial",

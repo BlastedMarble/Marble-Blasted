@@ -17,21 +17,21 @@ new SimGroup(MissionGroup) {
    new SimGroup(SceneryGroup) {
 
       new StaticShape() {
-         position = "-99.125 15 14.5";
+         position = "-99.125 11 14.5";
          rotation = "0 0 1 90.0002";
-         scale = "4 1 4";
+         scale = "8 1 4";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "-140.875 12 39.5";
+         position = "-140.875 15 39.5";
          rotation = "0 0 1 90.0002";
-         scale = "3 1 3";
+         scale = "6 1 3";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
-         position = "-109 26.875 48.5";
+         position = "-109 26.875 51.5";
          rotation = "1 0 0 0";
-         scale = "4 1 4";
+         scale = "4 1 7";
          dataBlock = "Glass_BM";
       };
       new StaticShape() {
@@ -80,6 +80,24 @@ new SimGroup(MissionGroup) {
          position = "-109 54 47.25";
          rotation = "1 0 0 90.0002";
          scale = "6 1 3";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "-99.125 -5 16.5";
+         rotation = "0 0 1 90.0002";
+         scale = "8 1 2";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "-140.875 -1 24.5";
+         rotation = "0 0 1 90.0002";
+         scale = "4 1 6";
+         dataBlock = "Glass_BM";
+      };
+      new StaticShape() {
+         position = "-120 26.875 56.5";
+         rotation = "1 0 0 0";
+         scale = "7 1 2";
          dataBlock = "Glass_BM";
       };
    };

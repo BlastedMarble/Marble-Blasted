@@ -93,196 +93,196 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "16.875 -29 22";
+      position = "15.5 -22 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "14.125 -10 22";
+      position = "15.5 -17 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "16.875 -12 22";
+      position = "15.5 -5 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "14.125 7 22";
+      position = "15.5 0 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "14.125 -2 22";
+      position = "15.5 -9 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "16.875 -20 22";
+      position = "15.5 -13 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "14.125 11 10";
+      position = "15.5 -2 23";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "16.875 -33 10";
+      position = "15.5 -20 23";
       rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-16.875 -2 22";
+      position = "-15.5 -9 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.125 -21 22";
+      position = "-15.5 -14 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-16.875 12 22";
+      position = "-15.5 5 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.125 -12 22";
+      position = "-15.5 -5 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-16.875 21 22";
+      position = "-15.5 14 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.125 2 22";
+      position = "-15.5 9 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.125 -25 10";
+      position = "-15.5 -12 23";
       rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-16.875 25 10";
+      position = "-15.5 12 23";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-27 -16.875 10";
+      position = "-11 -15.5 26";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_5_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "11 -14.125 14";
+      position = "-2 -15.5 27";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-25 14.125 14";
+      position = "-12 15.5 27";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "13 16.875 10";
+      position = "-3 15.5 26";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_5_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "0.125 23 18";
+      position = "1.5 13 28";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "2.875 -7 14";
+      position = "1.5 6 27";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "23 2.875 18";
+      position = "13 1.5 28";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-7 0.125 14";
+      position = "6 1.5 27";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "25 -22.125 14";
+      position = "12 -23.5 27";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-5 -24.875 18";
+      position = "5 -23.5 28";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "3.875 -29 22";
+      position = "2.5 -22 29";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.125 -11 22";
+      position = "2.5 -18 29";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";

@@ -518,7 +518,7 @@ datablock ShapeBaseImageData(ActualHelicopterImage) {
 };
 
 datablock ShapeBaseImageData(MegaHelicopterImage : ActualHelicopterImage) {
-	shapeFile = "~/data/shapes/items/megaHelicopter.dts";
+	shapeFile = "~/data/shapes_bm/images/glow_megagyro.dts";
 };
 
 datablock ItemData(HelicopterItem_PQ : HelicopterItem) {

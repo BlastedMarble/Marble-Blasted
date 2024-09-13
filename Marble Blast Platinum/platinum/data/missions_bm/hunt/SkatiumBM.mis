@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "Hunt";
          goldScore = "70";
-         level = "10";
+         level = "15";
          maxGemsPerSpawn = "9";
          name = "Skatium";
          platinumScore = "95";

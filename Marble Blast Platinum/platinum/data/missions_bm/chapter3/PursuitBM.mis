@@ -482,28 +482,28 @@ new SimGroup(MissionGroup) {
       dataBlock = "DuctFanWalled_BM";
    };
    new InteriorInstance() {
-      position = "-21.5 -1.375 -17";
+      position = "-11.5 0 -7";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "7.5 1.375 -17";
+      position = "-2.5 0 -7";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "37.375 -54 -1.5";
+      position = "36 -47 5.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_2_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "34.625 -32 -5.5";
+      position = "36 -42 4.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
@@ -538,28 +538,28 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-57.5 -35.375 -19.5";
+      position = "-47.5 -34 -9.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-31.5 -32.625 -19.5";
+      position = "-41.5 -34 -9.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-74 20.625 -13.5";
+      position = "-61 22 -0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-74 23.625 -13.5";
+      position = "-61 25 -0.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
@@ -671,14 +671,14 @@ new SimGroup(MissionGroup) {
          visibleTime = "500";
    };
    new InteriorInstance() {
-      position = "-88 26.375 -13.5";
+      position = "-101 25 -0.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-88 23.375 -13.5";
+      position = "-101 22 -0.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_4_normal.dif";
