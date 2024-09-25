@@ -29,8 +29,8 @@ ModeInfoGroup.add(new ScriptObject(ModeInfo_king) {
 	identifier = "king";
 	file = "king";
 
-	name = "King of the Hill";
-	desc = "Assert your dominance and stand your ground as king of the hill!";
+	name = "Sumo";
+	desc = "Assert your dominance and rack up the most points from a single gem spawn!";
 	complete = 1;
 
 	teams = 1;
