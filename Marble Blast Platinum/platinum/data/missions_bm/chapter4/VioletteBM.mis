@@ -1110,13 +1110,13 @@ new SimGroup(MissionGroup) {
    };
    new StaticShape() {
       position = "-40.9043 -11.019 8";
-      rotation = "-0.191481 -0.962637 0.19148 92.1814";
+      rotation = "-0.0941317 -0.955732 0.278776 94.8339";
       scale = "1 1 1";
       dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
       position = "-34 9.25 6.25";
-      rotation = "-0.0975496 0.990438 -0.09755 90.5505";
+      rotation = "-0.288901 0.952376 0.0975499 90.5504";
       scale = "1 1 1";
       dataBlock = "DuctFanWalled_BM";
    };
@@ -1317,88 +1317,154 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new Item() {
-      position = "-28 -28 4";
-      rotation = "0 0 1 90.0002";
+      position = "-39.75 -12 7.25";
+      rotation = "0 0 1 22.5001";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-14 27.25 4.25";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
+         skin = "base";
          timeBonus = "5000";
    };
    new Item() {
-      position = "4.5 5 10";
+      position = "-13.75 27.25 4";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "-26.75 -6 2.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-2 -28 11.25";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
+         skin = "base";
          timeBonus = "5000";
    };
    new Item() {
-      position = "23 14.75 15.75";
-      rotation = "1 0 0 0";
+      position = "5.5 5 10";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "6";
-         timeBonus = "6000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-1.5 -28 11.25";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "21 15.5 15";
+      rotation = "0 0 1 11.25";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new Item() {
       position = "-31.5 57.5 0";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new StaticShape() {
+      position = "-48 -2 20.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "-48 2 20.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-17 -12 14.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-17 -16 14.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "-8 -40 18.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-8 -44 18.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "22 -8 26.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "22 -12 26.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "2 24 18.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "2 20 18.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
+   };
+   new StaticShape() {
+      position = "-26 48 18.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "PropLarge1_BM";
+   };
+   new StaticShape() {
+      position = "-26 44 18.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      dataBlock = "Propeller_BM_Base";
    };
 };
 //--- OBJECT WRITE END ---

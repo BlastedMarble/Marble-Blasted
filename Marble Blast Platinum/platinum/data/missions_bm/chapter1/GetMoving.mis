@@ -194,49 +194,49 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
    };
    new StaticShape() {
-      position = "-8 43.75 11";
+      position = "-8 44 11";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-8 39.75 11";
+      position = "-8 40 11";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "20 79.75 19";
+      position = "20 80 19";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "20 75.75 19";
+      position = "20 76 19";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "2 111.75 15";
+      position = "2 112 15";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "2 107.75 15";
+      position = "2 108 15";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "32 141.75 19";
+      position = "32 142 11";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "32 137.75 19";
+      position = "32 138 11";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";

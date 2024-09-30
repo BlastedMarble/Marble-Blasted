@@ -17,7 +17,7 @@ new SimGroup(MissionGroup) {
    new SimGroup(SceneryGroup) {
    };
    new StaticShape() {
-      position = "28.25 35 61.25";
+      position = "28 35 61.25";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
@@ -59,7 +59,7 @@ new SimGroup(MissionGroup) {
       };
    };
    new StaticShape() {
-      position = "24.25 35 61.25";
+      position = "24 35 61.25";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
@@ -161,19 +161,19 @@ new SimGroup(MissionGroup) {
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-36.75 1 33.5";
+      position = "-37 1 33.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-17.75 55 53";
+      position = "-18 55 53";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-13.75 55 53";
+      position = "-14 55 53";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
@@ -258,7 +258,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "EndPad_BM";
    };
    new StaticShape() {
-      position = "-32.75 1 33.5";
+      position = "-33 1 33.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";

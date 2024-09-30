@@ -439,7 +439,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
    };
    new Item() {
-      position = "92.902 90 26";
+      position = "93.0503 90 26";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "SuperJumpItem_BM";
@@ -1737,13 +1737,171 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
       };
-      new PathedInterior(MustChange) {
+      new PathedInterior(BlackBlock1) {
          position = "0 0 0";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathedDefault";
          interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
          interiorIndex = "4";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "-1";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "96 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "92 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "92 136 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "96 136 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "3";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "96 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "4";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+      };
+      new PathedInterior(BlackBlock2) {
+         position = "0 6 1";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
+         interiorIndex = "4";
+         basePosition = "0 6 1";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "-2";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "96 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "92 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "92 136 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "96 136 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "3";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "96 132 34";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "4";
+            msToNext = "750";
+            smoothingType = "Accelerate";
+         };
+      };
+      new PathedInterior(BlackBlock3) {
+         position = "6 6 2";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
+         interiorIndex = "4";
+         basePosition = "6 6 2";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "-1";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "86 124 62";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "86 122 62";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "86 124 62";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new PathedInterior(Basher1) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
+         interiorIndex = "5";
          basePosition = "0 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
@@ -1779,16 +1937,17 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
       };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
+      new PathedInterior(Basher2) {
+         position = "4 0 0";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathedDefault";
          interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
          interiorIndex = "5";
-         basePosition = "0 0 0";
+         basePosition = "4 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
+            initialPosition = "1000";
             initialTargetPosition = "-1";
       };
    };
@@ -1871,13 +2030,106 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
       };
-      new PathedInterior(MustChange) {
+      new PathedInterior(Crusher1) {
          position = "0 0 0";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathedDefault";
          interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
          interiorIndex = "7";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialTargetPosition = "-1";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "89 159 86";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "4000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "89 159 92";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "250";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "89 159 86";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "89 159 86";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "3";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new PathedInterior(Crusher2) {
+         position = "10 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
+         interiorIndex = "7";
+         basePosition = "10 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            initialPosition = "2000";
+            initialTargetPosition = "-1";
+      };
+   };
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "-36 166 85";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-28 166 85";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "-36 166 85";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new PathedInterior(Basher3) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
+         interiorIndex = "8";
          basePosition = "0 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
@@ -1913,16 +2165,17 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
       };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
+      new PathedInterior(Basher4) {
+         position = "0 -14 1";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathedDefault";
          interiorResource = "platinum/data/interiors_bm/chapter4/ProgressionBM.dif";
          interiorIndex = "8";
-         basePosition = "0 0 0";
+         basePosition = "0 -14 1";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
+            initialPosition = "3000";
             initialTargetPosition = "-1";
       };
    };
@@ -2291,7 +2544,7 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
          new Marker() {
-            position = "-24 138 70";
+            position = "-24 138 72";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
@@ -2379,7 +2632,7 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
          new Marker() {
-            position = "-24 138 70";
+            position = "-24 138 72";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
@@ -2467,7 +2720,7 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
          new Marker() {
-            position = "-24 138 70";
+            position = "-24 138 72";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
@@ -2518,7 +2771,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "DuctFanWalled_BM";
    };
    new StaticShape() {
-      position = "98.75 132.784 75.5";
+      position = "98.75 136.337 75.5";
       rotation = "0 -1 0 90.0002";
       scale = "1 1 1";
       dataBlock = "DuctFanWalled_BM";
@@ -2644,14 +2897,11 @@ new SimGroup(MissionGroup) {
          skin = "base";
          timeBonus = "5000";
    };
-   new Item() {
-      position = "99.5 156.5 50";
-      rotation = "0 0 -1 90.0002";
+   new TSStatic() {
+      position = "88.125 155 57.875";
+      rotation = "-0.57735 0.577352 -0.57735 240";
       scale = "1 1 1";
-      dataBlock = "SuperSpeedItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
+      shapeName = "~/data/shapes_bm/powerups/ShockAbsorberGate_icon_bm.dts";
    };
    new Item() {
       position = "99 159 96.5";
@@ -2794,7 +3044,7 @@ new SimGroup(MissionGroup) {
          timeBonus = "5000";
    };
    new Item() {
-      position = "24.25 139 77";
+      position = "21.25 139 77";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem5Sec_BM";
@@ -2840,6 +3090,75 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+   };
+   new Item() {
+      position = "103 149 51";
+      rotation = "0 0 1 90.0002";
+      scale = "2 1 2";
+      dataBlock = "ShockAbsorberItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "103 149 51";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/ShockAbsorberGate_icon_bm.dts";
+   };
+   new TSStatic() {
+      position = "103 148 52";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new Item() {
+      position = "88.125 155 57.875";
+      rotation = "1 0 0 90.0002";
+      scale = "1 1 2";
+      dataBlock = "ShockAbsorberItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "88.125 156 57.875";
+      rotation = "-0.57735 0.577352 -0.57735 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new Item() {
+      position = "99 156 51";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "SuperSpeedItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "99 156 51";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "99 156 51";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "99 155.925 51";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/SuperSpeedGate_icon_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---

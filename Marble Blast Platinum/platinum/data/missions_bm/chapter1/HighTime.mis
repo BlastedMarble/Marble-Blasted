@@ -256,23 +256,165 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
-   new TSStatic() {
-      position = "-0.15 9 3.5";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "0.4 0.4 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "0 6 18.25";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "250";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "0 6 18.25";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "0 6 36.25";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "0 6 18.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new Trigger(MustChange) {
+         position = "0 -2 18.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            delayTargetTime = "0";
+            instant = "0";
+            targetTime = "0";
+      };
+      new Trigger(MustChange) {
+         position = "-3 16 36.75";
+         rotation = "1 0 0 0";
+         scale = "2 1.66667 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            delayTargetTime = "0";
+            instant = "0";
+            targetTime = "0";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter1/HighTime.dif";
+         interiorIndex = "1";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            delayTargetTime = "0";
+            initialTargetPosition = "0";
+      };
    };
-   new TSStatic() {
-      position = "1.45 9 3.5";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "0.4 0.4 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new SimGroup(MustChange_g) {
+
+      new Path() {
+
+         new Marker() {
+            position = "0 18 0.5";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "0";
+            msToNext = "250";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "0 18 0.5";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "1";
+            msToNext = "3000";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "0 18 8.5";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
+            msToNext = "1000";
+            smoothingType = "Accelerate";
+         };
+      };
+      new Trigger(MustChange) {
+         position = "0 18 6.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            instant = "0";
+            targetTime = "99999";
+      };
+      new Trigger(MustChange) {
+         position = "0 24 6.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            delayTargetTime = "0";
+            instant = "0";
+            targetTime = "0";
+      };
+      new Trigger(MustChange) {
+         position = "-12 18 14.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            delayTargetTime = "0";
+            instant = "0";
+            targetTime = "0";
+      };
+      new PathedInterior(MustChange) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "PathedDefault";
+         interiorResource = "platinum/data/interiors_bm/chapter1/HighTime.dif";
+         interiorIndex = "0";
+         basePosition = "0 0 0";
+         baseRotation = "1 0 0 0";
+         baseScale = "1 1 1";
+            delayTargetTime = "0";
+            initialTargetPosition = "0";
+      };
    };
-   new TSStatic() {
-      position = "-1.75 9 3.5";
-      rotation = "0.577352 0.57735 -0.57735 240";
-      scale = "0.4 0.4 1";
-      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   new Item() {
+      position = "-6 5 30.85";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
    new TSStatic() {
       position = "0 15 7.75";
@@ -413,165 +555,11 @@ new SimGroup(MissionGroup) {
       dataBlock = "InBoundsTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new Item() {
-      position = "-6 5 30.85";
-      rotation = "1 0 0 0";
+   new StaticShape() {
+      position = "-0.5 8.5 1.45";
+      rotation = "0.707108 -2.54013e-006 0.707105 180";
       scale = "1 1 1";
-      dataBlock = "LumiCube";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-   };
-   new SimGroup(MustChange_g) {
-
-      new Path() {
-
-         new Marker() {
-            position = "0 18 0.5";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "0";
-            msToNext = "250";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "0 18 0.5";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "1";
-            msToNext = "3000";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "0 18 8.5";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "2";
-            msToNext = "1000";
-            smoothingType = "Accelerate";
-         };
-      };
-      new Trigger(MustChange) {
-         position = "0 18 6.75";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            instant = "0";
-            targetTime = "99999";
-      };
-      new Trigger(MustChange) {
-         position = "0 24 6.75";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "0";
-      };
-      new Trigger(MustChange) {
-         position = "-12 18 14.75";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "0";
-      };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "PathedDefault";
-         interiorResource = "platinum/data/interiors_bm/chapter1/HighTime.dif";
-         interiorIndex = "0";
-         basePosition = "0 0 0";
-         baseRotation = "1 0 0 0";
-         baseScale = "1 1 1";
-            delayTargetTime = "0";
-            initialTargetPosition = "0";
-      };
-   };
-   new SimGroup(MustChange_g) {
-
-      new Path() {
-
-         new Marker() {
-            position = "0 6 18.25";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "0";
-            msToNext = "250";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "0 6 18.25";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "1";
-            msToNext = "3000";
-            smoothingType = "Accelerate";
-         };
-         new Marker() {
-            position = "0 6 36.25";
-            rotation = "1 0 0 0";
-            scale = "1 1 1";
-            seqNum = "2";
-            msToNext = "3000";
-            smoothingType = "Accelerate";
-         };
-      };
-      new Trigger(MustChange) {
-         position = "0 6 18.75";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            instant = "0";
-            targetTime = "99999";
-      };
-      new Trigger(MustChange) {
-         position = "0 -2 18.75";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "0";
-      };
-      new Trigger(MustChange) {
-         position = "-3 16 36.75";
-         rotation = "1 0 0 0";
-         scale = "2 1.66667 1";
-         dataBlock = "TriggerGotoTarget";
-         polyhedron = "-3.0000000 -3.0000000 0.2500000 0.0000000 6.0000000 0.0000000 6.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
-            IContinueToTTime = "0";
-            delayTargetTime = "0";
-            instant = "0";
-            targetTime = "0";
-      };
-      new PathedInterior(MustChange) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         dataBlock = "PathedDefault";
-         interiorResource = "platinum/data/interiors_bm/chapter1/HighTime.dif";
-         interiorIndex = "1";
-         basePosition = "0 0 0";
-         baseRotation = "1 0 0 0";
-         baseScale = "1 1 1";
-            delayTargetTime = "0";
-            initialTargetPosition = "0";
-      };
+      dataBlock = "Sign_BM";
    };
 };
 //--- OBJECT WRITE END ---

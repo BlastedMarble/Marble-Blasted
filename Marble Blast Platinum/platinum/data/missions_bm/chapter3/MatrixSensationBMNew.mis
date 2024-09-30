@@ -5,16 +5,16 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          GemQuota = "6";
          artist = "James C.";
-         awesomeTime = "40000";
+         awesomeTime = "30000";
          desc = "Reach the gem quota in this sensational arena.";
          game = "Blasted";
          gameMode = "quota";
-         goldTime = "70000";
+         goldTime = "60000";
          level = "6";
          name = "Matrix Sensation";
-         platinumTime = "60000";
+         platinumTime = "50000";
          type = "Custom";
-         ultimateTime = "50000";
+         ultimateTime = "40000";
    };
    new SimGroup(SceneryGroup) {
 
@@ -42,18 +42,6 @@ new SimGroup(MissionGroup) {
          scale = "6 1 2";
          dataBlock = "Glass_BM";
       };
-   };
-   new Item() {
-      position = "0 6 6";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
    };
    new SimGroup(MissionData) {
 
@@ -503,66 +491,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "DuctFanWalled_BM";
    };
-   new Item() {
-      position = "7 -2 -5.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "11 14 -5.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "8 7 -15.25";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "13 2 -15.25";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "7 -3 -16";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
    new InteriorInstance() {
       position = "24.75 6 -6.5";
       rotation = "0 0 1 90.0002";
@@ -689,6 +617,45 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
+   };
+   new Item() {
+      position = "7 1 -5.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "8 -1 -15.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "9.25 0.5 9";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

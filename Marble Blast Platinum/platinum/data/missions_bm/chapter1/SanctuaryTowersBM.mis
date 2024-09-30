@@ -14,6 +14,57 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "75000";
    };
+   new SimGroup(MissionData) {
+
+      new MissionArea(MissionArea) {
+         area = "-360 -648 720 1296";
+         flightCeiling = "300";
+         flightCeilingRange = "20";
+            locked = "true";
+      };
+      new Sky(Sky) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         cloudHeightPer[0] = "0";
+         cloudHeightPer[1] = "0";
+         cloudHeightPer[2] = "0";
+         cloudSpeed1 = "0.0001";
+         cloudSpeed2 = "0.0002";
+         cloudSpeed3 = "0.0003";
+         visibleDistance = "500";
+         useSkyTextures = "1";
+         renderBottomTexture = "1";
+         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
+         fogDistance = "300";
+         fogColor = "0.600000 0.600000 0.600000 1.000000";
+         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
+         fogVolume2 = "-1 1.07208e-014 8.756e-014";
+         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
+         materialList = "~/data/skies_bm/Day/sky_day.dml";
+         windVelocity = "1 0 0";
+         windEffectPrecipitation = "0";
+         noRenderBans = "1";
+         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
+         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
+         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      };
+   };
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape() {
+         position = "-146 16 39";
+         rotation = "0 0 1 225.001";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "2000";
+            text = "Stepping on blue platforms, like this one, will warp you to a secret area of the level. It may also take you back to an earlier part of the main path.";
+            triggerRadius = "3";
+      };
+   };
    new SimGroup(SceneryGroup) {
 
       new StaticShape() {
@@ -115,42 +166,6 @@ new SimGroup(MissionGroup) {
          permanent = "0";
          skin = "base";
          visibleTime = "500";
-   };
-   new SimGroup(MissionData) {
-
-      new MissionArea(MissionArea) {
-         area = "-360 -648 720 1296";
-         flightCeiling = "300";
-         flightCeilingRange = "20";
-            locked = "true";
-      };
-      new Sky(Sky) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         cloudHeightPer[0] = "0";
-         cloudHeightPer[1] = "0";
-         cloudHeightPer[2] = "0";
-         cloudSpeed1 = "0.0001";
-         cloudSpeed2 = "0.0002";
-         cloudSpeed3 = "0.0003";
-         visibleDistance = "500";
-         useSkyTextures = "1";
-         renderBottomTexture = "1";
-         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
-         fogDistance = "300";
-         fogColor = "0.600000 0.600000 0.600000 1.000000";
-         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
-         fogVolume2 = "-1 1.07208e-014 8.756e-014";
-         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-         materialList = "~/data/skies_bm/Day/sky_day.dml";
-         windVelocity = "1 0 0";
-         windEffectPrecipitation = "0";
-         noRenderBans = "1";
-         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
-         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
-         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
-      };
    };
    new Item() {
       position = "-62 157 86.5";
@@ -283,7 +298,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path2b) {
+      new StaticShape(Path2B) {
          position = "-60.8873 -1.63298 14.4026";
          rotation = "0 0 1 180";
          scale = "1 1 1";
@@ -329,7 +344,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path1a) {
+      new StaticShape(Path1A) {
          position = "-55.0141 -16.3689 12.0112";
          rotation = "1 0 0 0";
          scale = "1 1 1";
@@ -352,7 +367,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path2a) {
+      new StaticShape(Path2A) {
          position = "-65.1384 -5.09158 13.2783";
          rotation = "1 0 0 0";
          scale = "1 1 1";
@@ -375,7 +390,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path1b) {
+      new StaticShape(Path1B) {
          position = "-50.763 -12.9103 13.1355";
          rotation = "0 0 1 180";
          scale = "1 1 1";
@@ -1927,85 +1942,85 @@ new SimGroup(MissionGroup) {
          showHelpOnPickup = "0";
    };
    new StaticShape() {
-      position = "-18.75 -18 15";
+      position = "-19 -18 15";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-14.75 -18 15";
+      position = "-15 -18 15";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-60.75 5 18.75";
+      position = "-61 5 18.75";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-56.75 5 18.75";
+      position = "-57 5 18.75";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-164.75 6 31";
+      position = "-165 6 31";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-160.75 6 31";
+      position = "-161 6 31";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "-78.75 69 39";
+      position = "-79 69 39";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-74.75 69 39";
+      position = "-75 69 39";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-136.75 53 64.75";
+      position = "-137 53 64.75";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-132.75 53 64.75";
+      position = "-133 53 64.75";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-120.75 134 80.5";
+      position = "-121 134 80.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "-124.75 134 80.5";
+      position = "-125 134 80.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-71.75 166 100.5";
+      position = "-72 166 100.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "-75.75 166 100.5";
+      position = "-76 166 100.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";

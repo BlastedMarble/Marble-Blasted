@@ -15,38 +15,82 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "30000";
    };
-   new MissionArea(MissionArea) {
-      area = "-360 -648 720 1296";
-      flightCeiling = "300";
-      flightCeilingRange = "20";
-         locked = "true";
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape() {
+         position = "-18.5 52 5";
+         rotation = "0 0 1 90.0002";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "2000";
+            text = "Ahead is a rainbow portal. These will take you to another part of the level while preserving your forward momentum.";
+            triggerRadius = "3";
+      };
    };
-   new Sky(Sky) {
-      position = "0 0 0";
-      rotation = "1 0 0 0";
+   new Item() {
+      position = "39 51 37";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      cloudHeightPer[0] = "0";
-      cloudHeightPer[1] = "0";
-      cloudHeightPer[2] = "0";
-      cloudSpeed1 = "0.0001";
-      cloudSpeed2 = "0.0002";
-      cloudSpeed3 = "0.0003";
-      visibleDistance = "500";
-      useSkyTextures = "1";
-      renderBottomTexture = "1";
-      SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
-      fogDistance = "300";
-      fogColor = "0.600000 0.600000 0.600000 1.000000";
-      fogVolume1 = "-1 7.45949e-031 1.3684e-038";
-      fogVolume2 = "-1 1.07208e-014 8.756e-014";
-      fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-      materialList = "~/data/skies_bm/Sunset/sky_day.dml";
-      windVelocity = "1 0 0";
-      windEffectPrecipitation = "0";
-      noRenderBans = "1";
-      fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
-      fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
-      fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new SimGroup(MissionData) {
+
+      new MissionArea(MissionArea) {
+         area = "-360 -648 720 1296";
+         flightCeiling = "300";
+         flightCeilingRange = "20";
+            locked = "true";
+      };
+      new Sky(Sky) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         cloudHeightPer[0] = "0";
+         cloudHeightPer[1] = "0";
+         cloudHeightPer[2] = "0";
+         cloudSpeed1 = "0.0001";
+         cloudSpeed2 = "0.0002";
+         cloudSpeed3 = "0.0003";
+         visibleDistance = "500";
+         useSkyTextures = "1";
+         renderBottomTexture = "1";
+         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
+         fogDistance = "300";
+         fogColor = "0.600000 0.600000 0.600000 1.000000";
+         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
+         fogVolume2 = "-1 1.07208e-014 8.756e-014";
+         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
+         materialList = "~/data/skies_bm/Sunset/sky_day.dml";
+         windVelocity = "1 0 0";
+         windEffectPrecipitation = "0";
+         noRenderBans = "1";
+         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
+         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
+         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      };
+   };
+   new Item() {
+      position = "-10.5 10 6.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new Sun() {
       direction = "0.898425 0 -0.439126";
@@ -297,13 +341,13 @@ new SimGroup(MissionGroup) {
       dataBlock = "EndPadEdge_BM";
    };
    new StaticShape() {
-      position = "0 27.75 15";
+      position = "0 28 15";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-6.33795e-007 24 15";
+      position = "-6.55651e-007 24 15";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
@@ -315,7 +359,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-44 47.75 26.75";
+      position = "-44 48 26.75";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
@@ -327,7 +371,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "30 71.75 46.5";
+      position = "30 72 46.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
@@ -462,32 +506,6 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 180";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/powerups/SuperBounceGate_icon_bm.dts";
-   };
-   new Item() {
-      position = "39 51 37";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem5Sec_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         instant = "5000";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "-10.5 10 6.5";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem5Sec_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         instant = "5000";
-         noRespawn = "0";
-         skin = "base";
-         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

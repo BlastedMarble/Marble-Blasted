@@ -19,7 +19,7 @@ new SimGroup(MissionGroup) {
    new SimGroup(SceneryGroup) {
    };
    new InteriorInstance() {
-      position = "56.125 22 -6.5";
+      position = "57.5 12 3.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
@@ -62,7 +62,7 @@ new SimGroup(MissionGroup) {
       };
    };
    new InteriorInstance() {
-      position = "63.875 -10 -6.5";
+      position = "62.5 1.56462e-006 3.5";
       rotation = "0 0 -1 89.9996";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_3_normal.dif";
@@ -942,14 +942,14 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
    };
    new InteriorInstance() {
-      position = "58.875 -16 -18.5";
+      position = "57.5 3 0.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_6_normal.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "61.125 28 -18.5";
+      position = "62.5 9 0.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_arch_6_normal.dif";
@@ -962,35 +962,7 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
-   new Item() {
-      position = "2 44 -4.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new SimGroup() {
-   };
-   new Item() {
-      position = "58 -15 -2";
-      rotation = "1 0 0 90.0019";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Unlock1";
-         noRespawn = "0";
-         parentModTrans = "-2 0 -5 1 0 0 70.685871";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "4";
-         timeBonus = "4000";
    };
    new InteriorInstance(Unlock1) {
       position = "60 -15 3";
@@ -998,30 +970,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/BoundingBedlamUnlock1.dif";
       showTerrainInside = "0";
-   };
-   new Item() {
-      position = "-21 12.5 20";
-      rotation = "-1 0 0 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "15 16 25.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
    };
    new TSStatic() {
       position = "97 10 39.25";
@@ -1057,19 +1005,6 @@ new SimGroup(MissionGroup) {
       rotate = "0";
          noParticles = "0";
          noRespawn = "0";
-   };
-   new Item() {
-      position = "93 14 33";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Path = "TTC";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
    };
    new Trigger(activate) {
       position = "59 25 -0.5";
@@ -1176,6 +1111,63 @@ new SimGroup(MissionGroup) {
          parentModTrans = "10.700001 0.000000 0.000000 0.000000 1.000000 0.000000 1.570800";
          parentOffset = "0 0 0";
          parentSimple = "0";
+   };
+   new Item() {
+      position = "2 42 -4.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "62 -15 -2";
+      rotation = "1 0 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Unlock1";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "2.000000 0.000000 -5.000000 1.000000 0.000000 0.000000 1.570800";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-19 12.5 20";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "93 2 33";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Path = "TTB";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
 };
 //--- OBJECT WRITE END ---

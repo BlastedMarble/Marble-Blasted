@@ -817,37 +817,37 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-7 7.75 18.25";
+      position = "-7 8 18.25";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-7 3.75 18.25";
+      position = "-7 4 18.25";
       rotation = "1 0 0 180";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "25 -42.25 26";
+      position = "25 -42 26";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "25 -46.25 26";
+      position = "25 -46 26";
       rotation = "1 0 0 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-95 43.75 34.5";
+      position = "-95 44 34.5";
       rotation = "1 0 0 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-95 47.75 34.5";
+      position = "-95 48 34.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";

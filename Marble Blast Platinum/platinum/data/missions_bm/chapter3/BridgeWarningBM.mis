@@ -626,61 +626,61 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
    };
    new StaticShape() {
-      position = "33.75 14 17.5";
+      position = "34 14 17.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "29.5 14 17.5";
+      position = "30 14 17.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "81.5 -14 17.5";
+      position = "82 -14 17.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "85.75 -14 17.5";
+      position = "86 -14 17.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "133.5 14 17.5";
+      position = "134 14 17.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "137.75 14 17.5";
+      position = "138 14 17.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "185.5 -14 17.5";
+      position = "186 -14 17.5";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "189.75 -14 17.5";
+      position = "190 -14 17.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "253.5 0 17.25";
+      position = "254 8.64267e-007 17.25";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "257.75 0 17.25";
+      position = "258 0 17.25";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";

@@ -232,13 +232,13 @@ new SimGroup(MissionGroup) {
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-20 87.75 6";
+      position = "-20 88 6";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "18 25.75 10";
+      position = "18 26 10";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
@@ -257,7 +257,7 @@ new SimGroup(MissionGroup) {
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
    new StaticShape() {
-      position = "16 159.75 20";
+      position = "16 160 20";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";

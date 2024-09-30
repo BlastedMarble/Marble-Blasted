@@ -14,6 +14,57 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "0";
    };
+   new SimGroup(MissionData) {
+
+      new MissionArea(MissionArea) {
+         area = "-360 -648 720 1296";
+         flightCeiling = "300";
+         flightCeilingRange = "20";
+            locked = "true";
+      };
+      new Sky(Sky) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         cloudHeightPer[0] = "0";
+         cloudHeightPer[1] = "0";
+         cloudHeightPer[2] = "0";
+         cloudSpeed1 = "0.0001";
+         cloudSpeed2 = "0.0002";
+         cloudSpeed3 = "0.0003";
+         visibleDistance = "500";
+         useSkyTextures = "1";
+         renderBottomTexture = "1";
+         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
+         fogDistance = "300";
+         fogColor = "0.600000 0.600000 0.600000 1.000000";
+         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
+         fogVolume2 = "-1 1.07208e-014 8.756e-014";
+         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
+         materialList = "~/data/skies_bm/Red Zone/sky_day.dml";
+         windVelocity = "1 0 0";
+         windEffectPrecipitation = "0";
+         noRenderBans = "1";
+         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
+         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
+         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      };
+   };
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape() {
+         position = "123 -51 118.25";
+         rotation = "0 0 -1 90.0002";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "2000";
+            text = "If you haven\'t used your second Aviator yet, you will be able to use it for this challenge.";
+            triggerRadius = "3";
+      };
+   };
    new SimGroup(SceneryGroup) {
 
       new StaticShape() {
@@ -138,42 +189,6 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleProp.dif";
       showTerrainInside = "0";
          Path = "Path4A";
-   };
-   new SimGroup(MissionData) {
-
-      new MissionArea(MissionArea) {
-         area = "-360 -648 720 1296";
-         flightCeiling = "300";
-         flightCeilingRange = "20";
-            locked = "true";
-      };
-      new Sky(Sky) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         cloudHeightPer[0] = "0";
-         cloudHeightPer[1] = "0";
-         cloudHeightPer[2] = "0";
-         cloudSpeed1 = "0.0001";
-         cloudSpeed2 = "0.0002";
-         cloudSpeed3 = "0.0003";
-         visibleDistance = "500";
-         useSkyTextures = "1";
-         renderBottomTexture = "1";
-         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
-         fogDistance = "300";
-         fogColor = "0.600000 0.600000 0.600000 1.000000";
-         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
-         fogVolume2 = "-1 1.07208e-014 8.756e-014";
-         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-         materialList = "~/data/skies_bm/Red Zone/sky_day.dml";
-         windVelocity = "1 0 0";
-         windEffectPrecipitation = "0";
-         noRenderBans = "1";
-         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
-         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
-         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
-      };
    };
    new InteriorInstance() {
       position = "103 -51 78.5";
@@ -559,7 +574,7 @@ new SimGroup(MissionGroup) {
             useScale = "1";
       };
       new StaticShape(Path1A) {
-         position = "126.662 7.84537 119.361";
+         position = "127.075 7.72184 119.361";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          dataBlock = "PathNode";
@@ -766,8 +781,8 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Crane1B) {
-         position = "69.091 -7.03002 117.954";
-         rotation = "0 0 1 45.0001";
+         position = "69.6385 -7.47603 117.954";
+         rotation = "0 0 -1 56.2501";
          scale = "1 1 1";
          dataBlock = "PathNode";
             FinalRotOffset = "0 0 0";
@@ -789,8 +804,8 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Crane2A) {
-         position = "116.733 23.1353 140.341";
-         rotation = "0 0 1 213.751";
+         position = "115.838 22.9539 140.341";
+         rotation = "0 0 1 33.7514";
          scale = "1 1 1";
          dataBlock = "PathNode";
             FinalRotOffset = "0 0 0";
@@ -812,8 +827,8 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Crane2B) {
-         position = "114.715 29.059 140.416";
-         rotation = "0 0 1 135.001";
+         position = "114.464 28.2216 140.416";
+         rotation = "0 0 -1 11.2493";
          scale = "1 1 1";
          dataBlock = "PathNode";
             FinalRotOffset = "0 0 0";
@@ -858,7 +873,7 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Crane3B) {
-         position = "5.78928 -88.611 61.1253";
+         position = "5.78927 -88.611 61.1253";
          rotation = "0 0 1 213.75";
          scale = "1 1 1";
          dataBlock = "PathNode";
@@ -904,8 +919,8 @@ new SimGroup(MissionGroup) {
             useScale = "0";
       };
       new StaticShape(Crane4B) {
-         position = "-36.2312 50.5438 38.6081";
-         rotation = "0 0 1 22.4997";
+         position = "-36.2666 50.7185 38.6081";
+         rotation = "0 0 1 44.9997";
          scale = "1 1 1";
          dataBlock = "PathNode";
             FinalRotOffset = "0 0 0";
@@ -962,7 +977,7 @@ new SimGroup(MissionGroup) {
       rotate = "1";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 113.5";
+      position = "-14.25 34 115.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
@@ -1260,63 +1275,63 @@ new SimGroup(MissionGroup) {
          Path = "Path3A";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 29.5";
+      position = "84.5 91.25 29.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerRed.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 113.5";
+      position = "84.5 91.25 115.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 183.5";
+      position = "84.5 91.25 185.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 141.5";
+      position = "84.5 91.25 143.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 169.5";
+      position = "84.5 91.25 171.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 197.5";
+      position = "84.5 91.25 199.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 155.5";
+      position = "84.5 91.25 157.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 127.5";
+      position = "84.5 91.25 129.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "84.5 36.75 101";
+      position = "84.5 91.25 103";
       rotation = "0 0 -1 11.25";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneRed.dif";
@@ -1324,84 +1339,84 @@ new SimGroup(MissionGroup) {
          Path = "Crane1A";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 29.5";
+      position = "162.75 -7.75 29.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerRed.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 113.5";
+      position = "162.75 -7.75 115.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 127.5";
+      position = "162.75 -7.75 129.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 141.5";
+      position = "162.75 -7.75 143.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 155.5";
+      position = "162.75 -7.75 157.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 169.5";
+      position = "162.75 -7.75 171.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 183.5";
+      position = "162.75 -7.75 185.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 197.5";
+      position = "162.75 -7.75 199.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 211.5";
+      position = "162.75 -7.75 213.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 225.5";
+      position = "162.75 -7.75 227.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 239.5";
+      position = "162.75 -7.75 241.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 59";
+      position = "-14.25 34 61";
       rotation = "0 0 1 123.75";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneGreen.dif";
@@ -1409,15 +1424,15 @@ new SimGroup(MissionGroup) {
          Path = "Crane4A";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 155.5";
+      position = "-14.25 34 157.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "120.5 -7.75 143";
-      rotation = "0 0 1 213.751";
+      position = "162.75 -7.75 145";
+      rotation = "0 0 1 33.7514";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneRed.dif";
       showTerrainInside = "0";
@@ -1431,49 +1446,49 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 113.5";
+      position = "1.75 -113.5 115.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 127.5";
+      position = "1.75 -113.5 129.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 141.5";
+      position = "1.75 -113.5 143.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 155.5";
+      position = "1.75 -113.5 157.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 169.5";
+      position = "1.75 -113.5 171.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 141.5";
+      position = "-14.25 34 143.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "1.75 -113.5 73";
+      position = "1.75 -113.5 75";
       rotation = "0 0 1 146.25";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneGreen.dif";
@@ -1481,14 +1496,14 @@ new SimGroup(MissionGroup) {
          Path = "Crane3A";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 29.5";
+      position = "-14.25 34 29.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerGreen.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-14.25 42.75 127.5";
+      position = "-14.25 34 129.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleCraneTowerAddon.dif";
@@ -2051,102 +2066,6 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "DuctFanWalled_BM";
    };
-   new Item() {
-      position = "55.5 27 81";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "141 -57 118.5";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "122.5 -51 133.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "9";
-         timeBonus = "9000";
-   };
-   new Item() {
-      position = "34 -110 68.5";
-      rotation = "1 0 0 180";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "31.75 67 38.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "30.25 67 38.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "36.5 -6 35";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "6";
-         timeBonus = "6000";
-   };
-   new Item() {
-      position = "73 9 34.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
    new InteriorInstance() {
       position = "-36.5 -259 70";
       rotation = "1 0 0 90.0002";
@@ -2164,28 +2083,95 @@ new SimGroup(MissionGroup) {
          sfx = "ButtonSwitchSfx";
    };
    new Item() {
-      position = "100.25 53 130.5";
+      position = "55.5 27 81";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
+         skin = "base";
+         timeBonus = "5000";
    };
    new Item() {
-      position = "101.75 53 130.5";
+      position = "101 53 130.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
          noRespawn = "0";
-         skin = "3";
-         timeBonus = "3000";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "141 -57 118.5";
+      rotation = "0 0 1 45";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "36.5 -6 35";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "31 67 38.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "73 9 34.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "122 -51 133.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem10Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "10000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "10000";
    };
 };
 //--- OBJECT WRITE END ---

@@ -124,7 +124,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path2a) {
+      new StaticShape(Path2A) {
          position = "89.5893 93.2361 144.389";
          rotation = "0 0 1 90.0002";
          scale = "1 1 1";
@@ -147,7 +147,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path2b) {
+      new StaticShape(Path2B) {
          position = "89.9725 89.3211 146.031";
          rotation = "0 0 -1 89.9996";
          scale = "1 1 1";
@@ -715,6 +715,7 @@ new SimGroup(MissionGroup) {
          basePosition = "0 0 0";
          baseRotation = "1 0 0 0";
          baseScale = "1 1 1";
+            delayTargetTime = "0";
             initialTargetPosition = "0";
       };
    };
@@ -774,74 +775,86 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/chapter3/TrampledTrimCurve.dif";
       showTerrainInside = "0";
    };
-   new InteriorInstance() {
-      position = "0 0 -8";
-      rotation = "1 0 0 0";
+   new Item() {
+      position = "-21 153 168";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch1.dif";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "17.5 158 158.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new InteriorInstance() {
+      position = "49 3 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "8 0 -8";
-      rotation = "0 -1 0 90.0002";
+      position = "49 5 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch1.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "112 0 0";
-      rotation = "0 -1 0 90.0002";
+      position = "0 5 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch1.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "104 0 0";
-      rotation = "1 0 0 0";
+      position = "0 3 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch1.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "49 0 -5";
-      rotation = "1 0 0 0";
+      position = "112 5 0";
+      rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch2.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "59 0 -5";
-      rotation = "0 -1 0 90.0002";
+      position = "112 -1 0";
+      rotation = "-1 0 0 90.0002";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch2.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "188 0 -8";
-      rotation = "1 0 0 0";
+      position = "196 3 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch3.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "204 0 -8";
-      rotation = "0 -1 0 90.0002";
+      position = "196 5 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
       scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch3.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "274 0 10";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch4.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "286 0 10";
-      rotation = "0 -1 0 90.0002";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch4.dif";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
       showTerrainInside = "0";
    };
    new TSStatic() {
@@ -957,303 +970,16 @@ new SimGroup(MissionGroup) {
       dataBlock = "DuctFanWalled_BM";
    };
    new Item() {
-      position = "85.25 104 143.5";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "98.75 98 141.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-25 -167 212";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "332 -74 22.75";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "6";
-         timeBonus = "6000";
-   };
-   new Item() {
-      position = "280 -48 62";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "226.5 110 113";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "194.5 102 116.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "200.5 106 126.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "172.5 108 136.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "7";
-         timeBonus = "7000";
-   };
-   new Item() {
-      position = "164.5 108 124.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "228.5 106 117";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "168.5 102 128.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
       position = "138.5 108 139.5";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
-         noRespawn = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
-      position = "124 99 138";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "114.5 110 143.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "114.5 118 137.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "26.5 158 165";
-      rotation = "0 0 1 90.0002";
-      scale = "2 1 2";
-      dataBlock = "TimeTravelItem_BMGate";
-      collideable = "0";
-      static = "1";
-      rotate = "0";
+         instant = "5000";
          noRespawn = "0";
          skin = "base";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "-21 153 168";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "4";
-         timeBonus = "4000";
-   };
-   new Item() {
-      position = "-11.75 141 167.25";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "11.5 150 160.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "3.5 138 162";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-19.9963 128 178";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-25 128 178";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-30 128 178";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "-23 -6 200";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         noRespawn = "1";
-         skin = "5";
          timeBonus = "5000";
    };
    new InteriorInstance() {
@@ -1384,46 +1110,69 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new Item() {
-      position = "91.25 119 145.5";
-      rotation = "0 0 1 45.0001";
+      position = "172.5 108 136.5";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
+      dataBlock = "TimeTravelItem10Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
-         noRespawn = "1";
-         skin = "5";
+         instant = "10000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "10000";
+   };
+   new Item() {
+      position = "166.5 108 124.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
          timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "26.5 159 164";
-      rotation = "0.707108 -0.707105 -3.09087e-008 180";
+   new Item() {
+      position = "194.5 102 116.5";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "26.5 157 164";
-      rotation = "0.577354 -0.577344 0.577352 239.999";
+   new Item() {
+      position = "228.496 109.998 113";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
-   new TSStatic() {
-      position = "26.5 157 166";
-      rotation = "0 0 -1 90.0002";
+   new Item() {
+      position = "91.25 119 145.5";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "26.5 159 166";
-      rotation = "-0.577349 0.577355 0.577347 240";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
-   };
-   new TSStatic() {
-      position = "26.5 158 165";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      shapeName = "~/data/shapes_bm/powerups/TimeTravelGate_icon2_bm.dts";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new Item() {
       position = "186.5 108 124.5";
@@ -1952,113 +1701,137 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/signs/bm_hazardsign.dts";
    };
    new InteriorInstance() {
-      position = "-52 145 181";
+      position = "-52 155 191";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
+      showTerrainInside = "0";
+   };
+   new Item() {
+      position = "-20 128 178";
       rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-28.25 -4 200";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new InteriorInstance() {
+      position = "-64 155 191";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-68 145 181";
-      rotation = "1 0 0 0";
+      position = "-58 155 191";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-74 145 181";
-      rotation = "1 0 0 0";
+      position = "-64 149 191";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-56 145 181";
+      position = "-70 149 191";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
+      showTerrainInside = "0";
+   };
+   new Item() {
+      position = "-30 128 178";
       rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-25 128 178";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new InteriorInstance() {
+      position = "-70 155 191";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-54 145 181";
-      rotation = "1 0 0 0";
+      position = "-58 149 191";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-60 145 181";
-      rotation = "1 0 0 0";
+      position = "-52 149 191";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-66 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-72 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-70 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-58 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-64 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-62 145 181";
-      rotation = "1 0 0 0";
-      scale = "1 1 1";
-      interiorFile = "~/data/interiors_bm/chapter3/TrampledArch5.dif";
-      showTerrainInside = "0";
-   };
-   new InteriorInstance() {
-      position = "-111.405 147 197";
-      rotation = "1 0 0 0";
+      position = "-109 150 204";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch6.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-115.405 147 197";
-      rotation = "1 0 0 0";
+      position = "-109 154 204";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch6.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-117.405 147 197";
-      rotation = "1 0 0 0";
+      position = "-113 154 204";
+      rotation = "0 0 1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch6.dif";
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-113.405 147 197";
-      rotation = "1 0 0 0";
+      position = "-113 150 204";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter3/TrampledArch6.dif";
       showTerrainInside = "0";
@@ -2099,6 +1872,396 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new Item() {
+      position = "333 -66.75 18";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "284 -48 62";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new InteriorInstance() {
+      position = "8 5 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 -1 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 -5 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 1 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 3 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "8 -3 -8";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 -5 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 -3 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 -1 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "0 1 -8";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 5 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 -3 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 -5 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 1 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 -1 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "59 3 -5";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "49 -5 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "49 -3 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "49 -1 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "49 1 -5";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch5-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 5 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 3 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 1 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 -1 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 -3 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "104 -5 0";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 -3 0";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 3 0";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 1 0";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "112 -5 0";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch4-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 5 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -1 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -5 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 3 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 1 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -3 -16";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -5 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -3 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 -1 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "196 1 -16";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch8-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 5 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 -3 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 -5 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 1 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 -1 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "286 3 10";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 -5 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 -3 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 -1 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 1 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 3 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "274 5 10";
+      rotation = "0.57735 -0.57735 0.577352 240";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_bridgearch6-3.dif";
+      showTerrainInside = "0";
    };
 };
 //--- OBJECT WRITE END ---

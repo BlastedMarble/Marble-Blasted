@@ -489,17 +489,6 @@ new SimGroup(MissionGroup) {
       rotate = "1";
    };
    new Item() {
-      position = "1 9 19.5";
-      rotation = "0 0 1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
-   };
-   new Item() {
       position = "3 1 17";
       rotation = "0 0 1 90.0002";
       scale = "1 1 1";
@@ -525,17 +514,6 @@ new SimGroup(MissionGroup) {
       collideable = "0";
       static = "1";
       rotate = "1";
-   };
-   new Item() {
-      position = "-3 5 34.5";
-      rotation = "0 0 1 45.0001";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         skin = "5";
-         timeBonus = "5000";
    };
    new Item() {
       position = "-4 -2 31.25";
@@ -666,7 +644,7 @@ new SimGroup(MissionGroup) {
    };
    new InteriorInstance() {
       position = "20 27.75 4.75";
-      rotation = "0.0975499 0.0975495 0.990438 90.5506";
+      rotation = "0.09755 0.0975496 0.990438 90.5505";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
@@ -793,6 +771,42 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
       shapeName = "~/data/shapes_bm/pads/bm_goal_icon.dts";
+   };
+   new Item() {
+      position = "1 9 19.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-3 5 34.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-3 7 47.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

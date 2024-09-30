@@ -23,22 +23,6 @@ new SimGroup(MissionGroup) {
          dataBlock = "Glass_BM";
       };
    };
-   new Item() {
-      position = "-13.685 -23.8091 8.5";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "-20.000000 2.250000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
    new SimGroup(MissionData) {
 
       new MissionArea(MissionArea) {
@@ -596,8 +580,8 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new StaticShape() {
-      position = "-19.7878 -22.939 0";
-      rotation = "0 0 -1 113.04";
+      position = "-19.1334 -35.6771 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -606,8 +590,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-19.4494 -19.2633 0";
-      rotation = "0 0 -1 113.04";
+      position = "-20.5655 -32.275 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -616,8 +600,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-21.6416 -16.6639 0";
-      rotation = "0 0 -1 113.04";
+      position = "-23.7234 -31.0139 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -626,8 +610,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-18.91 -14.1438 0";
-      rotation = "0 0 -1 113.04";
+      position = "-22.5001 -27.5045 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -636,8 +620,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "4.01379 1.58239 0";
-      rotation = "0 0 -1 113.04";
+      position = "-9.6809 -2.8371 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -646,8 +630,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "6.93053 -0.165504 0";
-      rotation = "0 0 -1 113.04";
+      position = "-6.28472 -3.00579 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -656,8 +640,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "11.8491 -2.14872 0";
-      rotation = "0 0 -1 113.04";
+      position = "-1.01173 -2.43957 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -666,8 +650,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "5.25139 -1.96633 0";
-      rotation = "0 0 -1 113.04";
+      position = "-6.91819 -5.38512 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -676,8 +660,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "10.0535 1.43436 0";
-      rotation = "0 0 -1 113.04";
+      position = "-4.28287 -0.123936 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -686,8 +670,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "30.5236 -15.3968 0";
-      rotation = "0 0 -1 113.04";
+      position = "21.701 -5.33444 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -696,8 +680,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "32.6815 -18.5541 0";
-      rotation = "0 0 -1 113.04";
+      position = "25.0913 -7.1039 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -706,8 +690,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "33.0623 -23.2822 0";
-      rotation = "0 0 -1 113.04";
+      position = "27.6535 -11.0958 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -716,8 +700,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "34.3634 -27.6189 0";
-      rotation = "0 0 -1 113.04";
+      position = "30.8432 -14.3091 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -726,8 +710,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "26.9197 -48.4433 0";
-      rotation = "0 0 -1 113.04";
+      position = "34.0813 -36.1856 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -736,8 +720,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "19.891 -49.8026 0";
-      rotation = "0 0 -1 113.04";
+      position = "28.5205 -40.6941 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -746,8 +730,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "23.9289 -49.7153 0";
-      rotation = "0 0 -1 113.04";
+      position = "32.0417 -38.7159 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -756,8 +740,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "17.8787 -53.3751 0";
-      rotation = "0 0 -1 113.04";
+      position = "28.4273 -44.7934 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -766,8 +750,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "21.0942 -53.9092 0";
-      rotation = "0 0 -1 113.04";
+      position = "31.5156 -43.7506 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -776,8 +760,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "14.4966 -53.7269 0";
-      rotation = "0 0 -1 113.04";
+      position = "25.6091 -46.6961 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -786,8 +770,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-12.3489 -51.289 0";
-      rotation = "0 0 -1 113.04";
+      position = "0.777692 -57.1854 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -796,8 +780,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-14.4275 -43.2079 0";
-      rotation = "0 0 -1 113.04";
+      position = "-4.86097 -51.0348 0";
+      rotation = "0 0 1 218.871";
       scale = "1 1 1";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -806,8 +790,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-11.3838 -46.5318 0";
-      rotation = "0 0 -1 113.04";
+      position = "-0.610736 -52.5341 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -816,8 +800,8 @@ new SimGroup(MissionGroup) {
          parentSimple = "0";
    };
    new StaticShape() {
-      position = "-17.1644 -47.6319 0";
-      rotation = "0 0 -1 113.04";
+      position = "-5.19246 -56.2264 0";
+      rotation = "0 0 1 218.871";
       scale = "0.5 0.5 0.5";
       dataBlock = "RoundBumper_BM";
          Parent = "Wheel1";
@@ -825,169 +809,9 @@ new SimGroup(MissionGroup) {
          parentOffset = "0 0 0";
          parentSimple = "0";
    };
-   new Item() {
-      position = "-22.8315 -19.615 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "19.000000 23.250000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-16.7812 -15.9552 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "20.000000 16.250000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-9.82406 -4.84618 0.5";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "27.500000 5.500000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "18.8777 -0.789452 0.5";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "20.000000 -22.500000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "25.0233 -10.1293 0.5";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "9.000000 -24.500000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "30.6109 -19.4347 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "-1.750000 -26.000000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "35.7199 -23.782 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "-7.750000 -29.000000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "21.4036 -48.8876 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "-25.250000 -6.000000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "1.23249 -54.478 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "-22.500000 14.750000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-15.6571 -48.6209 0";
-      rotation = "0 0 -1 68.04";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel1";
-         noRespawn = "0";
-         parentModTrans = "-10.500000 28.000000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "3";
-         timeBonus = "1000";
-   };
    new StaticShape() {
-      position = "-12.685 -39.2303 8";
-      rotation = "0 0 1 5.5999";
+      position = "-15.8001 -27.9228 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -997,8 +821,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-8.35774 -38.6498 8";
-      rotation = "0 0 1 5.5999";
+      position = "-11.7983 -29.6686 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1008,8 +832,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-8.60169 -41.1378 8";
-      rotation = "0 0 1 5.5999";
+      position = "-13.2962 -31.6702 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1019,8 +843,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-10.7678 -40.1719 8";
-      rotation = "0 0 1 5.5999";
+      position = "-14.6482 -29.7216 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1030,8 +854,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "7.30241 -45.4604 8";
-      rotation = "0 0 1 5.5999";
+      position = "-1.93369 -43.6083 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1041,8 +865,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "8.10733 -50.0609 8";
-      rotation = "0 0 1 5.5999";
+      position = "-3.62914 -47.9601 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1052,8 +876,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "11.8834 -47.4168 8";
-      rotation = "0 0 1 5.5999";
+      position = "0.970546 -47.6553 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1063,8 +887,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "23.9335 -39.8063 8";
-      rotation = "0 0 1 5.5999";
+      position = "15.2203 -47.3904 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1074,8 +898,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "21.7138 -36.8255 8";
-      rotation = "0 0 1 5.5999";
+      position = "14.8664 -43.6907 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1085,8 +909,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "18.7378 -41.5577 8";
-      rotation = "0 0 1 5.5999";
+      position = "9.86903 -46.196 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1096,8 +920,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "22.9725 -31.6737 8";
-      rotation = "0 0 1 5.5999";
+      position = "18.6125 -39.9368 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1107,8 +931,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "26.007 -31.4689 8";
-      rotation = "0 0 1 5.5999";
+      position = "21.3139 -41.334 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1118,8 +942,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "26.9339 -34.8253 8";
-      rotation = "0 0 1 5.5999";
+      position = "20.3675 -44.685 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1129,8 +953,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "27.6804 -22.0874 8";
-      rotation = "0 0 1 5.5999";
+      position = "27.6065 -34.1774 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1140,8 +964,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "22.1921 -14.0133 8";
-      rotation = "0 0 1 5.5999";
+      position = "27.0963 -24.4279 8";
+      rotation = "0 0 1 36.81";
       scale = "0.5 0.5 0.5";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1151,8 +975,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-5.6694 -13.7935 8";
-      rotation = "0 0 1 5.5999";
+      position = "3.38097 -9.80273 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1162,8 +986,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-8.75752 -11.9835 8";
-      rotation = "0 0 1 5.5999";
+      position = "1.67768 -6.65451 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1173,8 +997,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-8.75267 -14.496 8";
-      rotation = "0 0 1 5.5999";
+      position = "0.37993 -8.80586 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1184,8 +1008,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-8.5478 -17.5304 8";
-      rotation = "0 0 1 5.5999";
+      position = "-1.01725 -11.5073 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1195,8 +1019,8 @@ new SimGroup(MissionGroup) {
          resetTime = "Default";
    };
    new StaticShape() {
-      position = "-11.8603 -15.4473 8";
-      rotation = "0 0 1 5.5999";
+      position = "-2.7709 -8.00916 8";
+      rotation = "0 0 1 36.81";
       scale = "1 1 1";
       dataBlock = "LandMine_BM";
          Parent = "Wheel2";
@@ -1204,102 +1028,6 @@ new SimGroup(MissionGroup) {
          parentOffset = "0 0 0";
          parentSimple = "0";
          resetTime = "Default";
-   };
-   new Item() {
-      position = "-2.54743 -46.0018 8.5";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "-6.750000 -18.750000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "3";
-         timeBonus = "3000";
-   };
-   new Item() {
-      position = "21.4503 -42.0748 8.5";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "16.750000 -12.500000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "23.9726 -34.2838 8.5";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "18.500000 -4.500000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "25.5827 -17.8625 8";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "18.500000 12.000000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "2";
-         timeBonus = "2000";
-   };
-   new Item() {
-      position = "9.2493 -10.2323 8.5";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "1.500000 18.000000 0.750000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
-   };
-   new Item() {
-      position = "-2.54706 -7.56846 8";
-      rotation = "0 0 1 50.5999";
-      scale = "0.75 0.75 0.75";
-      dataBlock = "TimeTravelItem_BM";
-      collideable = "0";
-      static = "1";
-      rotate = "1";
-         Parent = "Wheel2";
-         noRespawn = "0";
-         parentModTrans = "-10.500000 19.500000 0.250000 0.000000 0.000000 1.000000 0.785398";
-         parentOffset = "0 0 0";
-         parentSimple = "0";
-         skin = "1";
-         timeBonus = "1000";
    };
    new Item() {
       position = "-20 -14 4";
@@ -1363,7 +1091,7 @@ new SimGroup(MissionGroup) {
       scale = "1 1 1";
       dataBlock = "EndPadEdge_BM";
    };
-   new StaticShape(Check1) {
+   new StaticShape(check1) {
       position = "42 -28 0.01";
       rotation = "0 0 1 225";
       scale = "1 1 1";
@@ -1402,7 +1130,7 @@ new SimGroup(MissionGroup) {
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
-   new StaticShape(Check2) {
+   new StaticShape(check2) {
       position = "6 -64 0.01";
       rotation = "0 0 -1 44.9998";
       scale = "1 1 1";
@@ -1411,7 +1139,7 @@ new SimGroup(MissionGroup) {
          disableOOB = "0";
          gravity = "0";
    };
-   new StaticShape(Check4) {
+   new StaticShape(check4) {
       position = "6 -55 8.01";
       rotation = "0 0 1 45.0004";
       scale = "1 1 1";
@@ -1435,7 +1163,7 @@ new SimGroup(MissionGroup) {
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
    };
-   new StaticShape(Check3) {
+   new StaticShape(check3) {
       position = "-22 -29 8.01";
       rotation = "0 0 1 135.001";
       scale = "1 1 1";
@@ -1466,7 +1194,7 @@ new SimGroup(MissionGroup) {
       interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
       showTerrainInside = "0";
    };
-   new StaticShape(Check5) {
+   new StaticShape(check5) {
       position = "33 -28 8.01";
       rotation = "0 0 -1 44.9998";
       scale = "1 1 1";
@@ -1508,6 +1236,152 @@ new SimGroup(MissionGroup) {
       scale = "115.249 115.297 147";
       dataBlock = "InBoundsTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
+   new Item() {
+      position = "-20.733 -14.1581 0";
+      rotation = "0 0 1 218.871";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel1";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "29.500000 6.000000 0.250000 1.000000 0.000000 0.000000 0.000000";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "23.4846 -8.69877 0";
+      rotation = "0 0 -1 51.1288";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel1";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "-1.500000 -26.000000 0.250000 0.000000 0.000000 1.000000 1.570800";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "27.0966 -45.6474 0";
+      rotation = "0 0 1 218.871";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel1";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "-27.500000 0.500000 0.250000 1.000000 0.000000 0.000000 0.000000";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-12.1993 -48.9248 0.5";
+      rotation = "0 0 -1 51.1288";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel1";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "1.037500 27.712500 0.750000 0.000000 0.000000 1.000000 1.570800";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "28.0239 -29.0762 8";
+      rotation = "0 0 1 183.06";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel2";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "18.277786 12.334267 0.250000 0.000000 0.000000 1.000000 2.552540";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "9.56814 -45.3463 8";
+      rotation = "0 0 1 81.81";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel2";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "13.250000 -11.750000 0.250000 0.000000 0.000000 1.000000 0.785398";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-14.4494 -28.6214 8";
+      rotation = "0 0 1 183.06";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel2";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "-16.000000 -12.750000 0.250000 0.000000 0.000000 1.000000 2.552550";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "9.38175 -10.5465 8.5";
+      rotation = "0 0 1 104.311";
+      scale = "1 1 1";
+      dataBlock = "TimeTravelItem5Sec_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         Parent = "Wheel2";
+         instant = "5000";
+         noRespawn = "0";
+         parentModTrans = "-7.750000 16.000000 0.750000 0.000000 0.000000 1.000000 1.178110";
+         parentOffset = "0 0 0";
+         parentSimple = "0";
+         skin = "base";
+         timeBonus = "5000";
+   };
+   new Item() {
+      position = "-16 -10 22.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

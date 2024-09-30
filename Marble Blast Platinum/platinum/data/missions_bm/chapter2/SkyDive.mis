@@ -17,6 +17,69 @@ new SimGroup(MissionGroup) {
          type = "Custom";
          ultimateTime = "35000";
    };
+   new SimGroup(MissionData) {
+
+      new MissionArea(MissionArea) {
+         area = "-360 -648 720 1296";
+         flightCeiling = "300";
+         flightCeilingRange = "20";
+            locked = "true";
+      };
+      new Sky(Sky) {
+         position = "0 0 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         cloudHeightPer[0] = "0";
+         cloudHeightPer[1] = "0";
+         cloudHeightPer[2] = "0";
+         cloudSpeed1 = "0.0001";
+         cloudSpeed2 = "0.0002";
+         cloudSpeed3 = "0.0003";
+         visibleDistance = "500";
+         useSkyTextures = "1";
+         renderBottomTexture = "1";
+         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
+         fogDistance = "300";
+         fogColor = "0.600000 0.600000 0.600000 1.000000";
+         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
+         fogVolume2 = "-1 1.07208e-014 8.756e-014";
+         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
+         materialList = "~/data/skies_bm/Cloudy/sky_day.dml";
+         windVelocity = "1 0 0";
+         windEffectPrecipitation = "0";
+         noRenderBans = "1";
+         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
+         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
+         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
+      };
+   };
+   new SimGroup(HelpBubbleGroup) {
+
+      new StaticShape() {
+         position = "8 24 14.25";
+         rotation = "0 0 -1 90.0002";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "2000";
+            text = "Use the anvil PowerUp while falling to increase your downward speed. This will help you pass the fans below.";
+            triggerRadius = "3";
+      };
+      new StaticShape() {
+         position = "-42 9 8";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "HelpBubble";
+            disable = "0";
+            displayonce = "0";
+            extended = "1";
+            persistTime = "2000";
+            text = "Using the anvil before hitting the bouncy floor will increase your rebound height.";
+            triggerRadius = "3";
+      };
+   };
    new SimGroup(SceneryGroup) {
 
       new StaticShape() {
@@ -603,46 +666,10 @@ new SimGroup(MissionGroup) {
       };
    };
    new StaticShape() {
-      position = "-51 23.75 14.5";
+      position = "-51 24 14.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
-   };
-   new SimGroup(MissionData) {
-
-      new MissionArea(MissionArea) {
-         area = "-360 -648 720 1296";
-         flightCeiling = "300";
-         flightCeilingRange = "20";
-            locked = "true";
-      };
-      new Sky(Sky) {
-         position = "0 0 0";
-         rotation = "1 0 0 0";
-         scale = "1 1 1";
-         cloudHeightPer[0] = "0";
-         cloudHeightPer[1] = "0";
-         cloudHeightPer[2] = "0";
-         cloudSpeed1 = "0.0001";
-         cloudSpeed2 = "0.0002";
-         cloudSpeed3 = "0.0003";
-         visibleDistance = "500";
-         useSkyTextures = "1";
-         renderBottomTexture = "1";
-         SkySolidColor = "0.600000 0.600000 0.600000 1.000000";
-         fogDistance = "300";
-         fogColor = "0.600000 0.600000 0.600000 1.000000";
-         fogVolume1 = "-1 7.45949e-031 1.3684e-038";
-         fogVolume2 = "-1 1.07208e-014 8.756e-014";
-         fogVolume3 = "-1 5.1012e-010 2.05098e-008";
-         materialList = "~/data/skies_bm/Cloudy/sky_day.dml";
-         windVelocity = "1 0 0";
-         windEffectPrecipitation = "0";
-         noRenderBans = "1";
-         fogVolumeColor1 = "128.000000 128.000000 128.000000 0.000000";
-         fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000004";
-         fogVolumeColor3 = "128.000000 128.000000 128.000000 14435505.000000";
-      };
    };
    new InteriorInstance() {
       position = "-42 17.75 5.25";
@@ -1034,7 +1061,7 @@ new SimGroup(MissionGroup) {
          respawnPoint = "check2";
    };
    new StaticShape() {
-      position = "15 39.75 28.5";
+      position = "15 40 28.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge3_BM";
@@ -1104,19 +1131,19 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new StaticShape() {
-      position = "-19 51.75 61";
+      position = "-19 52 61";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge4_BM";
    };
    new StaticShape() {
-      position = "-19 55.75 61";
+      position = "-19 56 61";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-51 27.75 14.5";
+      position = "-51 28 14.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
@@ -1143,19 +1170,19 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new StaticShape() {
-      position = "-21 -8.25 5";
+      position = "-21 -8 5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-21 -12.25 5";
+      position = "-21 -12 5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge2_BM";
    };
    new StaticShape() {
-      position = "15 43.75 28.5";
+      position = "15 44 28.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";

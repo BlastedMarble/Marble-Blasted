@@ -1001,11 +1001,6 @@
    "classname" "Door_Elevator"
    "InitialTargetPosition" "-1"
    "datablock" "PathedDefault"
-}
-{
-   "classname" "Door_Elevator"
-   "InitialTargetPosition" "-1"
-   "datablock" "PathedDefault"
 
    // Brush 79
    {

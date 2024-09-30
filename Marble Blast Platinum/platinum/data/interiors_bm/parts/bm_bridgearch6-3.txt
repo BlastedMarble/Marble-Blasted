@@ -1,0 +1,43 @@
+C:/Users/Admin/Marble Blasted/Marble-Blasted/Marble Blast Platinum/platinum/data/interiors_bm/parts/bm_bridgearch6-3.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2024/09/29 19:01:17
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        301
+
+  Surfaces:      160
+
+  Null Surfaces: 0
+
+  BSP Nodes:     73
+
+
+
+  Textures From Brushes:
+
+
+
+    BM_GRID_BLANK2
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

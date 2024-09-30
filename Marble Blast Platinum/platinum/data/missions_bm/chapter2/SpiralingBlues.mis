@@ -321,97 +321,97 @@ new SimGroup(MissionGroup) {
          showHelpOnPickup = "0";
    };
    new StaticShape() {
-      position = "-13 11.75 14.5";
+      position = "-13 12 14.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-13 7.75 14.5";
+      position = "-13 8 14.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "26 3.75 26.5";
+      position = "26 4 26.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "26 7.75 26.5";
+      position = "26 8 26.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "6 43.75 18.5";
+      position = "6 44 18.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "6 47.75 18.5";
+      position = "6 48 18.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "30 58.75 14.5";
+      position = "30 59 14.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "30 62.75 14.5";
+      position = "30 63 14.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "46 35.75 26.5";
+      position = "46 36 26.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "46 39.75 26.5";
+      position = "46 40 26.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "60 19.75 36.5";
+      position = "60 20 36.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "60 23.75 36.5";
+      position = "60 24 36.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-1 25.75 38.5";
+      position = "-1 26 38.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-1 29.75 38.5";
+      position = "-1 30 38.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
    };
    new StaticShape() {
-      position = "-26 15.75 50.5";
+      position = "-26 16 50.5";
       rotation = "0 0 1 180";
       scale = "1 1 1";
       dataBlock = "PropLarge1_BM";
    };
    new StaticShape() {
-      position = "-26 19.75 50.5";
+      position = "-26 20 50.5";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
@@ -560,7 +560,7 @@ new SimGroup(MissionGroup) {
       dataBlock = "InBoundsTrigger";
       polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
-   new StaticShape(Check1) {
+   new StaticShape(check1) {
       position = "40 28 10.51";
       rotation = "0 0 1 180";
       scale = "1 1 1";
@@ -578,7 +578,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "Check1";
    };
-   new StaticShape(Check2) {
+   new StaticShape(check2) {
       position = "30 28 20.51";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
@@ -596,7 +596,7 @@ new SimGroup(MissionGroup) {
          gravity = "0";
          respawnPoint = "Check2";
    };
-   new StaticShape(Check3) {
+   new StaticShape(check3) {
       position = "44 -4 26.51";
       rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
