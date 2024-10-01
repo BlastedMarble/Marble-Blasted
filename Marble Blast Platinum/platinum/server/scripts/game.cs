@@ -1425,7 +1425,6 @@ function GameConnection::createPlayer(%this, %spawnPoint) {
 	%player.assignNewTrailEmitter(1, "WhiteTrail",      "MarbleWhiteTrailEmitter");
 	%player.assignNewTrailEmitter(2, "Splash4",         "Splash4Emitter");
 	%player.assignNewTrailEmitter(3, "TrailBubble",     "MarbleTrailBubbleEmitter");
-	%player.assignNewTrailEmitter(8, "Snore",           "MarbleSnoreEmitter");
 	%this.sendPlayerId(); //We need to wait for it so send via packUpdate();
 
 	//Wait a second for this to activate
