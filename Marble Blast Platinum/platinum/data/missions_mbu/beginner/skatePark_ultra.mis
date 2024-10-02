@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Skate Park";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "33000";
       ultimateTime = "24000";
       startHelpText = "Show off some of your crazy moves!";

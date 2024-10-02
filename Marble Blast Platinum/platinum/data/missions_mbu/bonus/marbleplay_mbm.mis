@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          gameplayType = "GemHunt";
          goldTime = "90000";
          level = "8";
-         music = "Tim Trance.ogg";
+         
          name = "Marble Playground";
          startHelpText = "Use the powerups to find all the gems!";
          type = "Single";

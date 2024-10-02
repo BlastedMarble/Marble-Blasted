@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "9";
       name = "Acrobat";
       game = "Ultra";
-      music = "Tim Trance.ogg";
+      
 	  goldTime = "15000";
       ultimateTime = "7500";
       startHelpText = "Control your spin when you are about to land.";

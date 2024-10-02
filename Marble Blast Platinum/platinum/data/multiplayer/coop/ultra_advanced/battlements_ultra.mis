@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       level = "11";
 useUltraMarble = "1";
       game = "Ultra";
-      music = "Tim Trance.ogg";
+      
 	  goldTime = "45000";
       ultimateTime = "15000";
       startHelpText = "Have fun storming the castle!";

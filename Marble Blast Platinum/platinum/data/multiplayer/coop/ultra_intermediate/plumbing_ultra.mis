@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Spelunking";
       artist = "Alex Swanson";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "10000";
       startHelpText = "Collect the gems, then speed to the finish!";

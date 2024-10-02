@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null haste";
          level = "1";
-         music = "Tim Trance.ogg";
+         
          name = "Par Core";
          platinumTime = "120000";
          type = "Custom";

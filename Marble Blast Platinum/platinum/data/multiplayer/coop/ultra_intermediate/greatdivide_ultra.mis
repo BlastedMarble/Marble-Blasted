@@ -57,7 +57,7 @@ useUltraMarble = "1";
       difficulty = "6";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "75000";
       ultimateTime = "20000";
       startHelpText = "Climb over the pass and speed down the other side!";

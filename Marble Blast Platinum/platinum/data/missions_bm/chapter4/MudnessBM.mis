@@ -3,16 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Be very aware of the slippery challenges you'll face in this level.";
          game = "Blasted";
          gameMode = "null";
          level = "9";
-         music = "Tim Trance.ogg";
+         awesomeTime = "50000";
          name = "Mudness";
-         platinumTime = "0";
+         platinumTime = "70000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "60000";
+         goldTime = "80000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";

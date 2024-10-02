@@ -3,15 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Challenges are approaching!";
          game = "Blasted";
          gameMode = "null";
          level = "3";
          name = "Perilous Gauntlet";
-         platinumTime = "0";
+         platinumTime = "50000";
+         goldTime = "60000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "40000";
+         awesomeTime = "30000";
    };
    new SimGroup(SceneryGroup) {
 

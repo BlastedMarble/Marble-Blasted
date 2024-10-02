@@ -1096,7 +1096,7 @@ new SimGroup(MissionGroup) {
       shapeName = "~/data/shapes_bm/powerups/SuperSpeedGate_icon_bm.dts";
    };
    new Item() {
-      position = "34 36.3467 13";
+      position = "34 38.5042 13";
       rotation = "1 0 0 0";
       scale = "3 3 3";
       dataBlock = "GemItemPurple_BM";
@@ -1412,20 +1412,11 @@ new SimGroup(MissionGroup) {
          skin = "skin0";
          visibleTime = "500";
    };
-   new StaticShape() {
-      position = "72 10 8.5";
+   new TSStatic() {
+      position = "74 12 8.75";
       rotation = "1 0 0 0";
       scale = "1 1 1";
-      dataBlock = "BMFadePlatform1x3";
-         StartOffset = "0";
-         fadeStyle = "fade";
-         fadeinTime = "500";
-         fadeoutTime = "500";
-         functionality = "trapdoor";
-         invisibleTime = "2000";
-         permanent = "0";
-         skin = "skin0";
-         visibleTime = "500";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x5_bm.dts";
    };
    new StaticShape() {
       position = "72 15 8.5";
@@ -1649,6 +1640,68 @@ new SimGroup(MissionGroup) {
       rotation = "0 0 1 90.0002";
       scale = "0.7 0.7 0.7";
       shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-0.075 -41 4";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/SuperSpeedGate_icon_bm.dts";
+   };
+   new Item() {
+      position = "0 -41 4";
+      rotation = "1 0 0 0";
+      scale = "3 1 1";
+      dataBlock = "SuperSpeedItem_BMGate";
+      collideable = "0";
+      static = "1";
+      rotate = "0";
+         noRespawn = "0";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "2 -41 4";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "74 21 8.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x4_bm.dts";
+   };
+   new StaticShape() {
+      position = "72 9 8.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "BMFadePlatform1x2";
+         StartOffset = "0";
+         fadeStyle = "fade";
+         fadeinTime = "500";
+         fadeoutTime = "500";
+         functionality = "trapdoor";
+         invisibleTime = "2000";
+         permanent = "0";
+         skin = "skin0";
+         visibleTime = "500";
+   };
+   new TSStatic() {
+      position = "72 22 8.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x3_bm.dts";
+   };
+   new TSStatic() {
+      position = "72 15 8.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x4_bm.dts";
+   };
+   new TSStatic() {
+      position = "72 9 8.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA1x2_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---

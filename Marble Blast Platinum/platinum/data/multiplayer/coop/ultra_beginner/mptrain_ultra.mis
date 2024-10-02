@@ -9,7 +9,7 @@ useUltraMarble = "1";
       time = "60000";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "23000";
       ultimateTime = "16000";
       startHelpText = "Press <func:bind useblast> to use the Blast power when your Blast Meter is lit.";

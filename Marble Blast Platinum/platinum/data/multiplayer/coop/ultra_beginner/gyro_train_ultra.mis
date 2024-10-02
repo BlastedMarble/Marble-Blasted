@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "First Flight";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "10000";
       ultimateTime = "7500";
       startHelpText = "Use the Gyrocopter powerup to float across the gap safely.";

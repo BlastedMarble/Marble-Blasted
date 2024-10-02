@@ -12,7 +12,7 @@ new SimGroup(MissionGroup) {
          game = "Ultra";
          gameMode = "null";
          generalHint = "Help the player beat your level!";
-         music = "Tim Trance.ogg";
+         
          name = "Marble Blast Ultra Template";
          startHelpText = "Change this text!";
          trivia = "Share some fun trivia about this level!";

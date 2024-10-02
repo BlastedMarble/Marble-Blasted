@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Three-Fold Maze";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "38000";
       ultimateTime = "22500";
    };

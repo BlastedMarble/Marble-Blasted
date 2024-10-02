@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "12";
-         music = "Tim Trance.ogg";
+         
          name = "Storm Chaser";
          platinumTime = "120000";
          tornadoStrength0 = "-45";

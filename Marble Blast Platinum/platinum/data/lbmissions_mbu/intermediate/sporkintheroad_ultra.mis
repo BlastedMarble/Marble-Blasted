@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          type = "intermediate";
          ultimateTime = "10000";
          artist = "Kevin Ryan";
-         music = "Tim Trance.ogg";
+         
          difficulty = "6";
          goldTime = "36000";
          name = "Fork in the Road";

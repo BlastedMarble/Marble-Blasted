@@ -41,7 +41,7 @@ useUltraMarble = "1";
       time = "80000";
       type = "Intermediate";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "4000";
    };

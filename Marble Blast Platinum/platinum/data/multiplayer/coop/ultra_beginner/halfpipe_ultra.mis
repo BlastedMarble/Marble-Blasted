@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
 useUltraMarble = "1";
       name = "Half-Pipe";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "7500";
       ultimateTime = "2500";
       startHelpText = "Speed around the half-pipe and collect the gems!";

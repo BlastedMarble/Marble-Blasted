@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          goldTime = "0";
          level = "1";
          maxGemsPerGroup = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Polysoup";
          numgems = "1";
          type = "Advanced";

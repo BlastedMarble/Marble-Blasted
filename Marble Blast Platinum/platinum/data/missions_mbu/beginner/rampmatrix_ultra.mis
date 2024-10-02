@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       difficulty = "3";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "30000";
       ultimateTime = "23000";
       startHelpText = "Find 10 gems!";

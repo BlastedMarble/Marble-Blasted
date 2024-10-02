@@ -9,7 +9,7 @@ useUltraMarble = "1";
       time = "35000";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "10000";
       ultimateTime = "2000";
    };

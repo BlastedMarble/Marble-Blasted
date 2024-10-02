@@ -4,16 +4,17 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          GemQuota = "11";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Collect the gems by riding on walls in this huge skate park!";
          game = "Blasted";
          gameMode = "quota";
          level = "5";
-         music = "Tim Trance.ogg";
+         awesomeTime = "40000";
          name = "Wall Rider";
-         platinumTime = "0";
+         platinumTime = "70000";
+         goldTime = "85000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "55000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";

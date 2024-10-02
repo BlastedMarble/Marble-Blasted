@@ -9,7 +9,7 @@ useUltraMarble = "1";
       time = "70000";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "40000";
       ultimateTime = "22500";
       startHelpText = "Don't fall behind the platform - there's no going back!";

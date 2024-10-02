@@ -10,7 +10,7 @@ useUltraMarble = "1";
       name = "Whirl";
       time = "140000";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "45000";
       ultimateTime = "10000";
    };

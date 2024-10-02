@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          gameMode = "Hunt";
          level = "1";
          maxGemsPerSpawn = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Sphere Plates";
          overviewHeight = "15";
          platinumScore0 = "0";

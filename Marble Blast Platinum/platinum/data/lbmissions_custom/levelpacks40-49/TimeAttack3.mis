@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          desc = "Difficulty: 2\n\nReach the finish in 30 seconds or less.";
          goldTime = "24000";
          level = "46";
-         music = "Tim Trance.ogg";
+         
          name = "Time Attack 3";
          type = "Custom";
          ultimateTime = "20000";

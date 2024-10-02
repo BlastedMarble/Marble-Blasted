@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          ultimateTime = "15000";
          noBlast = "1";
          useUltraMarble = "0";
-	 music = "Tim Trance.ogg";
+	 
    };
    new Sky(Sky) {
       sphereFront = $usermods @ "/data/shapes/skies/wintry/front.png";

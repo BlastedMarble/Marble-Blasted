@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          type = "intermediate";
          ultimateTime = "3000";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          difficulty = "5";
          goldTime = "12000";
          name = "Timely Ascent";

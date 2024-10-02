@@ -39,7 +39,7 @@ new SimGroup(MissionGroup) {
          type = "Intermediate";
          ultimateTime = "4500";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          difficulty = "5";
          goldTime = "30000";
          name = "The Road Less Traveled";

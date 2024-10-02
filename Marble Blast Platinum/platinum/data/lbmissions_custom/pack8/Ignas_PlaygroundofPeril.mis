@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          game = "Ultra";
          gameMode = "null";
          level = "33";
-         music = "Tim Trance.ogg";
+         
          name = "Playground of Peril";
          goldTime = "45000";
          radar = "1";

@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "10";
       name = "Under Construction";
       game = "Ultra";
-      music = "Tim Trance.ogg";
+      
 	  goldTime = "12000";
       ultimateTime = "5000";
       startHelpText = "Be very cautious on this framework.";

@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
 useUltraMarble = "1";
          game = "Ultra";
          type = "Intermediate";
-	 music = "Tim Trance.ogg";
+	 
 	 goldTime = "30000";
          ultimateTime = "15000";
    };

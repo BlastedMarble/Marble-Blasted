@@ -4,16 +4,17 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          SpeedToQualify = "30";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Fly through the holes using the Aviators.";
          game = "Blasted";
          gameMode = "null haste";
          level = "3";
-         music = "Tim Trance.ogg";
+         awesomeTime = "15000";
          name = "Hollow Copter";
-         platinumTime = "0";
+         platinumTime = "45000";
+         goldTime = "60000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "30000";
    };
    new SimGroup(SceneryGroup) {
 

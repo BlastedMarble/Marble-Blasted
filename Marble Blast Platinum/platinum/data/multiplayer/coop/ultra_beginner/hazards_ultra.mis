@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Hazardous Climb";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "30000";
       ultimateTime = "17500";
       startHelpText = "Don't let these hazards throw you off the track to the finish!";

@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "5";
-         music = "Tim Trance.ogg";
+         
          name = "Night";
          platinumTime = "0";
          type = "Custom";

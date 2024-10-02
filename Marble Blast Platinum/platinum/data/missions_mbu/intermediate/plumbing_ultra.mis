@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       artist = "Alex Swanson";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "35000";
       ultimateTime = "17500";
       startHelpText = "Collect the gems, then speed to the finish!";

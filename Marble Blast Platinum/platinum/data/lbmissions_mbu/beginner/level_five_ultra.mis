@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          type = "Beginner";
          ultimateTime = "2050";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          difficulty = "2";
          goldTime = "2600";
          name = "Bunny Slope";

@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          artist = "James C.";
          awesomeTime = "60000";
-         fanStrength = "120";
+         desc = "Make your way through this festival of cogs and pendulums to get the best time.";
          game = "Blasted";
          gameMode = "null";
          goldTime = "90000";
@@ -1855,8 +1855,8 @@ new SimGroup(MissionGroup) {
          timeBonus = "5000";
    };
    new Item() {
-      position = "-49 -101.292 5.56114";
-      rotation = "0.397248 0.39725 0.827276 100.8";
+      position = "-49 -102.488 9.36829";
+      rotation = "0.58982 0.589822 0.551564 122.241";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
@@ -1885,8 +1885,8 @@ new SimGroup(MissionGroup) {
          timeBonus = "5000";
    };
    new Item() {
-      position = "-50.0558 25.5535 18.5";
-      rotation = "0 0 1 51.5272";
+      position = "-54.9436 29.0493 18.5";
+      rotation = "0 0 1 199.621";
       scale = "1 1 1";
       dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";

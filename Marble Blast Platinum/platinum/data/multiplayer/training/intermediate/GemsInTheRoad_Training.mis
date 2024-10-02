@@ -3,7 +3,7 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          name = "Gems in the Road";
-         music = "Tim Trance.ogg";
+         
          desc = "Find the gems in the maze of roads!";
          radiusFromGem = "20";
          gamemode = "hunt training";

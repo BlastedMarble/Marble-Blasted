@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          gameplayType = "GemHunt";
          goldTime = "36000";
          level = "3";
-         music = "Tim Trance.ogg";
+         
          name = "Spork in the Road";
          type = "Single";
          ultimateTime = "24000";

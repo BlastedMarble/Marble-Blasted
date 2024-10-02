@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gameMode = "king";
          level = "5";
          maxGemsPerSpawn = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Triumvirate";
          overviewHeight = "-65";
          platinumScore0 = "60";

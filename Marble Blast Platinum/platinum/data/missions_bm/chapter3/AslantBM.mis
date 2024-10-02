@@ -3,17 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          artist = "James C.";
-         awesomeTime = "35000";
+         awesomeTime = "30000";
          desc = "Move up and down the slopes in this winding course. Let the lights guide you.";
          fanStrength = "10";
          game = "Blasted";
          gameMode = "null";
-         goldTime = "50000";
+         goldTime = "45000";
          level = "7";
          name = "Aslant";
-         platinumTime = "45000";
+         platinumTime = "40000";
          type = "Custom";
-         ultimateTime = "40000";
+         ultimateTime = "35000";
    };
    new SimGroup(MissionData) {
 

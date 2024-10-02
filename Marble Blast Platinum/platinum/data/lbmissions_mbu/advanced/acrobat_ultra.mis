@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Acrobat";
       game = "Ultra";
 useUltraMarble = "1";
-      music = "Tim Trance.ogg";
+      
 	  goldTime = "25000";
       ultimateTime = "14000";
       startHelpText = "Control your spin when you are about to land.";

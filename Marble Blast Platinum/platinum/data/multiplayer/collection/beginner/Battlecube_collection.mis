@@ -13,7 +13,7 @@ new SimGroup(MissionGroup) {
          level = "3";
          score1 = "30";
          type = "Beginner";
-         music = "Tim Trance.ogg";
+         
          desc = "Collect the diamonds around the different faces.";
          ultimateScore1 = "90";
          gameMode = "collection";

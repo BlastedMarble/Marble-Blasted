@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Daedalus";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "35000";
       ultimateTime = "20000";
    };

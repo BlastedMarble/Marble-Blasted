@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          artist = "James C.";
          awesomeTime = "40000";
-         desc = "Find all four buttons to unlock the gem.";
+         desc = "Find all four red buttons to unlock the gem.";
          game = "Blasted";
          gameMode = "null";
          goldTime = "70000";

@@ -4,7 +4,7 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          desc = "Now with multiple floors, prove that you are the king.";
          artist = "pocket83";
-         music = "Tim Trance.ogg";
+         
          overviewHeight = "-100";
          score1 = "70";
          type = "Beginner";
@@ -12,7 +12,7 @@ new SimGroup(MissionGroup) {
          radiusFromGem = "15";
          ultimateScore1 = "200";
          game = "Ultra";
-		   music = "Tim Trance.ogg";
+		   
          time = "180000";
          platinumScore1 = "140";
          maxGemsPerSpawn = "6";

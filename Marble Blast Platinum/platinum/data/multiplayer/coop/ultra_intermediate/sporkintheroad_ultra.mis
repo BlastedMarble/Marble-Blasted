@@ -9,7 +9,7 @@ useUltraMarble = "1";
       artist = "Kevin Ryan";
       type = "intermediate";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "36000";
       ultimateTime = "10000";
       startHelpText = "See how quickly you can find all the gems!";

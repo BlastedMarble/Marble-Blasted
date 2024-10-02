@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gameMode = "king";
          level = "2";
          maxGemsPerSpawn = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Vortex Effect";
          overviewHeight = "0";
          platinumScore = "80";

@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
 		 game = "Custom";
          gameMode = "mega";
 		 level = "2";
-		 music = "Tim Trance.ogg";
+		 
          name = "King of the Mega Marble";
          time = "180000";
          type = "Beginner";

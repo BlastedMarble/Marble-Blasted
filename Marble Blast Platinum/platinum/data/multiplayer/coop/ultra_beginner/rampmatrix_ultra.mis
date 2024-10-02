@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Ramp Matrix";
       difficulty = "3";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "12000";
       startHelpText = "Find 10 gems!";

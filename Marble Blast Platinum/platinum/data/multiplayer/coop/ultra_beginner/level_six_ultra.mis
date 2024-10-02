@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Triple Gravity";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "12000";
       ultimateTime = "8000";
       startHelpText = "Touch Gravity Modifiers to change which way is down!";

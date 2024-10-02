@@ -11,7 +11,7 @@ new SimGroup(MissionGroup) {
          level = "15";
          gameMode = "hunt";
          game = "Ultra";
-		   music = "Tim Trance.ogg";
+		   
          radiusFromGem = "15";
    };
    new SimGroup(SpawnPoints) {

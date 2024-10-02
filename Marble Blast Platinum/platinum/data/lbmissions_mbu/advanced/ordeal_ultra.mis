@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          type = "advanced";
          ultimateTime = "16000";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          difficulty = "8";
          goldTime = "30000";
          name = "Ordeal";

@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "5";
       artist = "Alex Swanson";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "15000";
       ultimateTime = "8500";
       startHelpText = "Jumping in slippery areas can help your navigation.";

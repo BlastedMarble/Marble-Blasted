@@ -45,7 +45,7 @@ new SimGroup(MissionGroup) {
          platinumScore1 = "85";
          maxGemsPerSpawn = "5";
          platinumScore0 = "75";
-         music = "Tim Trance.ogg";
+         
          time = "360000";
          alarmStartTime = "35";
          ultimateScore0 = "125";

@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Three-Fold Race";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "32000";
       ultimateTime = "20000";
    };

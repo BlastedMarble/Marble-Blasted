@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "2";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "2600";
       ultimateTime = "2050";
       startHelpText = "Build up momentum to reach the bottom quickly!";

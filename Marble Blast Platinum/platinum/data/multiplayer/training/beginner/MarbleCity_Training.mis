@@ -17,7 +17,7 @@ new SimGroup(MissionGroup) {
          ultimateScore0 = "140";
          score0 = "40";
          game = "Ultra";
-         music = "Tim Trance.ogg";
+         
          score1 = "50";
          overviewHeight = "10";
          alarmStartTime = "25";

@@ -25,7 +25,7 @@ useUltraMarble = "1";
       name = "Skyscraper";
       game = "Ultra";
 	  artist = "Kevin Ryan";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "85000";
       ultimateTime = "45000";
       startHelpText = "Find all the gems on your way to the top!";

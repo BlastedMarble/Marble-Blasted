@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          goldTime = "80000";
          include = "1";
          level = "4";
-         music = "Tim Trance.ogg";
+         
          name = "Gem Crossroads";
          ultimateTime = "40000";
          useUltraMarble = "1";

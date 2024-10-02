@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Bridge Crossing";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "17500";
       ultimateTime = "12000";
       startHelpText = "Be careful not to fall off open edges!";

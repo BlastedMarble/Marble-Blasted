@@ -10,7 +10,7 @@ useUltraMarble = "1";
          Difficulty = "10";
          game = "Ultra";
          time = "105000";
-		 music = "Tim Trance.ogg";
+		 
 		 goldTime = "18000";
          ultimateTime = "7000";
    };

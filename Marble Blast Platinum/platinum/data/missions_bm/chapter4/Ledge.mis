@@ -3,16 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Watch yourself while traversing the wheels surrounding the tree.";
          game = "Blasted";
          gameMode = "null";
          level = "2";
-         music = "Tim Trance.ogg";
+         awesomeTime = "20000";
          name = "Ledge";
-         platinumTime = "0";
+         platinumTime = "40000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "30000";
+         goldTime = "50000";
    };
    new SimGroup(SceneryGroup) {
 

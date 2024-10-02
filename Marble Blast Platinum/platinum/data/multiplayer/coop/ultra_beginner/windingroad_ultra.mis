@@ -9,7 +9,7 @@ useUltraMarble = "1";
       artist = "Alex Swanson";
       type = "beginner";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "15000";
       ultimateTime = "11500";
       startHelpText = "Follow the winding road, using the powerups to cross the gaps!";

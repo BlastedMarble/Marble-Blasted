@@ -7,7 +7,7 @@ new SimGroup(MissionGroup) {
          level = "1";
          desc = "With little room to escape, show your opponents why you are the King.";
          artist = "Tim Aste & Matan";
-         music = "Tim Trance.ogg";
+         
          gamemode = "hunt training";
          game = "Ultra";
          time = "180000";

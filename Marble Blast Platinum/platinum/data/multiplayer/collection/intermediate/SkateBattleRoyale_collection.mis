@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
          game = "Ultra";
          gameMode = "Collection";
          level = "8";
-         music = "Tim Trance.ogg";
+         
          name = "Skate Battle Royale";
          overviewHeight = "12.5";
          platinumScore = "55";

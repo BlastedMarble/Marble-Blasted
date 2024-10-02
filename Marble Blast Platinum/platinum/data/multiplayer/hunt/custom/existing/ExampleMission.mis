@@ -57,7 +57,7 @@ new SimGroup(MissionGroup) {
          alarmStartTime = "15";
          desc = "An example level which includes notes on all the ingame elements added in MultiPlayer.";
          score1 = "0";
-         music = "Tim Trance.ogg";
+         
          level = "1";
          name = "Example Mission";
          overviewHeight = "5";

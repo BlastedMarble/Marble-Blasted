@@ -4,16 +4,17 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          GemQuota = "4";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         desc = "Both roads lead to the finish. Reach the gem quota!";
          game = "Blasted";
          gameMode = "null quota";
          level = "4";
-         music = "Tim Trance.ogg";
+         awesomeTime = "20000";
          name = "Split Boundaries";
-         platinumTime = "0";
+         platinumTime = "40000";
+         goldTime = "50000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "30000";
    };
    new SimGroup(HelpBubbleGroup) {
 

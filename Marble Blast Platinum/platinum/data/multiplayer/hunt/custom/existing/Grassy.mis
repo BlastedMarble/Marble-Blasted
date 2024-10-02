@@ -15,7 +15,7 @@ new SimGroup(MissionGroup) {
          time = "210000";
          platinumScore1 = "90";
          type = "Custom";
-         music = "Tim Trance.ogg";
+         
          game = "Custom";
          platinumScore0 = "60";
          ultimateScore0 = "110";

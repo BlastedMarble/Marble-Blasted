@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gameMode = "king";
          level = "1";
          maxGemsPerSpawn = "7";
-         music = "Tim Trance.ogg";
+         
          name = "Promontory";
          overviewHeight = "0";
          platinumScore0 = "60";

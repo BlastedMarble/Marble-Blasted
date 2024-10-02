@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          game = "Custom";
          gameMode = "mega";
          level = "1";
-         music = "Tim Trance.ogg";
+         
          name = "Mega Concentric";
          noDownload = "1";
          overviewHeight = "15";

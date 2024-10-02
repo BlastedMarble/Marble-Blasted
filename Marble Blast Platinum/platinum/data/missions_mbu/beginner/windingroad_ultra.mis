@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       type = "beginner";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "15000";
       ultimateTime = "11500";
       startHelpText = "Follow the winding road, using the powerups to cross the gaps!";

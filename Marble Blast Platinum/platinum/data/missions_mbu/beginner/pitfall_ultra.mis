@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Pitfalls";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "13000";
       startHelpText = "Practice your rolling skills by avoiding the gaps in the floor!";

@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "2";
       name = "Pitfalls";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "13000";
       startHelpText = "Practice your rolling skills by avoiding the gaps in the floor!";

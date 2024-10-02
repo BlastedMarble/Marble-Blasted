@@ -20,7 +20,7 @@ new SimGroup(MissionGroup) {
          score0 = "30";
          name = "Blast Club";
          desc = "Blast your opponents but beware not to be hit yourself.";
-         music = "Tim Trance.ogg";
+         
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";

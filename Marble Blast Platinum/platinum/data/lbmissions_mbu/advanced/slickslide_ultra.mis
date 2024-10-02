@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Slick Slide";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "10000";
       ultimateTime = "6000";
       startHelpText = "Watch out for bumpers!";

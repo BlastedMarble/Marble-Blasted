@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gameMode = "king";
          level = "3";
          maxGemsPerSpawn = "5";
-         music = "Tim Trance.ogg";
+         
          name = "Blast Club";
          overviewHeight = "-35";
          platinumScore0 = "60";

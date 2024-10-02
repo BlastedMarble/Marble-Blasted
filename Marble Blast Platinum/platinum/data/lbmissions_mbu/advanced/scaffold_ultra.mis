@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       artist = "Alex Swanson";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "15000";
       ultimateTime = "1500";
       startHelpText = "Keep moving to avoid falling through the trapdoors!";

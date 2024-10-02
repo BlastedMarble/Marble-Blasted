@@ -16,7 +16,7 @@ new SimGroup(MissionGroup) {
          goldTime = "90000";
          include = "1";
          level = "7";
-         music = "Tim Trance.ogg";
+         
          name = "Skate Battle Park";
          type = "Single";
          ultimateTime = "45000";

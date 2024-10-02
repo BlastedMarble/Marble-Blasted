@@ -22,7 +22,7 @@ new SimGroup(MissionGroup) {
          type = "intermediate";
          ultimateTime = "45000";
          artist = "Kevin Ryan";
-         music = "Tim Trance.ogg";
+         
          difficulty = "5";
          goldTime = "85000";
          name = "Skyscraper";

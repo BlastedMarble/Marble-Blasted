@@ -62,7 +62,7 @@ chkcollide = "0";
          type = "intermediate";
          ultimateTime = "20000";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          difficulty = "6";
          goldTime = "75000";
          name = "Great Divide";

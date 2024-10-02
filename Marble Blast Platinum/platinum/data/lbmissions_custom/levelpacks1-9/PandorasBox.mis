@@ -6,7 +6,7 @@ new SimGroup(MissionGroup) {
          desc = "Descend to the depths of the spooky castle, rescue a gem, and return through the challenges and labyrinths!";
          goldTime = "80000";
          level = "27";
-         music = "Tim Trance.ogg";
+         
          name = "Pandora\'s Box";
          startHelpText = "Hmm, I wonder what\'s down there...?";
          type = "LBCustom";

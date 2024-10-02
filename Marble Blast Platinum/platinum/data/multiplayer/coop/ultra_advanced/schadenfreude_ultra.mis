@@ -9,7 +9,7 @@ useUltraMarble = "1";
       artist = "Alex Swanson";
       difficulty = "11";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "45000";
       ultimateTime = "18000";
       startHelpText = "Pay careful attention to the pattern of the bumpers.";

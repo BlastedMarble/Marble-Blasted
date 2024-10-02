@@ -11,7 +11,7 @@ useUltraMarble = "1";
       game = "Ultra";
       goldTime = "7000";
       ultimateTime = "3000";
-      music = "Tim Trance.ogg";
+      
       startHelpText = "Welcome to Marble Blast Ultra!\nUse the <func:bind moveforward>, <func:bind moveleft>, <func:bind movebackward>, <func:bind moveright> keys to roll the marble.";
    };
    new Sky(GlobalSky) {

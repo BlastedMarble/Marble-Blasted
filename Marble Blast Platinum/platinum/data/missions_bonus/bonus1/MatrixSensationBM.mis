@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "quota";
          level = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Matrix Sensation";
          platinumTime = "75000";
          type = "Custom";

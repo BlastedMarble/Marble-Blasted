@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "null";
          level = "5";
-         music = "Tim Trance.ogg";
+         
          name = "Elite Recoil Challenge";
          platinumTime = "70000";
          type = "Custom";

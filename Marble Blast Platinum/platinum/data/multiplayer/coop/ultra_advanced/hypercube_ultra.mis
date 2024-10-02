@@ -13,7 +13,7 @@ useUltraMarble = "1";
          type = "advanced";
          game = "Gold";
          ultimateTime = "5000";
-	 music = "Tim Trance.ogg";
+	 
    };
    new Sky(Sky) {
       sphereFront = "platinum/data/shapes/skies/wintry/front.png";

@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          gameMode = "Hunt";
          platinumScore1 = "60";
          time = "180000";
-         music = "Tim Trance.ogg";
+         
          maxGemsPerSpawn = "5";
          platinumScore0 = "40";
          name = "King of the Ring";

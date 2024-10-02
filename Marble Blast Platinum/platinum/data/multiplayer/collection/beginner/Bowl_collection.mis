@@ -7,7 +7,7 @@ new SimGroup(MissionGroup) {
          level = "4";
          desc = "Speed along the slopes of this wide level.";
          artist = "Alex Swanson";
-         music = "Tim Trance.ogg";
+         
          Gamemode = "collection";
          game = "Ultra";
          time = "300000";

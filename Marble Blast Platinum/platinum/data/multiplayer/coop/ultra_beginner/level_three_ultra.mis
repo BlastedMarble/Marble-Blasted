@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Gem Collection";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "10000";
       ultimateTime = "2650";
       startHelpText = "You must collect the hidden gems before you may finish.";

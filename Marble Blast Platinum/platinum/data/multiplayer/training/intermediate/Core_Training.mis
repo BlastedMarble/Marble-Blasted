@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gamemode = "hunt training";
          level = "20";
          maxGemsPerSpawn = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Core";
          overviewHeight = "-5";
          platinumScore0 = "40";

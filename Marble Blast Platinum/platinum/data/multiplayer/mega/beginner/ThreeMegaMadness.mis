@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          game = "Custom";
          gameMode = "mega";
          level = "1";
-         music = "Tim Trance.ogg";
+         
          name = "Three Minute Mega Madness";
          overviewHeight = "5";
          time = "180000";

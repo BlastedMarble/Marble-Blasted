@@ -19,7 +19,7 @@ new SimGroup(MissionGroup) {
          ultimateScore0 = "160";
          score0 = "50";
          game = "Ultra";
-         music = "Tim Trance.ogg";
+         
          radiusFromGem = "20";
    };
    new MissionArea(MissionArea) {

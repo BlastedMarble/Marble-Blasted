@@ -19,7 +19,7 @@ new SimGroup(MissionGroup) {
          ultimateScore0 = "80";
          score0 = "20";
          name = "Layered";
-         music = "Tim Trance.ogg";
+         
          desc = "Layered";
    };
    new MissionArea(MissionArea) {

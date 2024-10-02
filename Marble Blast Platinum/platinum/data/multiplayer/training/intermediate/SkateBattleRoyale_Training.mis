@@ -2,7 +2,7 @@
 new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
-         music = "Tim Trance.ogg";
+         
          desc = "Show off your skating skills!";
          artist = "Alex Swanson";
          overviewHeight = "12.5";

@@ -10,7 +10,7 @@ useUltraMarble = "1";
          level = "18";
          time = "120000";
          type = "advanced";
-         music = "Tim Trance.ogg";
+         
 	  goldTime = "44000";
       ultimateTime = "7500";
 	 startHelpText = "Can you face the mountain?";

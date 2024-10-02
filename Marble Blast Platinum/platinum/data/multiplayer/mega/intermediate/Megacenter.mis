@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
          game = "Ultra";
          gameMode = "mega";
          level = "5";
-         music = "Tim Trance.ogg";
+         
          name = "Megacenter";
          overviewHeight = "5";
          platinumScore = "150";

@@ -9,7 +9,7 @@ useUltraMarble = "1";
       time = "52000";
       type = "advanced";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "37000";
       ultimateTime = "25000";
       startHelpText = "Stay on the platform to survive!";

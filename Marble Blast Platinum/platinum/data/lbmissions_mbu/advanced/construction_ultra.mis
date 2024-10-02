@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Under Construction";
       game = "Ultra";
 useUltraMarble = "1";
-      music = "Tim Trance.ogg";
+      
 	  goldTime = "12000";
       ultimateTime = "5000";
       startHelpText = "Be very cautious on this framework.";

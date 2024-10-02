@@ -9,7 +9,7 @@ useUltraMarble = "1";
       artist = "Alex Swanson";
       difficulty = "2";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "10000";
       ultimateTime = "5400";
       startHelpText = "Pick up the Gravity Modifiers to roll to the finish!";

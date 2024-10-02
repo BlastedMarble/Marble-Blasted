@@ -3,16 +3,17 @@ new SimGroup(MissionGroup) {
 
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
-         artist = "Your name here";
-         desc = "Simply indescribable.";
+         artist = "James C.";
+         awesomeTime = "70000";
+         desc = "Use combinations of identical powerups to pass the challenges ahead.";
          game = "Blasted";
          gameMode = "null";
+         goldTime = "115000";
          level = "11";
-         music = "Tim Trance.ogg";
          name = "Double Trouble";
-         platinumTime = "0";
+         platinumTime = "100000";
          type = "Custom";
-         ultimateTime = "0";
+         ultimateTime = "85000";
    };
    new SimGroup(MissionData) {
 
@@ -2405,6 +2406,24 @@ new SimGroup(MissionGroup) {
       static = "1";
       rotate = "1";
          noRespawn = "0";
+   };
+   new TSStatic() {
+      position = "73 9 34.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA4x4_bm.dts";
+   };
+   new TSStatic() {
+      position = "85 9 26.25";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA4x4_bm.dts";
+   };
+   new TSStatic() {
+      position = "85 9 -33.75";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/hazards/fadeMTA4x4_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---

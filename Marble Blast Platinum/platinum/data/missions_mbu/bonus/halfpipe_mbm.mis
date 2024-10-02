@@ -14,7 +14,7 @@ new SimGroup(MissionGroup) {
          gameplayType = "GemHunt";
          goldTime = "40000";
          level = "5";
-         music = "Tim Trance.ogg";
+         
          name = "Half Pipe Extreme";
          type = "Single";
          ultimateTime = "25000";

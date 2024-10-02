@@ -9,7 +9,7 @@ useUltraMarble = "1";
       difficulty = "10";
       name = "Extreme Skiing";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "18000";
       ultimateTime = "4000";
       startHelpText = "Beginning skiers are advised to use caution.";

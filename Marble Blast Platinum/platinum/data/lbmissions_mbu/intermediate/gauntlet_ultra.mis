@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Gauntlet";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "35000";
       ultimateTime = "17500";
       startHelpText = "Don't get clobbered!";

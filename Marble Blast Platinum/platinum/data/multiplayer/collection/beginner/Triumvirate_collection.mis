@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          game = "Ultra";
          gameMode = "collection";
          time = "300000";
-         music = "Tim Trance.ogg";
+         
          name = "Triumvirate";
          radiusFromGem = "25";
          level = "5";

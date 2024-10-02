@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          game = "Blasted";
          gameMode = "king";
          level = "2";
-         music = "Tim Trance.ogg";
+         
          name = "King of the Hill Test";
          platinumTime = "0";
          type = "Custom";

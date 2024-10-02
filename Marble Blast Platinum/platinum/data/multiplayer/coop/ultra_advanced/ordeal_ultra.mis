@@ -18,7 +18,7 @@ new SimGroup(MissionGroup) {
 useUltraMarble = "1";
       name = "Ordeal";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "30000";
       ultimateTime = "16000";
       startHelpText = "Strength, speed and stealth are the keys to the trials ahead!";

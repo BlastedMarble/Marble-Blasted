@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          type = "intermediate";
          ultimateTime = "38500";
          artist = "Tim Aste";
-         music = "Tim Trance.ogg";
+         
          difficulty = "7";
          goldTime = "70000";
          name = "Tree House";

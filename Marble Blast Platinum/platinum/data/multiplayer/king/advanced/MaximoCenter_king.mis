@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          name = "Maximo Center";
          artist = "Popsip";
-         music = "Tim Trance.ogg";
+         
          desc = "Roll around the massive lands as you hunt for the many gems and discover secrets.";
          gameMode = "king";
          level = "2";

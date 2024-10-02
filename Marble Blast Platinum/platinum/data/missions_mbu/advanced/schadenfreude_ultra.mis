@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       difficulty = "11";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "85000";
       ultimateTime = "30000";
       startHelpText = "Pay careful attention to the pattern of the bumpers.";

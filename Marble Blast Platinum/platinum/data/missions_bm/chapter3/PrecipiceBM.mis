@@ -5,16 +5,16 @@ new SimGroup(MissionGroup) {
          CustomRadarRule = "0";
          SpeedToQualify = "40";
          artist = "James C.";
-         awesomeTime = "35000";
+         awesomeTime = "40000";
          desc = "Climb up the precipice and speed down to the bottom.";
          game = "Blasted";
          gameMode = "null haste";
-         goldTime = "65000";
+         goldTime = "70000";
          level = "8";
          name = "Precipice";
-         platinumTime = "55000";
+         platinumTime = "60000";
          type = "Custom";
-         ultimateTime = "45000";
+         ultimateTime = "50000";
    };
    new MissionArea(MissionArea) {
       area = "-360 -648 720 1296";

@@ -8,7 +8,7 @@ new SimGroup(MissionGroup) {
          maxGemsPerSpawn = "6";
          platinumScore1 = "0";
          gameMode = "collection";
-         music = "Tim Trance.ogg";
+         
          artist = "Phil";
          alarmStartTime = "25";
          level = "7";

@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Ramps Reloaded";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "25000";
       ultimateTime = "18000";
       startHelpText = "Be careful when crossing between platforms.";

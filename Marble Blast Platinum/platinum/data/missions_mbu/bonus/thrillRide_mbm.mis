@@ -13,7 +13,7 @@ new SimGroup(MissionGroup) {
          gameplayType = "Race";
          goldTime = "30000";
          level = "6";
-         music = "Tim Trance.ogg";
+         
          name = "Thrill Ride";
          type = "Single";
          ultimateTime = "10000";

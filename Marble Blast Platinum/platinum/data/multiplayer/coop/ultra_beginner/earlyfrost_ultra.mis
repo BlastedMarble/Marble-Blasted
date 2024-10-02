@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Early Frost";
       artist = "Alex Swanson";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "13000";
       ultimateTime = "9000";
       startHelpText = "Caution: Ice Ahead!";

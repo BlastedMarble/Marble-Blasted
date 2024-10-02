@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       artist = "Alex Swanson";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "30000";
       ultimateTime = "12500";
       startHelpText = "Jumping in slippery areas can help your navigation.";

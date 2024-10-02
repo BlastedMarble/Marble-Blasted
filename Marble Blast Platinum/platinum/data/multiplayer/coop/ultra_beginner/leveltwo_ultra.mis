@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
 useUltraMarble = "1";
       name = "Moving Up";
       game = "Ultra";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "7000";
       ultimateTime = "3000";
       startHelpText = "The Super Jump powerup can be used to vault taller barriers.";

@@ -5,7 +5,7 @@ new SimGroup(MissionGroup) {
          type = "LBCustom";
          goldTime = "25000";
          startHelpText = "Collect all the diamonds that are floating in mid air.";
-         music = "Tim Trance.ogg";
+         
          UltimateTime = "20000";
          desc = "Level Dedicated to Cardcaddy";
          name = "Half Pipe Dive";

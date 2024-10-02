@@ -9,7 +9,7 @@ new SimGroup(MissionGroup) {
       name = "Extreme Skiing";
       game = "Ultra";
 useUltraMarble = "1";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "18000";
       ultimateTime = "4000";
       startHelpText = "Beginning skiers are advised to use caution.";

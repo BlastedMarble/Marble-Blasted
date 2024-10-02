@@ -9,7 +9,7 @@ useUltraMarble = "1";
       name = "Mountaintop Retreat";
       game = "Ultra";
 	  artist = "Alex Swanson";
-	  music = "Tim Trance.ogg";
+	  
 	  goldTime = "20000";
       ultimateTime = "12000";
    };

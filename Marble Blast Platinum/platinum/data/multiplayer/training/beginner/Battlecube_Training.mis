@@ -10,7 +10,7 @@ new SimGroup(MissionGroup) {
          gamemode = "hunt training";
          level = "15";
          maxGemsPerSpawn = "4";
-         music = "Tim Trance.ogg";
+         
          name = "Battlecube";
          overviewHeight = "-6";
          platinumScore0 = "40";
