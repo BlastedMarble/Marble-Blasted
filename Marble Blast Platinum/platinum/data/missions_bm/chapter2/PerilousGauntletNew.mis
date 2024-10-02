@@ -894,6 +894,17 @@ new SimGroup(MissionGroup) {
             instant = "0";
             targetTime = "99999";
       };
+      new Trigger(MustChange) {
+         position = "-8 60 -14.75";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         dataBlock = "TriggerGotoTarget";
+         polyhedron = "-4.0000000 -4.0000000 0.2500000 0.0000000 8.0000000 0.0000000 8.0000000 0.0000000 0.0000000 0.0000000 0.0000000 -0.5000000";
+            IContinueToTTime = "0";
+            delayTargetTime = "0";
+            instant = "1";
+            targetTime = "0";
+      };
       new PathedInterior(MustChange) {
          position = "0 0 0";
          rotation = "1 0 0 0";

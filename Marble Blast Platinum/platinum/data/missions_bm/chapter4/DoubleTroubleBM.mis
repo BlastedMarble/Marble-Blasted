@@ -1055,7 +1055,7 @@ new SimGroup(MissionGroup) {
       showTerrainInside = "0";
    };
    new InteriorInstance() {
-      position = "-52 -80 -44";
+      position = "0 0 0";
       rotation = "1 0 0 0";
       scale = "1 1 1";
       interiorFile = "~/data/interiors_bm/chapter4/DoubleTroubleBlenderCurve3.dif";
@@ -2172,6 +2172,239 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
          skin = "base";
          timeBonus = "10000";
+   };
+   new TSStatic() {
+      position = "136.7 -55 117.5";
+      rotation = "0.577352 -0.57735 -0.57735 120";
+      scale = "0.2 0.2 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "135.95 -55 117.5";
+      rotation = "0.577352 -0.57735 -0.57735 120";
+      scale = "0.2 0.2 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "137.45 -55 117.5";
+      rotation = "0.577352 -0.57735 -0.57735 120";
+      scale = "0.2 0.2 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "138.2 -55 117.5";
+      rotation = "0.577352 -0.57735 -0.57735 120";
+      scale = "0.2 0.2 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new StaticShape() {
+      position = "28 16 30.5";
+      rotation = "0 0 -1 22.4987";
+      scale = "1 1 1";
+      dataBlock = "SignDown_BM";
+   };
+   new TSStatic() {
+      position = "31.125 65 28.5";
+      rotation = "0.577352 -0.57735 0.57735 240";
+      scale = "0.4 0.3 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "32.25 65 28.5";
+      rotation = "0.577352 -0.57735 0.57735 240";
+      scale = "0.4 0.3 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "30 65 28.5";
+      rotation = "0.577352 -0.57735 0.57735 240";
+      scale = "0.4 0.3 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new StaticShape() {
+      position = "-36 64.5 18.95";
+      rotation = "0.577352 -0.57735 0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
+   };
+   new InteriorInstance() {
+      position = "-30 38.75 17.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-83.25 38 23.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      showTerrainInside = "0";
+   };
+   new TSStatic() {
+      position = "77 9 38.5";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "77 9 40.5";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "77 9 36.5";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.5 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "89 9 31.5";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "89 9 29.75";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new TSStatic() {
+      position = "89 9 28";
+      rotation = "0.57735 0.577352 -0.57735 120";
+      scale = "0.5 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new StaticShape(check1) {
+      position = "55 -59 40.51";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new StaticShape(check2) {
+      position = "31 61 26.51";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new StaticShape(check3) {
+      position = "65 9 34.51";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP1) {
+      position = "53 -39 40.5";
+      rotation = "1 0 0 0";
+      scale = "24 24 4";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check1";
+   };
+   new Trigger(CheckP2) {
+      position = "27 65 26.5";
+      rotation = "1 0 0 0";
+      scale = "8 16 4";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check2";
+   };
+   new Trigger(CheckP3) {
+      position = "61 13 34.5";
+      rotation = "1 0 0 0";
+      scale = "8 8 4";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "Check3";
+   };
+   new Trigger(Tele1) {
+      position = "30 20 22.75";
+      rotation = "1 0 0 0";
+      scale = "2 2 0.5";
+      dataBlock = "TeleportTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         DisplayGemsMessage = "0";
+         cameraYaw = "180";
+         centerDestPoint = "1";
+         delay = "2000";
+         destination = "Dest1";
+         inverseVelocity = "0";
+         keepAngular = "0";
+         keepCamera = "0";
+         keepVelocity = "0";
+         silent = "0";
+   };
+   new Trigger(Dest1) {
+      position = "30.5 -60.5 57.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "DestinationTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
+   new Item() {
+      position = "31 -61 57.5";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "NoRespawnAntiGravityItem_BM";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+   };
+   new TSStatic() {
+      position = "55 -59 44.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "31 61 30.35";
+      rotation = "1 0 0 0";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "65 9 38.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "69 9 -85.65";
+      rotation = "0 0 1 90.0008";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
+   };
+   new Trigger(Bounds) {
+      position = "-104.75 -196.25 -94.5";
+      rotation = "1 0 0 0";
+      scale = "317.315 322.75 326";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+   };
+   new Item() {
+      position = "31 -51 59.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

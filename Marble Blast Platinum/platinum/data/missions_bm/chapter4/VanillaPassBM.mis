@@ -891,7 +891,7 @@ new SimGroup(MissionGroup) {
       new Path() {
 
          new Marker() {
-            position = "-16 -3 20";
+            position = "-16 -3 19.625";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "0";
@@ -899,7 +899,7 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
          new Marker() {
-            position = "-16 7 20";
+            position = "-16 7 19.625";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
@@ -907,7 +907,7 @@ new SimGroup(MissionGroup) {
             smoothingType = "Accelerate";
          };
          new Marker() {
-            position = "-16 -3 20";
+            position = "-16 -3 19.625";
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "2";
@@ -1078,7 +1078,7 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
    };
    new Item() {
-      position = "25 15 3.75";
+      position = "25 15 3.5";
       rotation = "1 0 0 0";
       scale = "3 3 3";
       dataBlock = "GemItemPurple_BM";
@@ -1394,6 +1394,224 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "DuctFan_BM";
+   };
+   new StaticShape(check1) {
+      position = "-17 -10 18.51";
+      rotation = "0 0 1 225";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP1) {
+      position = "-19 -8 17";
+      rotation = "1 0 0 0";
+      scale = "10 6 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "check1";
+   };
+   new StaticShape(check2) {
+      position = "-1 -5 28.51";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP2) {
+      position = "-4 -3 27.5";
+      rotation = "1 0 0 0";
+      scale = "6 12 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "check2";
+   };
+   new StaticShape(check3) {
+      position = "-11 -42 -3.49";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP3) {
+      position = "-13 -34 -3.5";
+      rotation = "1 0 0 0";
+      scale = "4 10 4";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "check3";
+   };
+   new StaticShape(check4) {
+      position = "7 -36 34.51";
+      rotation = "0 0 1 78.7502";
+      scale = "1 1 1";
+      dataBlock = "Checkpoint_BM";
+         chkcollide = "1";
+         disableOOB = "0";
+         gravity = "1";
+   };
+   new Trigger(CheckP4) {
+      position = "1 -34 34.5";
+      rotation = "1 0 0 0";
+      scale = "8 6 6";
+      dataBlock = "CheckpointTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+         gravity = "1";
+         respawnPoint = "check4";
+   };
+   new InteriorInstance() {
+      position = "26.75 2 11.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "23.25 -13.75 12";
+      rotation = "0 0 1 157.5";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "-25 -10 17.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape() {
+      position = "-2.75 4 28.5";
+      rotation = "0 0 -1 22.5001";
+      scale = "1 1 1";
+      dataBlock = "SignDown_BM";
+   };
+   new InteriorInstance() {
+      position = "-2 19.5 11";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "29.5 15 2.5";
+      rotation = "0 0 1 90.0002";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new InteriorInstance() {
+      position = "19 -16.75 -0.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new TSStatic() {
+      position = "-15 -16.75 -1.5";
+      rotation = "0.707108 -2.55823e-006 0.707105 180";
+      scale = "0.4 0.4 1";
+      shapeName = "~/data/shapes_bm/signs/bm_chevron.dts";
+   };
+   new InteriorInstance() {
+      position = "-11 -47.25 -4.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_right1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape() {
+      position = "-4 -41 4.5";
+      rotation = "0 0 -1 90.0002";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
+   };
+   new StaticShape() {
+      position = "-30.5 -36.5 16.95";
+      rotation = "0.577352 -0.57735 0.57735 240";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
+   };
+   new InteriorInstance() {
+      position = "-28 -46.75 15.5";
+      rotation = "0 0 1 180";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape() {
+      position = "-24 -34.75 26.37";
+      rotation = "0.7054 -0.0694734 0.705397 172.051";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
+   };
+   new InteriorInstance() {
+      position = "19.75 -38 32.75";
+      rotation = "0 0 1 123.75";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_chevron_left1.dif";
+      showTerrainInside = "0";
+   };
+   new StaticShape() {
+      position = "20.75 6.25 32.365";
+      rotation = "0 1 0 116.565";
+      scale = "1 1 1";
+      dataBlock = "Sign_BM";
+   };
+   new Item() {
+      position = "38 21 26.8";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
+   };
+   new TSStatic() {
+      position = "-17 -10 22.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-1 -5 32.35";
+      rotation = "1 0 0 0";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-11 -42 0.35";
+      rotation = "1 0 0 0";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "7 -36 38.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_checkpointsign.dts";
+   };
+   new TSStatic() {
+      position = "-38 1 30.35";
+      rotation = "0 0 1 90.0002";
+      scale = "0.7 0.7 0.7";
+      shapeName = "~/data/shapes_bm/signs/bm_finishsign.dts";
+   };
+   new Trigger(Bounds) {
+      position = "-58 -66.5 -10.25";
+      rotation = "1 0 0 0";
+      scale = "116 107.5 145";
+      dataBlock = "InBoundsTrigger";
+      polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
    };
 };
 //--- OBJECT WRITE END ---

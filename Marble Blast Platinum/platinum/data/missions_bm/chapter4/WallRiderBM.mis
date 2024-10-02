@@ -1168,7 +1168,7 @@ new SimGroup(MissionGroup) {
          disableOOB = "0";
          gravity = "0";
    };
-   new StaticShape(Check5) {
+   new StaticShape(check5) {
       position = "-81 41 -2.49";
       rotation = "0 0 1 157.5";
       scale = "1 1 1";
@@ -1382,6 +1382,16 @@ new SimGroup(MissionGroup) {
          noRespawn = "0";
          skin = "base";
          timeBonus = "5000";
+   };
+   new Item() {
+      position = "-106 15 9.3";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      dataBlock = "LumiCube";
+      collideable = "0";
+      static = "1";
+      rotate = "1";
+         noRespawn = "0";
    };
 };
 //--- OBJECT WRITE END ---

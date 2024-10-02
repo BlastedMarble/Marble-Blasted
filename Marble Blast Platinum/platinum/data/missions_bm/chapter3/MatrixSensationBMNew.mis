@@ -145,6 +145,14 @@ new SimGroup(MissionGroup) {
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
+            msToNext = "500";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "4 -10 -5.75";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
             msToNext = "4000";
             smoothingType = "Accelerate";
          };
@@ -152,7 +160,15 @@ new SimGroup(MissionGroup) {
             position = "4 -10 -16.25";
             rotation = "1 0 0 0";
             scale = "1 1 1";
-            seqNum = "2";
+            seqNum = "3";
+            msToNext = "500";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "4 -10 -16.25";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "4";
             msToNext = "1000";
             smoothingType = "Accelerate";
          };
@@ -187,6 +203,14 @@ new SimGroup(MissionGroup) {
             rotation = "1 0 0 0";
             scale = "1 1 1";
             seqNum = "1";
+            msToNext = "500";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "20 6 -16.25";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "2";
             msToNext = "4000";
             smoothingType = "Accelerate";
          };
@@ -194,7 +218,15 @@ new SimGroup(MissionGroup) {
             position = "20 6 -5.75";
             rotation = "1 0 0 0";
             scale = "1 1 1";
-            seqNum = "2";
+            seqNum = "3";
+            msToNext = "500";
+            smoothingType = "Accelerate";
+         };
+         new Marker() {
+            position = "20 6 -5.75";
+            rotation = "1 0 0 0";
+            scale = "1 1 1";
+            seqNum = "4";
             msToNext = "1000";
             smoothingType = "Accelerate";
          };
