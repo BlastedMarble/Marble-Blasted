@@ -125,7 +125,7 @@ $LBPref::ChatMessageSize = 6;
 $pref::SSL::VerifyPeer = 1;
 $LBPref::ShowRecords = false;
 
-$pref::Music::Songs["LB"]     = "Comforting Mystery.ogg";
+$pref::Music::Songs["LB"]     = "Spring Water.ogg";
 $pref::Music::Songs["Menu"]   = "Close To Water.ogg";
 $pref::Music::Songs["XP"]   = "shellXP.ogg";
 $pref::Music::Songs["Game"]   = "";
@@ -135,7 +135,7 @@ $pref::Snore = true;
 $pref::AnimatePreviews = true;
 $pref::LegacyItems = true;
 $pref::ProfanityFilter = 2;
-$pref::DefaultSkybox = "platinum/data/skies_pq/Blender3/blender3.dml";
+$pref::DefaultSkybox = "platinum/data/skies_bm/Day/sky_day.dml";
 $pref::FastMode = false;
 
 //Video quality

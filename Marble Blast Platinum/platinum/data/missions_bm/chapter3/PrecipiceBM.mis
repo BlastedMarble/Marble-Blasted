@@ -102,7 +102,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path1b) {
+      new StaticShape(Path1B) {
          position = "16.8999 15.3997 22.121";
          rotation = "0 0 1 180";
          scale = "1 1 1";
@@ -125,7 +125,7 @@ new SimGroup(MissionGroup) {
             useRotation = "1";
             useScale = "0";
       };
-      new StaticShape(path1a) {
+      new StaticShape(Path1A) {
          position = "13.6425 16.6246 21.85";
          rotation = "1 0 0 0";
          scale = "1 1 1";
@@ -903,6 +903,22 @@ new SimGroup(MissionGroup) {
       rotation = "1 0 0 0";
       scale = "1 1 1";
       dataBlock = "Propeller_BM_Base";
+   };
+   new InteriorInstance() {
+      position = "6.99999 21 20";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_hurdle1-5.dif";
+      showTerrainInside = "0";
+         Path = "Path1B";
+   };
+   new InteriorInstance() {
+      position = "1 23 20";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      interiorFile = "~/data/interiors_bm/parts/bm_hurdle1-5.dif";
+      showTerrainInside = "0";
+         Path = "Path2B";
    };
 };
 //--- OBJECT WRITE END ---

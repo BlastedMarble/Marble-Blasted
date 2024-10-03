@@ -4,16 +4,16 @@ new SimGroup(MissionGroup) {
    new ScriptObject(MissionInfo) {
          CustomRadarRule = "0";
          artist = "James C.";
-         awesomeTime = "20000";
+         awesomeTime = "25000";
          desc = "Find all the gems in this muddy playground.";
          game = "Blasted";
          gameMode = "null";
-         goldTime = "50000";
+         goldTime = "55000";
          level = "7";
          name = "Matrix Playground";
-         platinumTime = "40000";
+         platinumTime = "45000";
          type = "Custom";
-         ultimateTime = "30000";
+         ultimateTime = "35000";
    };
    new SimGroup(HelpBubbleGroup) {
 

@@ -38,13 +38,6 @@
 			"missionDirectory": "platinum/data/missions_bm/chapter5",
 			"bitmapDirectory": "platinum/data/missions_bm/chapter5",
 			"previewDirectory": "platinum/data/missions_bm/chapter5"
-		},
-		{
-			"name": "Hunt",
-			"display": "Hunt",
-			"missionDirectory": "platinum/data/missions_bm/hunt",
-			"bitmapDirectory": "platinum/data/missions_bm/hunt",
-			"previewDirectory": "platinum/data/missions_bm/hunt"
 		}
 	],
 	"customPaths":

@@ -1,0 +1,26 @@
+{
+	"name": "Multiplayer",
+	"display": "Multiplayer",
+	"order": 1,
+	"difficulties":
+	[
+		{
+			"name": "Hunt",
+			"display": "Hunt",
+			"missionDirectory": "platinum/data/missions_bm/hunt",
+			"bitmapDirectory": "platinum/data/missions_bm/hunt",
+			"previewDirectory": "platinum/data/missiona_bm/hunt"
+		},
+		{
+			"name": "Sumo",
+			"display": "Sumo",
+			"missionDirectory": "platinum/data/missions_bm/sumo",
+			"bitmapDirectory": "platinum/data/missions_bm/sumo",
+			"previewDirectory": "platinum/data/missions_bm/sumo"
+		}
+	],
+	"customPaths":
+	[
+		"platinum/data/missions_bm/custom"
+	]
+}

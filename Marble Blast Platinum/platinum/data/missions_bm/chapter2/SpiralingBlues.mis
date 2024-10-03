@@ -925,13 +925,17 @@ new SimGroup(MissionGroup) {
          visibleTime = "500";
    };
    new Item() {
-      position = "12.75 16 23";
-      rotation = "0 0 1 90.0002";
+      position = "1 -5.00003 33.75";
+      rotation = "0 0 -1 90.0002";
       scale = "1 1 1";
-      dataBlock = "ShockAbsorberItem_BM";
+      dataBlock = "TimeTravelItem5Sec_BM";
       collideable = "0";
       static = "1";
       rotate = "1";
+         instant = "5000";
+         noRespawn = "0";
+         skin = "base";
+         timeBonus = "5000";
    };
    new TSStatic() {
       position = "35 13 14.25";
@@ -1057,17 +1061,45 @@ new SimGroup(MissionGroup) {
          timeBonus = "10000";
    };
    new Item() {
-      position = "1 -5.00003 33.75";
-      rotation = "0 0 -1 90.0002";
-      scale = "1 1 1";
-      dataBlock = "TimeTravelItem5Sec_BM";
+      position = "14 16 26";
+      rotation = "1 0 0 90.0002";
+      scale = "2 1 2";
+      dataBlock = "ShockAbsorberItem_BMGate";
       collideable = "0";
       static = "1";
-      rotate = "1";
-         instant = "5000";
+      rotate = "0";
          noRespawn = "0";
-         skin = "base";
-         timeBonus = "5000";
+         showHelpOnPickup = "0";
+   };
+   new TSStatic() {
+      position = "13 17 26";
+      rotation = "1 0 0 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "13 15 26";
+      rotation = "-1 0 0 90.0002";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "15 17 26";
+      rotation = "2.60473e-006 0.707108 0.707106 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "15 15 26";
+      rotation = "2.60473e-006 0.707108 -0.707106 180";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/GateCorner_bm.dts";
+   };
+   new TSStatic() {
+      position = "14 16 26";
+      rotation = "-0.57735 0.577352 -0.57735 240";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes_bm/powerups/ShockAbsorberGate_icon_bm.dts";
    };
 };
 //--- OBJECT WRITE END ---
