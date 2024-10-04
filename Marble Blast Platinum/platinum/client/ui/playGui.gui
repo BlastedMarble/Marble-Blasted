@@ -1637,9 +1637,9 @@ new GuiControl(PlayGui) {
 		};
 		new GuiControl(PG_EggTimeBox) {
 			profile = "GuiDefaultProfile";
-			horizSizing = "center";
+			horizSizing = "right";
 			vertSizing = "bottom";
-			position = "296 60";
+			position = "268 60";
 			extent = "207 39";
 			minExtent = "8 8";
 			visible = "0";
