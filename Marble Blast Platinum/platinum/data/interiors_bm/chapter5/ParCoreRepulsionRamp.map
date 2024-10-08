@@ -1,0 +1,22 @@
+// This map has been written by the Torque Constructor
+// For more information see http://www.garagegames.com
+
+{
+   "classname" "worldspawn"
+   "detail_number" "0"
+   "min_pixels" "250"
+   "geometry_scale" "32"
+   "light_geometry_scale" "8"
+   "ambient_color" "0 0 0"
+   "emergency_ambient_color" "0 0 0"
+   "mapversion" "220"
+
+   // Brush 0
+   {
+      ( 64 -64 0 ) ( 64 64 16 ) ( 64 64 0 ) bm_grid_blank4 [ 0 1 0 0 ] [ 0 0 -1 256 ] 0 0.25 0.25
+      ( -64 -64 0 ) ( -64 64 0 ) ( -64 64 16 ) bm_grid_blank4 [ 0 -1 0 0 ] [ 0 0 -1 256 ] 0 0.25 0.25
+      ( -64 64 0 ) ( 64 64 0 ) ( 64 64 16 ) bm_grid_blank4 [ -1 0 0 0 ] [ 0 0 -1 256 ] 0 0.25 0.25
+      ( -64 -64 0 ) ( -64 64 16 ) ( 64 64 16 ) bm_physics_repulsion [ 1 0 0 256 ] [ 0 -1 0 256 ] 0 0.25 0.25
+      ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) bm_grid_blank4 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
+   }
+}
